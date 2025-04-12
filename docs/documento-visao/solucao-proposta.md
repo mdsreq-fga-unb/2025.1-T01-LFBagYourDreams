@@ -1,10 +1,10 @@
-# Solução Proposta
+# 2. Solução Proposta
 
-## Objetivos do Produto
+## 2.1 Objetivos do Produto
 
 O objetivo do produto é ampliar o alcance de vendas das bolsas artesanais por meio de uma plataforma online intuitiva e acessível, que permita o gerenciamento eficiente do catálogo de produtos, evitando problemas de disponibilidade e proporcionando uma experiência de compra direta e agradável para os clientes. A solução possibilitará à empreendedora expandir seu negócio de forma sustentável, aumentando sua visibilidade no mercado e facilitando o processo de vendas, garantindo que o sistema seja simples o suficiente para operação independente e, ao mesmo tempo, robusto para acompanhar o crescimento natural da demanda.
 
-## Características da Solução
+## 2.2 Características da Solução
 
 - O sistema possuirá um layout responsivo garantindo uma boa experiência tanto em dispositivos móveis quanto em computadores.
 
@@ -22,7 +22,7 @@ O objetivo do produto é ampliar o alcance de vendas das bolsas artesanais por m
 
 - O processo de compra será simplificado, com opções de pagamento múltiplas (cartão, boleto, Pix) e um checkout rápido em poucas etapas.
 
-## Tecnologias a Serem Utilizadas
+## 2.3 Tecnologias a Serem Utilizadas
 
 - **Front-End**: nesta área optamos por utilizar ReactJS - framework do JavaScript - devido à sua performance, flexibilidade e escalabilidade. Além disso, é um framework que já conhecemos e temos familiaridade, trazendo rapidez no desenvolvimento do produto, prezando por atender aos prazos estabelecidos.
 
@@ -36,7 +36,7 @@ O objetivo do produto é ampliar o alcance de vendas das bolsas artesanais por m
 
 - **Banco de dados**: O MongoDB foi escolhido por se tratar de um banco de dados de fácil uso e de alta flexibilidade, além de possuir grande compatibilidade com Python - linguagem escolhida para fazer o Back-End.<br>
 
-## Pesquisa de Mercado e Análise Competitiva
+## 2.4 Pesquisa de Mercado e Análise Competitiva
 
 A marca LF Bag Your Dreams direciona os seus produtos - bolsas, mochilas e carteiras - a padrões sustentáveis, sofisticados e elegantes. Nesse mercado, exemplos de concorrentes da marca que se destacam no Brasil são a Tumi, Urban Flowers, a Bagaggio e a Mocha Bags. Todas as marcas concorrentes possuem soluções virtuais robustas e consolidadas, e características específicas que se destacam. 
 
@@ -68,3 +68,20 @@ A solução da LF Bag Your Dreams irá se diferenciar por:
 Design chamativo: a plataforma possuirá um design moderno, elegante e alinhado à identidade visual da marca, tornando a experiência acolhedora e convidativa.
 
 - **Gamificação de fidelidade**: a solução pontuará o usuário ao realizar compras na plataforma para que adquira promoções em suas próximas compras.
+
+## 2.5 Análise de Viabilidade
+
+A equipe já possui experiência com projetos e com as tecnologias propostas, o que reduz o tempo de aprendizado e aumenta a produtividade, o que torna muito viável tecnicamente.
+
+O prazo estipulado é de 4 meses, com a realização de reuniões semanais com o cliente, o que permite obter feedbacks constantes e realizar ajustes de forma ágil, contribuindo para a viabilidade e o bom andamento do projeto.
+
+Como a equipe já domina as ferramentas open-source, não haverá grandes custos com licenciamento. Eventuais custos seriam com hospedagem ou serviços de envio de notificações (e-mail, SMS, WhatsApp).
+
+A proposta atende diretamente às lacunas deixadas pelos concorrentes e traz diferenciais importantes que agregam valor à experiência do consumidor. A marca também tem um posicionamento bem definido e uma base de clientes em crescimento.
+
+## 2.6 Impacto da Solução
+
+É esperado que o site de vendas proporcione diversos benefícios ao cliente, principalmente no que diz respeito à ampliação das oportunidades de negócio. A plataforma tem como principal objetivo facilitar o processo de vendas, permitindo que os produtos ou serviços alcancem um público maior. Além disso, a automação das etapas de venda contribui para uma experiência mais ágil, prática e eficiente, tanto para o cliente quanto para o vendedor, otimizando o tempo, reduzindo erros e aumentando a produtividade.
+
+
+
