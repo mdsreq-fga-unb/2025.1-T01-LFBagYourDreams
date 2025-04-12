@@ -1,4 +1,43 @@
-site_name: LFBagYourDreams
+site_name: Documentação LFBagYourDreams
+
 nav:
-  - Home: index.md
-  - About: about.md
+  - Página Inicial: index.md
+  - Documento de Visão:
+      - Cenário Atual do Cliente e do Negócio: "documento-visao/cenario-atual.md"
+      - Solução Proposta: "documento-visao/solucao-proposta.md"
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - navigation.footer
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+  language: pt
+
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/globe-light
+        name: Dark mode
+      primary: purple
+      accent: purple
+    - scheme: slate
+      toggle:
+        icon: material/globe-light-outline
+        name: Light mode
+      primary: purple
+      accent: purple
+
+markdown_extensions:
+  - attr_list
+
+extra_css:
+  - css/custom.css
