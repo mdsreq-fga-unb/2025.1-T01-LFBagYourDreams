@@ -1,6 +1,6 @@
 # LFBagYourDreams
 
-![Logo](../assets/Logo.png)
+![Logo](assets/logo-lf.png)
 
 ## Descrição
 
