@@ -2,10 +2,7 @@ site_name: Documentação LFBagYourDreams
 
 nav:
   - Página Inicial: index.md
-  - Documento de Visão:
-      - 1. Cenário Atual do Cliente e do Negócio: "documento-visao/cenario-atual.md"
-      - 2. Solução Proposta: "documento-visao/solucao-proposta.md"
-      - Referências Bibliográficas: "documento-visao/referencias.md"
+  - Documento de Visão: "documento-visao/cenario-atual.md"
 theme:
   name: material
   features:
