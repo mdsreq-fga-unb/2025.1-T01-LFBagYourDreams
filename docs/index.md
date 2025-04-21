@@ -1,8 +1,10 @@
 # LFBagYourDreams
 
-## Descrição do projeto
+![Logo](../assets/Logo.png)
 
-## Sobre
+## Descrição
+
+LF Bag Your Dreams é uma solução de software desenvolvida por estudantes da disciplina de Requisitos da Universidade de Brasília - Faculdade do Gama com o auxílio e mentoria do professor George Marsicano Correa.
 
 ## Equipe
 <table>
