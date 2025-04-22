@@ -3,6 +3,7 @@ site_name: Documentação LFBagYourDreams
 nav:
   - Página Inicial: index.md
   - Documento de Visão: "documento-visao/cenario-atual.md"
+  - Vídeo Apresentação da Unidade 1: "apresentacoes/apresentacao1.md"
 theme:
   name: material
   features:
@@ -25,14 +26,14 @@ theme:
       toggle:
         icon: material/globe-light
         name: Dark mode
-      primary: purple
-      accent: purple
+      primary: black
+      accent: black
     - scheme: slate
       toggle:
         icon: material/globe-light-outline
         name: Light mode
-      primary: purple
-      accent: purple
+      primary: white
+      accent: black
 
 markdown_extensions:
   - attr_list
