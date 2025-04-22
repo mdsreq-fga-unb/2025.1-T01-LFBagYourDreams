@@ -1,0 +1,1506 @@
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../..">
+      
+      
+        <link rel="next" href="../../apresentacoes/apresentacao1/">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.12">
+    
+    
+      
+        <title>Documento de Visão - Documentação LFBagYourDreams</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.2afb09e1.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../css/custom.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="black">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#1-cenario-atual-do-cliente-e-do-negocio" class="md-skip">
+          Ir para o conteúdo
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabeçalho">
+    <a href="../.." title="Documentação LFBagYourDreams" class="md-header__button md-logo" aria-label="Documentação LFBagYourDreams" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Documentação LFBagYourDreams
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Documento de Visão
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="black"  aria-label="Dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7.1 10c1-1 2.4-1.7 3.9-1.9V2h2v6.1c1.5.2 2.9.9 3.9 1.9zm-1.8 3c-.2.6-.3 1.3-.3 2 0 3.9 3.1 7 7 7s7-3.1 7-7c0-.7-.1-1.4-.3-2z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="white" data-md-color-accent="black"  aria-label="Light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 8.08V2h-2v6.08c-3.39.49-6 3.39-6 6.92 0 3.87 3.13 7 7 7s7-3.13 7-7c0-3.53-2.61-6.43-6-6.92M12 20c-2.76 0-5-2.24-5-5 0-1.13.39-2.16 1.03-3h7.94c.64.84 1.03 1.87 1.03 3 0 2.76-2.24 5-5 5"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Buscar" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Pesquisar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpar" aria-label="Limpar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando a pesquisa
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Abas" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Página Inicial
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="./" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Documento de Visão
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../apresentacoes/apresentacao1/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Vídeo Apresentação da Unidade 1
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navegação" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Documentação LFBagYourDreams" class="md-nav__button md-logo" aria-label="Documentação LFBagYourDreams" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Documentação LFBagYourDreams
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Página Inicial
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Documento de Visão
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Documento de Visão
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-cenario-atual-do-cliente-e-do-negocio" class="md-nav__link">
+    <span class="md-ellipsis">
+      1 CENÁRIO ATUAL DO CLIENTE E DO NEGÓCIO
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#11-introducao-ao-negocio-e-contexto" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.1 Introdução ao Negócio e Contexto
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1.1 Introdução ao Negócio e Contexto">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#12-identificacao-da-oportunidade-ou-problema" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.2 Identificação da Oportunidade ou Problema
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#13-desafios-do-projeto" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.3 Desafios do Projeto
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#14-segmentacao-de-clientes" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.4 Segmentação de Clientes
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-solucao-proposta" class="md-nav__link">
+    <span class="md-ellipsis">
+      2 SOLUÇÃO PROPOSTA
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2 SOLUÇÃO PROPOSTA">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21-objetivos-do-produto" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.1 Objetivos do Produto
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22-caracteristicas-da-solucao" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.2 Características da Solução
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#23-tecnologias-a-serem-utilizadas" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.3 Tecnologias a Serem Utilizadas
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#24-pesquisa-de-mercado-e-analise-competitiva" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.4 Pesquisa de Mercado e Análise Competitiva
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#26-impacto-da-solucao" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.6 Impacto da Solução
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-estrategias-de-engenharia-de-software" class="md-nav__link">
+    <span class="md-ellipsis">
+      3 ESTRATÉGIAS DE ENGENHARIA DE SOFTWARE
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3 ESTRATÉGIAS DE ENGENHARIA DE SOFTWARE">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#31-estrategia-priorizada" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.1 Estratégia Priorizada
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#32-quadro-comparativo" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.2 Quadro Comparativo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#33-justificativa" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.3 Justificativa
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-cronograma-e-entregas" class="md-nav__link">
+    <span class="md-ellipsis">
+      4 CRONOGRAMA E ENTREGAS
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-interacao-entre-equipe-e-cliente" class="md-nav__link">
+    <span class="md-ellipsis">
+      5 INTERAÇÃO ENTRE EQUIPE E CLIENTE
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#51-composicao-da-equipe" class="md-nav__link">
+    <span class="md-ellipsis">
+      5.1 Composição da Equipe
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5.1 Composição da Equipe">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#a-equipe-de-desenvolvimento-sera-composta-por" class="md-nav__link">
+    <span class="md-ellipsis">
+      A equipe de desenvolvimento será composta por
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#52-comunicacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      5.2 Comunicação
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#53-processo-de-validacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      5.3 Processo de Validação
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-licoes-aprendidas" class="md-nav__link">
+    <span class="md-ellipsis">
+      6 LIÇÕES APRENDIDAS
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6 LIÇÕES APRENDIDAS">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#61-unidade-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      6.1 Unidade 1
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-referencias-bibliograficas" class="md-nav__link">
+    <span class="md-ellipsis">
+      7 REFERÊNCIAS BIBLIOGRÁFICAS
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../apresentacoes/apresentacao1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Vídeo Apresentação da Unidade 1
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-cenario-atual-do-cliente-e-do-negocio" class="md-nav__link">
+    <span class="md-ellipsis">
+      1 CENÁRIO ATUAL DO CLIENTE E DO NEGÓCIO
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#11-introducao-ao-negocio-e-contexto" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.1 Introdução ao Negócio e Contexto
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1.1 Introdução ao Negócio e Contexto">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#12-identificacao-da-oportunidade-ou-problema" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.2 Identificação da Oportunidade ou Problema
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#13-desafios-do-projeto" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.3 Desafios do Projeto
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#14-segmentacao-de-clientes" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.4 Segmentação de Clientes
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-solucao-proposta" class="md-nav__link">
+    <span class="md-ellipsis">
+      2 SOLUÇÃO PROPOSTA
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2 SOLUÇÃO PROPOSTA">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21-objetivos-do-produto" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.1 Objetivos do Produto
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22-caracteristicas-da-solucao" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.2 Características da Solução
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#23-tecnologias-a-serem-utilizadas" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.3 Tecnologias a Serem Utilizadas
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#24-pesquisa-de-mercado-e-analise-competitiva" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.4 Pesquisa de Mercado e Análise Competitiva
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#26-impacto-da-solucao" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.6 Impacto da Solução
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-estrategias-de-engenharia-de-software" class="md-nav__link">
+    <span class="md-ellipsis">
+      3 ESTRATÉGIAS DE ENGENHARIA DE SOFTWARE
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3 ESTRATÉGIAS DE ENGENHARIA DE SOFTWARE">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#31-estrategia-priorizada" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.1 Estratégia Priorizada
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#32-quadro-comparativo" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.2 Quadro Comparativo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#33-justificativa" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.3 Justificativa
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-cronograma-e-entregas" class="md-nav__link">
+    <span class="md-ellipsis">
+      4 CRONOGRAMA E ENTREGAS
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-interacao-entre-equipe-e-cliente" class="md-nav__link">
+    <span class="md-ellipsis">
+      5 INTERAÇÃO ENTRE EQUIPE E CLIENTE
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#51-composicao-da-equipe" class="md-nav__link">
+    <span class="md-ellipsis">
+      5.1 Composição da Equipe
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5.1 Composição da Equipe">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#a-equipe-de-desenvolvimento-sera-composta-por" class="md-nav__link">
+    <span class="md-ellipsis">
+      A equipe de desenvolvimento será composta por
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#52-comunicacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      5.2 Comunicação
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#53-processo-de-validacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      5.3 Processo de Validação
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-licoes-aprendidas" class="md-nav__link">
+    <span class="md-ellipsis">
+      6 LIÇÕES APRENDIDAS
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6 LIÇÕES APRENDIDAS">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#61-unidade-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      6.1 Unidade 1
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-referencias-bibliograficas" class="md-nav__link">
+    <span class="md-ellipsis">
+      7 REFERÊNCIAS BIBLIOGRÁFICAS
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+  <h1>Documento de Visão</h1>
+
+<h2 id="1-cenario-atual-do-cliente-e-do-negocio">1 CENÁRIO ATUAL DO CLIENTE E DO NEGÓCIO</h2>
+<h2 id="11-introducao-ao-negocio-e-contexto">1.1 Introdução ao Negócio e Contexto</h2>
+<p>A LF Bag Your Dreams é uma marca de bolsas fundada em 2023, atuando no setor de moda e acessórios. A marca se concentra em oferecer bolsas e acessórios que combinam estilo, praticidade e autenticidade. A fundadora, com experiência em costura criativa, trabalhou no Instituto Formiguinhas como professora de costura, atendendo mulheres em situação de vulnerabilidade social. As bolsas vendidas são produzidas pela própria cliente, destacando o envolvimento pessoal e a autenticidade dos produtos.</p>
+<p>A loja opera exclusivamente online através de canais como WhatsApp e Instagram, visando um público diversificado a partir de 10 anos. Os princípios que guiam a empresa incluem qualidade, sustentabilidade e design, refletindo um compromisso com produtos estéticamente agradáveis e responsáveis. Atualmente, a equipe é composta apenas pela fundadora, que assume todas as responsabilidades, desde a produção até a administração e vendas.</p>
+<h4 id="12-identificacao-da-oportunidade-ou-problema">1.2 Identificação da Oportunidade ou Problema</h4>
+<p>A principal oportunidade identificada para o negócio de bolsas artesanais é a criação e lançamento de sua plataforma de e-commerce, que atualmente há uma <strong>limitação no crescimento do negócio e na organização das vendas</strong>. Atualmente, a empreendedora não possui loja física nem virtual para comercialização de seus produtos. Embora as bolsas produzidas tenham qualidade reconhecida e estejam alinhadas com princípios de sustentabilidade e design criativo, a ausência de uma estrutura digital impede o crescimento do negócio e limita o alcance ao público-alvo.</p>
+<p>As bolsas autorais da marca carregam estilo, autenticidade e propósito. No entanto, sem uma plataforma online estruturada, a comercialização ainda ocorre de forma informal e com pouca visibilidade, restringindo o potencial de vendas e a expansão da marca.</p>
+<p>Com o crescimento do comércio eletrônico e a tendência crescente de consumo por produtos artesanais e com propósito, o cenário atual apresenta uma oportunidade estratégica para posicionar a marca no ambiente digital. A criação de um site funcional permitirá não apenas a venda direta ao consumidor final, mas também a organização do processo de produção, administração e atendimento, hoje realizados de forma individual e sem apoio tecnológico.</p>
+<p>A Figura, a seguir apresenta o diagrama de Ishikawa contendo as causas (organização pelos 6M 's) e o problema da LF Bag Your Dreams.</p>
+<p><img alt="Ishikawa" src="../../assets/diagrama%20de%20ishikawa.png" /></p>
+<h4 id="13-desafios-do-projeto">1.3 Desafios do Projeto</h4>
+<p>O principal desafio enfrentado pela LF Bag Your Dreams, que atualmente utiliza apenas WhatsApp e Instagram como canais de venda, é a limitação na organização de vendas e divulgação. Como todas as interações são feitas manualmente, desde a apresentação dos produtos até o fechamento do pedido, a gestão se torna mais trabalhosa, especialmente com o aumento da demanda. Isso pode gerar erros em pedidos, atrasos nas respostas aos clientes e dificuldade no controle de estoque. Como o negócio é pequeno e gerido por uma equipe reduzida, pode haver uma curva de aprendizado para se adaptar ao uso de novas ferramentas.</p>
+<h4 id="14-segmentacao-de-clientes">1.4 Segmentação de Clientes</h4>
+<p>A marca atende aos seguintes perfis de clientes:</p>
+<ul>
+<li><strong>Mulheres (16 - 65 anos):</strong> preferem bolsas e mochilas que aliam sofisticação, funcionalidade e estilo. Valorizam compartimentos organizadores, conforto e materiais de qualidade, com atenção crescente à sustentabilidade. No uso do software, aderem bem a sistemas claros e personalizáveis, mas podem se confundir com excesso visual, navegação desorganizada e ausência de filtros adaptados à ocasião.</li>
+<li><strong>Homens (16 - 65 anos):</strong> priorizam praticidade, resistência e discrição, com preferência por mochilas minimalistas e carteiras funcionais, duráveis e com design sóbrio. Usam bem e-commerces, mas evitam interfaces com excesso de informação, processos de compra longos e falta de dados objetivos.</li>
+<li><strong>Pessoas de meia-idade e idosas (40 - 80 anos):</strong> buscam conforto, leveza, boa organização e design clássico em produtos duráveis e ergonômicos. Têm menor familiaridade com softwares e preferem sistemas simples, com menus claros, letras legíveis e poucos passos para realizar compras.</li>
+<li><strong>Pessoas com preferências sustentáveis (16 - 80 anos):</strong> produtos duráveis, éticos e de baixo impacto ambiental, com preferência por materiais reciclados, produção transparente e embalagens reduzidas. Valorizam conteúdos institucionais e rastreabilidade, mas podem se frustrar com a falta de informações claras sobre sustentabilidade na navegação.</li>
+<li><strong>Pessoas com deficiência visual:</strong> valorizam produtos, em geral, que tenham divisórias claras e evidentes, para facilitarem o seu manuseio. Valorizam recursos de acessibilidade visual, tais como alto contraste de cores e ampliação do tamanho das fontes de texto.</li>
+</ul>
+<h2 id="2-solucao-proposta">2 SOLUÇÃO PROPOSTA</h2>
+<h4 id="21-objetivos-do-produto">2.1 Objetivos do Produto</h4>
+<p>O objetivo do produto é ampliar o alcance de vendas das bolsas artesanais. A solução possibilitará à empreendedora expandir seu negócio de forma sustentável, aumentando sua visibilidade no mercado e facilitando o processo de vendas, garantindo que o sistema seja simples o suficiente para operação independente e, ao mesmo tempo, atenda a todas as necessidades dos usuários finais.</p>
+<h4 id="22-caracteristicas-da-solucao">2.2 Características da Solução</h4>
+<ul>
+<li>
+<ul>
+<li>
+<ul>
+<li>O sistema possuirá um layout responsivo garantindo uma boa experiência tanto em dispositivos móveis quanto em computadores.</li>
+</ul>
+</li>
+<li>O sistema permitirá ao usuário personalizar cada componente de um produto a ser comprado, de modo a promover uma experiência de total personalização.</li>
+<li>O sistema e-commerce será sincronizado com o estoque da empreendedora, garantindo que os clientes vejam a disponibilidade dos produtos em tempo real.</li>
+<li>O sistema contará com uma área de administração, para que a proprietária possa adicionar, editar e remover produtos sem conhecimentos técnicos avançados.</li>
+<li>O sistema contará com uma área de clientes, onde os usuários poderão acompanhar pedidos, solicitar devoluções e gerenciar suas informações pessoais.</li>
+<li>O sistema contará com notificações automáticas que manterão clientes informados sobre status de pedidos e confirmações de pagamento através de múltiplos canais de comunicação (e-mail, SMS e WhatsApp), enquanto a vendedora receberá alertas instantâneos sobre novas compras.</li>
+<li>O site possuirá um sistema de avaliação, onde os clientes podem classificar com estrelas e compartilhar fotos e vídeos de cada produto comprado.</li>
+<li>O sistema será desenvolvido com foco em segurança, garantindo proteção de dados dos clientes e conformidade com LGPD.</li>
+<li>O processo de compra será simplificado, com opções de pagamento múltiplas (cartão, boleto, Pix) e um checkout rápido em poucas etapas.</li>
+<li>O sistema permitirá ao usuário mecanismos de desconto a partir da divulgação do software a outros usuários.</li>
+</ul>
+</li>
+</ul>
+<h4 id="23-tecnologias-a-serem-utilizadas">2.3 Tecnologias a Serem Utilizadas</h4>
+<ul>
+<li><strong>Front-End:</strong> nesta área optamos por utilizar <strong>ReactJS</strong> - framework do JavaScript - devido à sua performance, flexibilidade e escalabilidade. Além disso, é um framework que já conhecemos e temos familiaridade, trazendo rapidez no desenvolvimento do produto, prezando por atender aos prazos estabelecidos.</li>
+<li><strong>Back-End:</strong> nesta área, <strong>Python</strong> foi escolhido principalmente pela sua simplicidade. Ele não só conta com várias bibliotecas que facilitam a integração e a manipulação de dados, como também é compatível com diversas soluções de deploy.</li>
+<li><strong>Design:</strong> para construir o design optamos por utilizar <strong>Figma</strong>, pois é uma ferramenta User Friendly, leve, popular e de fácil compartilhamento. Ela permite que várias pessoas de uma mesma equipe editem um protótipo ao mesmo tempo, o que facilita a cooperação.</li>
+<li><strong>Controle de versão e monitoramento de código:</strong> aqui optamos por utilizar <strong>Git</strong> em conjunto com o <strong>Github</strong>, pois são ferramentas que já temos expertise em utilizar, trazendo velocidade e facilitando o desenvolvimento.</li>
+<li><strong>Ambiente de desenvolvimento:</strong> aqui escolhemos utilizar <strong>Docker</strong>, pois é uma ferramenta que permite que o código seja desenvolvido e executado em diferentes sistemas operacionais e versões, eliminando o problema de incompatibilidade entre sistemas.</li>
+<li><strong>Banco de dados:</strong> O <strong>MongoDB</strong> foi escolhido por se tratar de um banco de dados de fácil uso e de alta flexibilidade, além de possuir grande compatibilidade com <strong>Python</strong> - linguagem escolhida para fazer o Back-End.</li>
+</ul>
+<h4 id="24-pesquisa-de-mercado-e-analise-competitiva">2.4 Pesquisa de Mercado e Análise Competitiva</h4>
+<p>A marca <strong>LF Bag Your Dreams</strong> direciona os seus produtos - bolsas, mochilas e carteiras - a padrões sustentáveis, sofisticados e elegantes. Nesse mercado, exemplos de <strong>concorrentes</strong> da marca que se destacam no Brasil são a <strong>Tumi</strong>, <strong>Urban Flowers</strong>, a <strong>Bagaggio</strong> e a <strong>Mocha Bags</strong>. Todas as marcas concorrentes possuem soluções virtuais consolidadas e características específicas que se destacam.</p>
+<p>Contudo, existem funcionalidades importantes que são pouco desenvolvidas em alguma ou em todas as soluções concorrentes, e que podem ser aprimoradas no projeto LF Bag Your Dreams para que se tornem diferenciais da marca.</p>
+<ul>
+<li><strong>Tumi</strong>: a plataforma da Tumi é direcionada a um segmento premium, para mochilas executivas, malas e carteiras, possui design clean, navegação fluida, programa de fidelidade e assistência pós-venda premium. Entretanto, apresenta uma falta de foco em storytelling dos produtos.</li>
+<li><strong>Urban Flowers:</strong> a plataforma da Urban Flowers, marca que une sustentabilidade e design sofisticado, através de valores como veganismo, ética e transparência, apresenta design limpo e moderno, e se destaca pelo checkout direto e comunicação clara da proposta ecológica. Todavia, não há a opção de itens favoritos, e há a ausência da possibilidade de o usuário adicionar vídeos à avaliação dos produtos.</li>
+<li><strong>Bagaggio:</strong> ela possui uma ampla gama de produtos, com um site funcional e frete facilitado. No entanto, para que o usuário possa avaliar um produto, ele deve preencher diversos campos, como título, nome, e-mail e por fim a avaliação em si, o que pode tornar o processo de avaliação desencorajador.</li>
+<li><strong>Mocha Bags</strong>: a plataforma da Mocha Bags, assim como as soluções da Tumi e Urban Flowers, destaca-se pela possibilidade de vales-presente, que podem ser utilizados pelos usuários para adquirir descontos nos produtos. Porém, não há review integrado, isto é, um sistema que permite que os próprios clientes deixem avaliações sobre os produtos no próprio e-commerce.</li>
+</ul>
+<p>A solução da LF Bag Your Dreams irá se diferenciar por:</p>
+<ul>
+<li><strong>Elevada personalização dos produtos:</strong> o sistema permitirá ao usuário personalizar cada componente dos produtos, de maneira clara, tais como: alça, modelo, material, cor, de modo a promover uma experiência de total personalização.</li>
+<li><strong>Sistema de reviews com foto e vídeo:</strong> a plataforma permitirá ao usuário adicionar imagens e vídeos às suas avaliações de cada produto.</li>
+<li><strong>Design chamativo:</strong> a plataforma possuirá um design moderno, elegante e alinhado à identidade visual da marca, tornando a experiência acolhedora e convidativa.</li>
+<li><strong>Sistema de incentivo à divulgação:</strong> a solução apresentará um mecanismo de desconto ao usuário que promover a divulgação do software a outros usuários.</li>
+</ul>
+<p><strong>2.5 Análise de Viabilidade</strong></p>
+<p>A equipe já possui experiência com projetos e com as tecnologias propostas, o que reduz o tempo de aprendizado e aumenta a produtividade, o que torna muito viável tecnicamente.</p>
+<p>O prazo estipulado é de 4 mese<strong>s</strong>, com a realização de reuniões semanais com o cliente, o que permite obter feedbacks constantes e realizar ajustes de forma ágil, contribuindo para a viabilidade e o bom andamento do projeto.</p>
+<p>Como a equipe já domina as ferramentas open-source, não haverá grandes custos com licenciamento. Eventuais custos seriam com hospedagem ou serviços de envio de notificações (e-mail, SMS, WhatsApp).</p>
+<p>A proposta atende diretamente às lacunas deixadas pelos concorrentes e traz diferenciais importantes que agregam valor à experiência do consumidor. A marca também tem um posicionamento bem definido e uma base de clientes em crescimento.</p>
+<h4 id="26-impacto-da-solucao">2.6 Impacto da Solução</h4>
+<p>É esperado que o site de vendas proporcione diversos benefícios ao cliente, principalmente no que diz respeito à ampliação das oportunidades de negócio. A plataforma tem como principal objetivo facilitar o processo de vendas, permitindo que os produtos ou serviços alcancem um público maior. Além disso, a automação das etapas de venda contribui para uma experiência mais ágil, prática e eficiente, tanto para o cliente quanto para o vendedor, otimizando o tempo, reduzindo erros e aumentando a produtividade.</p>
+<h2 id="3-estrategias-de-engenharia-de-software">3 ESTRATÉGIAS DE ENGENHARIA DE SOFTWARE</h2>
+<h4 id="31-estrategia-priorizada">3.1 Estratégia Priorizada</h4>
+<ul>
+<li><strong>Abordagem:</strong> Híbrida</li>
+<li><strong>Ciclo de vida:</strong> Incremental e Iterativo</li>
+<li><strong>Processo:</strong> RAD (Rapid Application Development)</li>
+</ul>
+<h4 id="32-quadro-comparativo">3.2 Quadro Comparativo</h4>
+<p>O Quadro, a seguir, apresenta algumas características que podem ser relacionadas ao OpenUP e ao RAD (Rapid Application Development), visando auxiliar no entendimento e justificativa da escolha do processo mais adequado ao caso da LF Bag Your Dreams.</p>
+<table>
+<thead>
+<tr>
+<th><strong>Características</strong></th>
+<th><strong>OpenUP</strong></th>
+<th><strong>RAD</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Abordagem Geral</td>
+<td>Iterativo, incremental e direcionado pela arquitetura.</td>
+<td>Ágil, centrada no usuário e no design do produto.</td>
+</tr>
+<tr>
+<td>Foco em Arquitetura</td>
+<td>Forte ênfase na definição de uma arquitetura sólida e flexível desde o início do projeto.</td>
+<td>Inicialmente, há pouca preocupação com a arquitetura. À medida que os protótipos são refinados, a estrutura vai evoluindo.</td>
+</tr>
+<tr>
+<td>Estrutura de Processos</td>
+<td>Estrutura mais formal com fases bem definidas (Iniciação, Elaboração, Construção, Transição). Oferece um roteiro claro para o desenvolvimento.</td>
+<td>Estrutura menos formal, com definição de requisitos e modelagem mais rápidas. E a prototipagem, revisão e implementação ocorrem em ciclos mais curtos.</td>
+</tr>
+<tr>
+<td>Flexibilidade de Requisitos</td>
+<td>Flexibilidade para adaptações iterativas, mas dependente de uma arquitetura bem definida. Mudanças drásticas podem exigir revisões significativas na arquitetura.</td>
+<td>Alta flexibilidade, em que mudanças podem ser incorporadas entre iterações de protótipo sem grandes retrabalhos.</td>
+</tr>
+<tr>
+<td>Colaboração com Cliente</td>
+<td>Envolvimento contínuo, com foco nas fases de entrega e validação. Colaboração intensa nas fases iniciais e finais do projeto.</td>
+<td>Feedback constante por meio de workshops e demonstrações dos protótipos.</td>
+</tr>
+<tr>
+<td>Complexidade do Processo</td>
+<td>Mais formal e estruturado, com documentação detalhada. Exige mais disciplina e papeis bem definidos.</td>
+<td>Processo leve e informal, com menor burocracia e papeis flexíveis.</td>
+</tr>
+<tr>
+<td>Qualidade Técnica</td>
+<td>Qualidade assegurada pela definição clara da arquitetura e validação incremental. Permite um controle rigoroso da qualidade em cada fase.</td>
+<td>Depende da maturidade das ferramentas e das revisões nos protótipos; risco de comprometer qualidade técnica se os ciclos forem muito curtos ou mal gerenciados.</td>
+</tr>
+<tr>
+<td>Práticas de Desenvolvimento</td>
+<td>Estrutura formal com foco em arquitetura e controle de progresso. Menos práticas técnicas específicas.</td>
+<td>Fortemente orientado a prototipagem rápida, desenvolvimento de componentes reutilizáveis e integração contínua.</td>
+</tr>
+<tr>
+<td>Adaptação ao Projeto da LF Bag Your Dreams</td>
+<td>Adequado para projetos que exigem uma arquitetura bem definida desde o início, como a integração com sistemas de estoque e pagamento. Permite entregas incrementais com flexibilidade limitada.</td>
+<td>Ideal para validar rapidamente interfaces de usuário e fluxos de venda/pagamento junto ao cliente.</td>
+</tr>
+<tr>
+<td>Documentação</td>
+<td>Requer documentação formal para cada fase, com ênfase em requisitos e arquitetura. Pode ser mais pesado em termos de tempo e recursos.</td>
+<td>Documentação mínima, reservada apenas para o essencial.</td>
+</tr>
+<tr>
+<td>Controle de Qualidade</td>
+<td>Validações incrementais e revisões da arquitetura em cada fase. Garante que os requisitos sejam atendidos em cada etapa.</td>
+<td>Testes incorporados a cada protótipo; validação prática, porém menos formalizada (foco no uso real em vez de documentos).</td>
+</tr>
+<tr>
+<td>Escalabilidade</td>
+<td>Pode ser aplicado em projetos maiores e mais complexos, com equipes médias a grandes. Permite um controle mais centralizado e coordenado.</td>
+<td>Melhor para projetos de pequena a média escala; projetos muito grandes podem sofrer com a falta de governança e padronização.</td>
+</tr>
+<tr>
+<td>Suporte a Equipes de Desenvolvimento</td>
+<td>Suporta equipes maiores com papeis definidos, exigindo controle sobre o progresso e as fases do projeto. Facilita a gestão de projetos complexos com muitas partes interessadas.</td>
+<td>Voltado a equipes pequenas e multifuncionais, com papeis fluidos e alta comunicação direta.</td>
+</tr>
+</tbody>
+</table>
+<h4 id="33-justificativa">3.3 Justificativa</h4>
+<p>Com base nas características do projeto e nos desafios enfrentados pela LF Bag Your Dreams, o <strong>RAD (Rapid Application Development)</strong> é o processo mais adequado pelo seguintes motivos:</p>
+<ol>
+<li>
+<p><strong>Flexibilidade e entregas rápidas</strong></p>
+</li>
+<li>
+<p>Tendo em consideração o prazo curto de 4 meses, e que o projeto tem um caráter inovador, uma vez que sua proposta se difere dos modelos tradicionais de e-commerce especialmente pela possibilidade de elevada personalização dos produtos, é necessário um processo de <strong>prototipagem eficiente</strong>, <strong>centrada no usuário</strong>, com feedbacks <strong>iterativos</strong>, para que se obtenha uma maior clareza em relação à proposta. Isso permite o desenvolvimento iterativo e incremental do sistema, de forma a facilitar ajustes durante o processo, de modo a se tornar sempre direcionado às necessidades básicas dos usuários finais.</p>
+</li>
+<li>
+<p><strong>Documentação mínima</strong></p>
+</li>
+<li>
+<p>Levando-se em conta o curto prazo para a finalização do projeto, é necessária uma economia de tempo de desenvolvimento. Pelo fato de o RAD <strong>priorizar o protótipo e o próprio código-fonte</strong> como “documentação viva” em relação à documentação formal do produto, adequa-se à realidade dos desenvolvedores do sistema.</p>
+</li>
+<li>
+<p><strong>Práticas de qualidade técnica eficientes</strong></p>
+</li>
+<li>
+<p>O RAD possibilita práticas de <strong>teste a cada ciclo</strong> de desenvolvimento, de modo a adequar-se ao cronograma curto, e permitindo a <strong>entrega de valor rápida a cada ciclo</strong>.</p>
+</li>
+<li>O RAD <strong>incentiva a reutilização de código</strong>, com fácil integração.</li>
+</ol>
+<h2 id="4-cronograma-e-entregas">4 CRONOGRAMA E ENTREGAS</h2>
+<table>
+<thead>
+<tr>
+<th><strong>Sprint</strong></th>
+<th><strong>Início</strong></th>
+<th><strong>Fim</strong></th>
+<th><strong>Objetivo Principal</strong></th>
+<th><strong>Entregas Esperadas</strong></th>
+<th><strong>Validação do Cliente</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Sprint 1</strong></td>
+<td>22/04/2025</td>
+<td>04/05/2025</td>
+<td>Planejamento e Definição de Backlog</td>
+<td>- Definição do backlog inicial.<br><br>- Configuração da arquitetura (React, Python, MongoDB, Docker).<br><br>- Ambiente de desenvolvimento pronto.</td>
+<td>Revisão do backlog e confirmação de prioridades, validação do protótipo.</td>
+</tr>
+<tr>
+<td><strong>Sprint 2</strong></td>
+<td>05/05/2025</td>
+<td>18/05/2025</td>
+<td>Primeira Entrega Parcial (Catálogo, autenticação)</td>
+<td>- <strong>Entrega Parcial 1:</strong><br><br>- Desenvolvimento do catálogo de produtos;<br><br>- Implementação do sistema de personalização de cada produto;<br><br>- Implementação do sistema de autenticação.</td>
+<td>Validação do catálogo, sistema de personalização de produtos, e sistema de autenticação.</td>
+</tr>
+<tr>
+<td><strong>Sprint 3</strong></td>
+<td>19/05/2025</td>
+<td>01/06/2025</td>
+<td>Implementação da área de administração</td>
+<td>- Gerenciamento de estoque;<br><br>- Gerenciamento de situação dos pedidos.</td>
+<td>Validação das funcionalidades do administrador.</td>
+</tr>
+<tr>
+<td><strong>Sprint 4</strong></td>
+<td>02/06/2025</td>
+<td>15/06/2025</td>
+<td>Segunda Entrega Parcial (conta, processamento de pedidos)</td>
+<td>- <strong>Entrega Parcial 2:</strong><br><br>- Edição de dados da conta do usuário;<br><br>- Integração com sistema de pagamento do WhatsApp.</td>
+<td>Validação da área de perfil do usuário e do fluxo de pedidos.</td>
+</tr>
+<tr>
+<td><strong>Sprint 5</strong></td>
+<td>16/06/2025</td>
+<td>29/06/2025</td>
+<td>Implementação de notificações automáticas e mecanismo de desconto</td>
+<td>- Notificações automáticas (e-mail) para confirmação de pedidos.<br><br>- Descontos por recomendação (código de desconto ou links).</td>
+<td>Validação do sistema de notificações por e-mail; validação do sistema de descontos por divulgação do software.</td>
+</tr>
+<tr>
+<td><strong>Sprint 6</strong></td>
+<td>30/06/2025</td>
+<td>13/07/2025</td>
+<td>Lançamento Parcial e Monitoramento</td>
+<td>- Sistema semi-pronto em fase de homologação;<br><br>- Feedback das principais funcionalidades.</td>
+<td>Homologação pela cliente e aprovação parcial.</td>
+</tr>
+<tr>
+<td><strong>Sprint 7</strong></td>
+<td>14/07/2025</td>
+<td>27/07/2025</td>
+<td>Avaliação dos produtos</td>
+<td>- Implementação do sistema de avaliação de produtos (estrelas, comentários, imagens, vídeos).</td>
+<td>Feedback das avaliações.</td>
+</tr>
+<tr>
+<td><strong>Sprint 8</strong></td>
+<td>28/07/2025</td>
+<td>10/08/2025</td>
+<td>Carrinho de compras</td>
+<td>- Implementação do carrinho de compras.</td>
+<td>Validação do fluxo do carrinho de compras.</td>
+</tr>
+<tr>
+<td><strong>Sprint 9</strong></td>
+<td>11/08/2025</td>
+<td>24/08/2025</td>
+<td>Lançamento Final e Monitoramento</td>
+<td>- Lançamento final do sistema para todos os usuários;<br><br>- Monitoramento pós-lançamento e ajustes com base nos primeiros feedbacks.</td>
+<td>Feedback dos primeiros clientes reais e ajustes pós-lançamento.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Considerações importantes:</strong></p>
+<ol>
+<li><strong>Datas de início e fim:</strong> Cada sprint tem a duração de 13 dias, começando em 22/04/2025 e finalizando em 24/08/2025, distribuindo as entregas parciais ao longo do tempo.</li>
+<li><strong>Validações ao final de cada sprint:</strong> Em cada sprint, haverá uma reunião de revisão com o cliente para validar as funcionalidades entregues, coletar feedback e ajustar o backlog para os próximos sprints.</li>
+<li><strong>Entregas parciais:</strong> As funcionalidades principais, como a área de administração, personalização dos produtos, processamento de compras, serão entregues e testadas ao longo do desenvolvimento, garantindo validação contínua até o lançamento final.</li>
+</ol>
+<h2 id="_1"></h2>
+<h2 id="5-interacao-entre-equipe-e-cliente">5 INTERAÇÃO ENTRE EQUIPE E CLIENTE</h2>
+<h2 id="51-composicao-da-equipe">5.1 Composição da Equipe</h2>
+<h4 id="a-equipe-de-desenvolvimento-sera-composta-por">A equipe de desenvolvimento será composta por</h4>
+<table>
+<thead>
+<tr>
+<th><strong>Papel</strong></th>
+<th><strong>Descrição</strong></th>
+<th><strong>Responsável</strong></th>
+<th><strong>Participantes</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Gerente do Projeto</td>
+<td>Coordena o projeto, garante a comunicação entre cliente e equipe, controla prazos e entregas.</td>
+<td>Yasmin Moreira</td>
+<td>--</td>
+</tr>
+<tr>
+<td>Desenvolvedor Frontend</td>
+<td>Responsável pela interface do usuário, design e implementação das funcionalidades.</td>
+<td>Leonardo Barcellos</td>
+<td>Isabella Choukaira, Yasmin Moreira</td>
+</tr>
+<tr>
+<td>Desenvolvedor Backend</td>
+<td>Implementa a lógica de negócios, integração com banco de dados e APIs.</td>
+<td>Pedro Henrique Freire</td>
+<td>Eduardo Morais, José Victor Menezes</td>
+</tr>
+<tr>
+<td>Analista de QA</td>
+<td>Garante a qualidade do produto, executando testes de funcionalidade, performance e usabilidade.</td>
+<td>José Victor Menezes</td>
+<td>Eduardo Morais, Isabella Choukaira, Leonardo Barcellos, Pedro Henrique Freire, Yasmin Moreira</td>
+</tr>
+<tr>
+<td>Analista de Requisitos</td>
+<td>Define os requisitos funcionais e não funcionais do sistema e garante que eles sejam atendidos.</td>
+<td>Eduardo Morais</td>
+<td>Isabella Choukaira</td>
+</tr>
+</tbody>
+</table>
+<h4 id="52-comunicacao">5.2 Comunicação</h4>
+<p><strong>Ferramentas de Comunicação</strong></p>
+<ul>
+<li><strong>Whatsapp:</strong> Será utilizado como principal canal de comunicação com o cliente, permitindo contatos rápidos, envio de atualizações pontuais e compartilhamento de materiais. Também poderá ser utilizado para interações rápidas com a equipe, facilitando a comunicação ágil no dia a dia.</li>
+<li><strong>Google Meet:</strong> As reuniões semanais com o cliente serão realizadas por videoconferência através do Google Meet (ou Microsoft Teams), com o objetivo de alinhar expectativas, apresentar o progresso do projeto e coletar feedbacks. A ferramenta também será utilizada para chamadas em tempo real entre os membros da equipe, quando necessário.</li>
+<li><strong>Zenhub:</strong> Será a ferramenta de gerenciamento do backlog, controle de tarefas e acompanhamento do progresso de cada sprint. Ela permitirá que tanto a equipe quanto o cliente visualizem o andamento do projeto e participem ativamente do processo de priorização das funcionalidades.</li>
+</ul>
+<p><strong>Métodos e Frequência de Reuniões</strong></p>
+<ul>
+<li><strong>Reuniões semanais com a equipe:</strong> A proposta é garantir um ritmo constante de entrega, com ajustes e validação rápida das funcionalidades desenvolvidas. Nessas reuniões iremos realizar o planejamento das próximas tarefas e prioridades da semana seguinte e discutir o que foi desenvolvido na última semana</li>
+<li><strong>Reuniões semanais com o cliente:</strong> Essa prática está alinhada com a abordagem iterativa do nosso processo e é fundamental para garantir que o desenvolvimento esteja atendendo às expectativas e necessidades do negócio<strong>,</strong> recebendo feedbacks do cliente sobre o</li>
+</ul>
+<p>que foi desenvolvido e discutindo possíveis ajustes ou mudanças de prioridade.</p>
+<h4 id="53-processo-de-validacao">5.3 Processo de Validação</h4>
+<p>O processo de validação da solução será realizado em três etapas principais:</p>
+<ul>
+<li><strong>Verificação dos requisitos</strong>: se estão claramente definidos, se há documentação e se todos os critérios de aceitação estão estabelecidos.</li>
+<li><strong>Testes</strong>: para se considerar uma funcionalidade pronta, ela deverá passar pelos testes unitários e de integração, além da aprovação visual e funcional feita pela equipe.</li>
+<li><strong>Testes de aceitação</strong>: durante essa etapa, o cliente irá verificar se o sistema atende aos requisitos estabelecidos.</li>
+</ul>
+<h2 id="_2"></h2>
+<h2 id="_3"></h2>
+<h2 id="6-licoes-aprendidas">6 LIÇÕES APRENDIDAS</h2>
+<h4 id="61-unidade-1">6.1 Unidade 1</h4>
+<p>Na fase inicial de desenvolvimento do projeto LF-Bag-Your-Dreams, foram extraídas diversas lições valiosas que impactarão diretamente as próximas etapas. A seguir, estão listadas essas lições, com foco nos desafios enfrentados, nas ações tomadas para superá-los e nas oportunidades de melhoria identificadas.</p>
+<p><strong>Lições Aprendidas e Melhorias para o Processo</strong></p>
+<p><strong>1. Dificuldades na Definição de Solução</strong></p>
+<ul>
+<li><strong>Desafio</strong>: O envolvimento da cliente durante a primeira fase revelou que a nossa compreensão inicial do problema estava equivocada, o que levantou a preocupação de que a solução proposta talvez não atendesse às reais necessidades dela, relacionadas à divulgação da marca.</li>
+<li><strong>Ação de melhoria</strong>: Após revisitar nossas hipóteses e realizar novos estudos, a equipe revisou e aprimorou o diagrama de Ishikawa, o que nos permitiu identificar com mais clareza a causa raiz do problema e, assim, alinhar melhor a solução às expectativas e demandas reais.</li>
+</ul>
+<h4 id="_4"></h4>
+<h2 id="7-referencias-bibliograficas">7 REFERÊNCIAS BIBLIOGRÁFICAS</h2>
+<ol>
+<li>E-Commerce Website Development: A Comprehensive Guide. <strong>BROWSERSTACK</strong>, c2025. Disponível em: <a href="https://www.browserstack.com/guide/ecommerce-website-development">https://www.browserstack.com/guide/ecommerce-website-development</a>. Acesso em: 06 de abr. de 2025.</li>
+<li>Rapid application development: A faster, agile software approach. <strong>OutSystems</strong>, c2025. Disponível em: <a href="https://www.outsystems.com/application-development/what-is-rapid-application-development-best-practices/#how-outsystems-enables-rad">https://www.outsystems.com/application-development/what-is-rapid-application-development-best-practices/#how-outsystems-enables-rad</a>. Acesso em: 21 de abr. de 2025.</li>
+</ol>
+<p><strong>Histórico de Revisão</strong></p>
+<table>
+<thead>
+<tr>
+<th><strong>Data</strong></th>
+<th><strong>Versão</strong></th>
+<th><strong>Descrição</strong></th>
+<th><strong>Autor</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>07/04/2025</td>
+<td>0.1</td>
+<td>Desenvolvimento dos tópicos 1 e 2</td>
+<td>Equipe</td>
+</tr>
+<tr>
+<td>20/04/2025</td>
+<td>0.2</td>
+<td>Desenvolvimento dos tópicos 3, 4 e 5</td>
+<td>Equipe</td>
+</tr>
+<tr>
+<td>21/04/2025</td>
+<td>0.3</td>
+<td>Revisão do documento</td>
+<td>Equipe</td>
+</tr>
+</tbody>
+</table>
+<p><strong>v0.3</strong></p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Voltar ao topo
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Rodapé" >
+        
+          
+          <a href="../.." class="md-footer__link md-footer__link--prev" aria-label="Anterior: Página Inicial">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Anterior
+              </span>
+              <div class="md-ellipsis">
+                Página Inicial
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../../apresentacoes/apresentacao1/" class="md-footer__link md-footer__link--next" aria-label="Próximo: Vídeo Apresentação da Unidade 1">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Próximo
+              </span>
+              <div class="md-ellipsis">
+                Vídeo Apresentação da Unidade 1
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "navigation.tracking", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.footer", "toc.follow", "search.suggest", "search.highlight", "content.tabs.link", "content.code.annotation", "content.code.copy"], "search": "../../assets/javascripts/workers/search.f8cc74c7.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "Mais 1 nesta p\u00e1gina", "search.result.more.other": "Mais # nesta p\u00e1gina", "search.result.none": "Nenhum resultado encontrado", "search.result.one": "1 resultado encontrado", "search.result.other": "# resultados encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.c8b220af.min.js"></script>
+      
+    
+  </body>
+</html>
