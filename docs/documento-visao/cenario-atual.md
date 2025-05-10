@@ -124,18 +124,19 @@ O Quadro, a seguir, apresenta algumas características que podem ser relacionada
 
 Com base nas características do projeto e nos desafios enfrentados pela LF Bag Your Dreams, o **RAD (Rapid Application Development)** é o processo mais adequado pelo seguintes motivos:
 
-1. **Flexibilidade e entregas rápidas**
+**3.3.1. Flexibilidade e entregas rápidas**
 
-- Tendo em consideração o prazo curto de 4 meses, e que o projeto tem um caráter inovador, uma vez que sua proposta se difere dos modelos tradicionais de e-commerce especialmente pela possibilidade de elevada personalização dos produtos, é necessário um processo de **prototipagem eficiente**, **centrada no usuário**, com feedbacks **iterativos**, para que se obtenha uma maior clareza em relação à proposta. Isso permite o desenvolvimento iterativo e incremental do sistema, de forma a facilitar ajustes durante o processo, de modo a se tornar sempre direcionado às necessidades básicas dos usuários finais.
+- Ao contrário do OpenUP, que possui foco na arquitetura e é orientado a papéis bem definidos, o RAD é focado em prototipação eficiente e colaboração contínua com o cliente, permitindo que a equipe receba feedbacks a cada ciclo, e viabilizando maior flexibilidade na construção da solução. Esse fator é importantíssimo para este projeto, cujo diferencial está justamente na experiência personalizada do usuário. O desenvolvimento iterativo e incremental facilita ajustes ao longo do processo, mantendo o sistema sempre direcionado às necessidades básicas dos usuários finais.
 
-1. **Documentação mínima**
+**3.3.2. Práticas de qualidade técnica eficientes**
 
-- Levando-se em conta o curto prazo para a finalização do projeto, é necessária uma economia de tempo de desenvolvimento. Pelo fato de o RAD **priorizar o protótipo e o próprio código-fonte** como “documentação viva” em relação à documentação formal do produto, adequa-se à realidade dos desenvolvedores do sistema.
+- A partir da entrega rápida de protótipo funcional, o RAD antecipa a identificação de possíveis problemas na interface e facilita a confirmação de escolhas de design.
+- O RAD favorece práticas de testes a cada ciclo de desenvolvimento, de modo a adequar-se ao cronograma curto, e permitindo a entrega de valor rápida a cada ciclo. 
+- O RAD incentiva a reutilização de código, com fácil integração.
 
-1. **Práticas de qualidade técnica eficientes**
+**3.3.3. Satisfação do cliente**
 
-- O RAD possibilita práticas de **teste a cada ciclo** de desenvolvimento, de modo a adequar-se ao cronograma curto, e permitindo a **entrega de valor rápida a cada ciclo**.
-- O RAD **incentiva a reutilização de código**, com fácil integração.
+- Tendo o foco no constante envolvimento do cliente para realizar validações ao longo de todo o projeto, não somente nas fases iniciais e finais, o RAD permite a rápida adaptação de cada funcionalidade às necessidades e desejos do cliente, de modo a contribuir para a sua satisfação durante a entrega do sistema.
 
 ## 4 CRONOGRAMA E ENTREGAS
 
