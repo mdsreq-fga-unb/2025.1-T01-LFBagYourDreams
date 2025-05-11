@@ -1,0 +1,3 @@
+
+1. E-Commerce Website Development: A Comprehensive Guide. **BROWSERSTACK**, c2025. Disponível em: <https://www.browserstack.com/guide/ecommerce-website-development>. Acesso em: 06 de abr. de 2025.
+2. Rapid application development: A faster, agile software approach. **OutSystems**, c2025. Disponível em: <https://www.outsystems.com/application-development/what-is-rapid-application-development-best-practices/#how-outsystems-enables-rad>. Acesso em: 21 de abr. de 2025.

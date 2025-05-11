@@ -2,8 +2,18 @@ site_name: Documentação LFBagYourDreams
 
 nav:
   - Página Inicial: index.md
-  - Documento de Visão: "documento-visao/cenario-atual.md"
-  - Vídeo Apresentação da Unidade 1: "apresentacoes/apresentacao1.md"
+  - Documento:
+    - Histórico de versões do documento: "documento-visao/historico-versoes.md"
+    - Documento de Visão:
+      - 1. Cenário Atual do Cliente e do Negócio: "documento-visao/cenario-atual.md"
+      - 2. Solução Proposta: "documento-visao/solucao-proposta.md"
+      - 3. Estratégias de Engenharia de Software: "documento-visao/estrategias.md"
+      - 4. Cronograma: "documento-visao/cronograma.md"
+      - 5. Interação entre Equipe e cliente: "documento-visao/interacao.md"
+      - 6. Lições aprendidas: "documento-visao/licoes.md"
+    - Referências Bibliograficas: "documento-visao/referencias.md"
+  - Vídeo Apresentação:
+    - Apresentação da Unidade 1: "apresentacoes/apresentacao1.md"
 theme:
   name: material
   features:
