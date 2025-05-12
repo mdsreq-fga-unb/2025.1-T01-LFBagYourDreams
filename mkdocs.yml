@@ -9,12 +9,15 @@ nav:
       - 3. Estratégias de Engenharia de Software: "documento-visao/estrategias.md"
       - 4. Cronograma: "documento-visao/cronograma.md"
       - 5. Interação entre Equipe e cliente: "documento-visao/interacao.md"
-    - Lições aprendidas: 
-      - Unidade 1: "documento-visao/licoes-aprendidas/licoes-U1.md"
     - Histórico de versões do documento: "documento-visao/historico-versoes.md"
     - Referências Bibliograficas: "documento-visao/referencias.md"
+  - Atas: 
+    - Ata dia 19/04/2025: "atas/ata_reuniao_19_04_25.md"
+    - Ata dia 03/05/2025: "atas/ata_reuniao_03_05_25.md"
+  - Lições aprendidas: 
+    - Unidade 1: "documento-visao/licoes-aprendidas/licoes-U1.md"
   - Vídeo Apresentação:
-    - Apresentação da Unidade 1: "apresentacoes/apresentacao1.md"
+    - Unidade 1: "apresentacoes/apresentacao1.md"
 theme:
   name: material
   features:

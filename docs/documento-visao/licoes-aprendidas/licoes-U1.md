@@ -1,4 +1,4 @@
-#### 6.1 Unidade 1
+####
 
 Na fase inicial de desenvolvimento do projeto LF-Bag-Your-Dreams, foram extraídas diversas lições valiosas que impactarão diretamente as próximas etapas. A seguir, estão listadas essas lições, com foco nos desafios enfrentados, nas ações tomadas para superá-los e nas oportunidades de melhoria identificadas.
 
