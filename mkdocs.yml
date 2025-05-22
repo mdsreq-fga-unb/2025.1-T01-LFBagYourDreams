@@ -10,9 +10,9 @@ nav:
       - 4. Engenharia de Requisitos: "documento-visao/eng.requisitos.md"
       - 5. Cronogramas e Entregas: "documento-visao/cronograma.md"
       - 6. Interação entre Equipe e cliente: "documento-visao/interacao.md"
-      - 7. Requisitos de Software:
-      - 8. DoR e DOD: 
-      - 9. Backlog de Produto: 
+      - 7. Requisitos de Software: "documento-visao/req.software.md"
+      - 8. DoR e DOD: "documento-visao/dor_dod.md"
+      - 9. Backlog de Produto: "documento-visao/backlog.md"
     - Histórico de versões do documento: "documento-visao/historico-versoes.md"
     - Referências Bibliograficas: "documento-visao/referencias.md"
   - Atas: 
