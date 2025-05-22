@@ -1,4 +1,4 @@
-#### 5.1 Composição da Equipe
+### 5.1 Composição da Equipe
 
 **A equipe de desenvolvimento será composta por**
 
@@ -10,7 +10,7 @@
 | Analista de QA | Garante a qualidade do produto, executando testes de funcionalidade, performance e usabilidade. | José Victor Menezes | Eduardo Morais, Isabella Choukaira, Leonardo Barcellos, Pedro Henrique Freire, Yasmin Moreira |
 | Analista de Requisitos | Define os requisitos funcionais e não funcionais do sistema e garante que eles sejam atendidos. | Eduardo Morais | Isabella Choukaira |
 
-#### 5.2 Comunicação
+### 5.2 Comunicação
 
 **Ferramentas de Comunicação**
 
@@ -25,7 +25,7 @@
 
 que foi desenvolvido e discutindo possíveis ajustes ou mudanças de prioridade.
 
-#### 5.3 Processo de Validação
+### 5.3 Processo de Validação
 
 O processo de validação da solução será realizado em três etapas principais:
 

@@ -1,10 +1,10 @@
-#### 1.1 Introdução ao Negócio e Contexto
+### 1.1 Introdução ao Negócio e Contexto
 
 A LF Bag Your Dreams é uma marca de bolsas fundada em 2023, atuando no setor de moda e acessórios. A marca se concentra em oferecer bolsas e acessórios que combinam estilo, praticidade e autenticidade. A fundadora, com experiência em costura criativa, trabalhou no Instituto Formiguinhas como professora de costura, atendendo mulheres em situação de vulnerabilidade social. As bolsas vendidas são produzidas pela própria cliente, destacando o envolvimento pessoal e a autenticidade dos produtos.
 
 A loja opera exclusivamente online através de canais como WhatsApp e Instagram, visando um público diversificado a partir de 10 anos. Os princípios que guiam a empresa incluem qualidade, sustentabilidade e design, refletindo um compromisso com produtos estéticamente agradáveis e responsáveis. Atualmente, a equipe é composta apenas pela fundadora, que assume todas as responsabilidades, desde a produção até a administração e vendas.
 
-#### 1.2 Identificação da Oportunidade ou Problema
+### 1.2 Identificação da Oportunidade ou Problema
 
 A principal oportunidade identificada para o negócio de bolsas artesanais é a criação e lançamento de sua plataforma de e-commerce, que atualmente há uma **limitação no crescimento do negócio e na organização das vendas**. Atualmente, a empreendedora não possui loja física nem virtual para comercialização de seus produtos. Embora as bolsas produzidas tenham qualidade reconhecida e estejam alinhadas com princípios de sustentabilidade e design criativo, a ausência de uma estrutura digital impede o crescimento do negócio e limita o alcance ao público-alvo.
 
@@ -15,12 +15,13 @@ Com o crescimento do comércio eletrônico e a tendência crescente de consumo p
 A Figura, a seguir apresenta o diagrama de Ishikawa contendo as causas (organização pelos 6M 's) e o problema da LF Bag Your Dreams.
 
 ![Ishikawa](../assets/diagrama%20de%20ishikawa.png)
+<center><strong>Figura 1:</strong> Diagrama de Ishikawa </center>
 
-#### 1.3 Desafios do Projeto
+### 1.3 Desafios do Projeto
 
 O principal desafio enfrentado pela LF Bag Your Dreams, que atualmente utiliza apenas WhatsApp e Instagram como canais de venda, é a limitação na organização de vendas e divulgação. Como todas as interações são feitas manualmente, desde a apresentação dos produtos até o fechamento do pedido, a gestão se torna mais trabalhosa, especialmente com o aumento da demanda. Isso pode gerar erros em pedidos, atrasos nas respostas aos clientes e dificuldade no controle de estoque. Como o negócio é pequeno e gerido por uma equipe reduzida, pode haver uma curva de aprendizado para se adaptar ao uso de novas ferramentas.
 
-#### 1.4 Segmentação de Clientes
+### 1.4 Segmentação de Clientes
 
 A marca atende aos seguintes perfis de clientes:
 

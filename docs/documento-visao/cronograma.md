@@ -11,7 +11,23 @@
 
 **Considerações importantes:**
 
-1. **Datas de início e fim:** Cada sprint tem a duração de 13 dias, começando em 22/04/2025 e finalizando em 24/08/2025, distribuindo as entregas parciais ao longo do tempo.
-2. **Validações ao final de cada sprint:** Em cada sprint, haverá uma reunião de revisão com o cliente para validar as funcionalidades entregues, coletar feedback e ajustar o backlog para os próximos sprints.
-3. **Entregas parciais:** As funcionalidades principais, como a área de administração, personalização dos produtos, processamento de compras, serão entregues e testadas ao longo do desenvolvimento, garantindo validação contínua até o lançamento final.
+1. **Datas de início e fim:** Cada ciclo tem a duração de 9 dias, começando em 22/04/2025 e finalizando em 24/08/2025, distribuindo as entregas parciais ao longo do tempo, com exceção do ciclo 4, que, devido a uma quantidade maior de funcionalidades a serem desenvolvidas, possui 20 dias de duração (1 semana a mais). 
+
+2. **Etapas da metodologia RAD a cada ciclo:** No primeiro ciclo do cronograma, haverá a etapa de planejamento de requisitos, em conjunto com a cliente. Em cada ciclo intermediário, serão realizados o design do usuário (prototipação), a construção rápida e incremental, testes e coleta de feedbacks da cliente. No último ciclo (cutover), será realizada a implantação do sistema.
+
+3. **Ciclos:** O RAD é centrado na iteratividade, prototipação rápida, feedback constante dos usuários e ajustes contínuos, e o nosso ciclo ilustrado na figura 2 segue a seguinte lógica: 
+
+    >a. **User Design**– o foco é entender as necessidades do usuário e fazer ajustes com base em feedbacks constantes.
+    >
+    >
+    >b. **Construção** – Corresponde à fase de desenvolvimento e codificação rápida dos componentes definidos anteriormente.
+    >
+    >
+    >c. **Testes** – Encaixa-se na fase de validação, onde o produto é testado frequentemente para detectar falhas cedo.
+
+
+A sequência circular a sugere um **processo iterativo**:
+
+![Ciclos do processo RAD](../assets/Ciclos.png)
+ <center><strong>Figura 2:</strong> Ciclos do processo RAD</center>
 

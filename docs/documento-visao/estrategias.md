@@ -1,10 +1,10 @@
-#### 3.1 Estratégia Priorizada
+### 3.1 Estratégia Priorizada
 
 - **Abordagem:** Híbrida
 - **Ciclo de vida:** Incremental e Iterativo
 - **Processo:** RAD (Rapid Application Development)
 
-#### 3.2 Quadro Comparativo
+### 3.2 Quadro Comparativo
 
 O Quadro, a seguir, apresenta algumas características que podem ser relacionadas ao OpenUP e ao RAD (Rapid Application Development), visando auxiliar no entendimento e justificativa da escolha do processo mais adequado ao caso da LF Bag Your Dreams.
 
@@ -24,7 +24,7 @@ O Quadro, a seguir, apresenta algumas características que podem ser relacionada
 | Escalabilidade | Pode ser aplicado em projetos maiores e mais complexos, com equipes médias a grandes. Permite um controle mais centralizado e coordenado. | Melhor para projetos de pequena a média escala; projetos muito grandes podem sofrer com a falta de governança e padronização. |
 | Suporte a Equipes de Desenvolvimento | Suporta equipes maiores com papeis definidos, exigindo controle sobre o progresso e as fases do projeto. Facilita a gestão de projetos complexos com muitas partes interessadas. | Voltado a equipes pequenas e multifuncionais, com papeis fluidos e alta comunicação direta. |
 
-#### 3.3 Justificativa
+### 3.3 Justificativa
 
 Com base nas características do projeto e nos desafios enfrentados pela LF Bag Your Dreams, o **RAD (Rapid Application Development)** é o processo mais adequado pelo seguintes motivos:
 
