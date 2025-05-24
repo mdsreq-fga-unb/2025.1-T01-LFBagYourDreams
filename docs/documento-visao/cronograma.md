@@ -11,19 +11,23 @@
 
 **Considerações importantes:**
 
-1. **Datas de início e fim:** Cada ciclo tem a duração de 9 dias, começando em 22/04/2025 e finalizando em 24/08/2025, distribuindo as entregas parciais ao longo do tempo, com exceção do ciclo 4, que, devido a uma quantidade maior de funcionalidades a serem desenvolvidas, possui 20 dias de duração (1 semana a mais). 
+1. **Datas de início e fim:** Cada ciclo tem a duração de 9 dias, começando em 22/04/2025 e finalizando em 13/07/2025, distribuindo as entregas parciais ao longo do tempo, com exceção do ciclo 1 e 2. 
 
-2. **Etapas da metodologia RAD a cada ciclo:** No primeiro ciclo do cronograma, haverá a etapa de planejamento de requisitos, em conjunto com a cliente. Em cada ciclo intermediário, serão realizados o design do usuário (prototipação), a construção rápida e incremental, testes e coleta de feedbacks da cliente. No último ciclo (cutover), será realizada a implantação do sistema.
+2. **Etapas da metodologia RAD a cada ciclo:** Inicialmente, será realizada a etapa de **levantamento de requisitos**, em conjunto com a cliente. Em seguida, ocorrerá o **User Design** (prototipação), com foco na validação das necessidades e ajustes baseados em feedbacks. Em cada ciclo de entrega, serão realizadas a **construção** rápida e incremental de cada User Story, seguida de **testes** frequentes para validação e, posteriormente, a entrega das funcionalidades ao cliente. No último ciclo (cutover), será realizada a implantação completa do sistema.**
 
 3. **Ciclos:** O RAD é centrado na iteratividade, prototipação rápida, feedback constante dos usuários e ajustes contínuos, e o nosso ciclo ilustrado na figura 2 segue a seguinte lógica: 
 
-    >a. **User Design**– o foco é entender as necessidades do usuário e fazer ajustes com base em feedbacks constantes.
+    >a. **Levantamento de Requisitos** - Corresponde à fase em que são resgatadas as necessidades dos stakeholders e traduzidas para implementações de software a fim de identificar e resolver problemas.
     >
+    >b. **User Design** – o foco é entender as necessidades do usuário e fazer ajustes com base em feedbacks constantes. Reflete bem a filosofia RAD, que se apoia fortemente em protótipos funcionais para refinar as ideias com os usuários.
     >
-    >b. **Construção** – Corresponde à fase de desenvolvimento e codificação rápida dos componentes definidos anteriormente.
+    >c. **Construção** – Corresponde à fase de desenvolvimento e codificação rápida dos componentes definidos anteriormente.
     >
+    >d. **Testes** – Encaixa-se na fase de validação, onde o produto é testado frequentemente para detectar falhas cedo.
     >
-    >c. **Testes** – Encaixa-se na fase de validação, onde o produto é testado frequentemente para detectar falhas cedo.
+    >e. **Entrega** - Diz respeito à fase em que todas as funcionalidades do software desenvolvido são entregues e prontas para uso.
+    >
+
 
 
 A sequência circular a sugere um **processo iterativo**:

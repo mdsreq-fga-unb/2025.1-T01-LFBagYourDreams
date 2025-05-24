@@ -28,38 +28,43 @@
 
 **US11** - Como usuário, eu gostaria de filtrar os produtos do catálogo por categoria, para facilitar a minha busca.
 
+**US12** - Como usuário, eu gostaria de visualizar detalhes de cada produto, para confirmar que ele se tornará o item de uma compra.
+
 ## Checkout
 
-**US12** - Como usuário, eu quero poder visualizar um resumo de uma compra a ser finalizada, definido por um conjunto de itens que adicionei ao carrinho.
+**US13** - Como usuário, eu quero poder visualizar um resumo de uma compra a ser finalizada, definido por um conjunto de itens que adicionei ao carrinho.
 
-**US13** - Como usuário, eu gostaria de realizar o pagamento por diversos meios (cartão, pix, boleto), para ter flexibilidade na hora do pagamento.
+**US14** - Como usuário, eu gostaria de realizar o pagamento por diversos meios (cartão, pix, boleto), para ter flexibilidade na hora do pagamento.
 
-**US14** - Como usuário, eu gostaria de personalizar e escolher cada um dos componentes das bolsas, para garantir que a bolsa seja do jeito que eu quero.
+**US15** - Como usuário, eu gostaria de personalizar e escolher cada um dos componentes das bolsas, para garantir que a bolsa seja do jeito que eu quero.
 
-**US15** - Como usuário, eu quero poder aplicar um código de desconto a uma compra para que o valor final da compra receba o desconto correspondente.
+**US16** - Como usuário, eu quero poder aplicar um código de desconto a uma compra para que o valor final da compra receba o desconto correspondente.
 
 ## Área do Administrador
 
-**US16** - Como administrador, eu quero gerenciar o catálogo de produtos (visualizar, adicionar, editar, remover) para que eu possa manter minha loja atualizada com os produtos corretos.
+**US17** - Como administrador, eu quero gerenciar o catálogo de produtos (visualizar, adicionar, editar, remover) para que eu possa manter minha loja atualizada com os produtos corretos.
 
-**US17** - Como administrador, eu quero que o sistema atualize automaticamente o estoque após cada compra, para facilitar e tornar mais seguro o controle de estoque.
+**US18** - Como administrador, eu quero que o sistema atualize automaticamente o estoque após cada compra, para facilitar e tornar mais seguro o controle de estoque.
 
-- **US18** - Como administrador, eu quero editar as quantidades em estoque de cada produto, para que eu possa corrigir erros ou atualizar após reabastecimento.
-- **US19** - Como administrador, eu quero gerenciar o status de cada compra - compra em processamento, enviado, entregue ou cancelado -, para que eu possa estar atento a quaisquer eventualidades que possam ocorrer na compra.
+**US19** - Como administrador, eu quero editar as quantidades em estoque de cada produto, para que eu possa corrigir erros ou atualizar após reabastecimento.
+
+**US20** - Como administrador, eu quero gerenciar o status de cada compra - compra em processamento, enviado, entregue ou cancelado -, para que eu possa estar atento a quaisquer eventualidades que possam ocorrer na compra.
 
 ## Notificações
 
-**US20** - Como usuário, eu quero receber notificações automáticas no e-mail para confirmar o meu pedido, para que eu possa ter confirmação e acompanhamento da compra.
+**US21** - Como usuário, eu quero receber notificações automáticas no e-mail para confirmar o meu pedido, para que eu possa ter confirmação e acompanhamento da compra.
+
+**US22** - Como administrador, eu quero receber notificação automática no e-mail/WhatsApp para informar pedido realizado por um usuário, para facilitar o gerenciamento de pedidos.
 
 ## Descontos por Recomendação
 
-**US21** - Como usuário, eu quero receber desconto ao compartilhar o site com outras pessoas, para que eu possa obter benefícios em compras por indicar o site para meus contatos.
+**US23** - Como usuário, eu quero receber desconto ao compartilhar o site com outras pessoas, para que eu possa obter benefícios em compras por indicar o site para meus contatos.
 
 ## Avaliação de Produtos
 
-**US22** - Como usuário, eu quero avaliar produtos que adquiri (usando estrelas, comentários, imagens e vídeos), para que eu possa compartilhar minha experiência e dar meu feedback com outros clientes e com a loja.
+**US24** - Como usuário, eu quero avaliar produtos que adquiri (usando estrelas, comentários, imagens e vídeos), para que eu possa compartilhar minha experiência e dar meu feedback com outros clientes e com a loja.
 
-**US23** - Como usuário, eu quero ser capaz de iniciar um processo de devolução ou troca de um item comprado, para que eu possa resolver problemas com produtos recebidos de forma prática e eficiente.
+**US25** - Como usuário, eu quero ser capaz de iniciar um processo de devolução ou troca de um item comprado, para que eu possa resolver problemas com produtos recebidos de forma prática e eficiente.
 
 
 ### 9.2 Priorização do Backlog Geral
@@ -78,26 +83,49 @@ A priorização teve como objetivo garantir que o desenvolvimento fosse focado n
 
 | **User Story** | **Descrição**                                 | **Prioridade**         |
 |:--------------:|:---------------------------------------------:|:---------------------:|
-| **US02**      | Autenticar usuário                             | 🟥 Alta (Must have)   |
-| **US07**      | Adicionar produtos                             | 🟥 Alta (Must have)   |
-| **US08**      | Remover produtos                               | 🟥 Alta (Must have)   |
-| **US09**      | Visualizar produtos                            | 🟥 Alta (Must have)   |
-| **US10**      | Buscar produtos                                | 🟥 Alta (Must have)   |
-| **US12**      | Visualizar resumo da compra                    | 🟥 Alta (Must have)   |
-| **US13**      | Escolher forma de pagamento                    | 🟥 Alta (Must have)   |
-| **US16**      | Gerenciar catálogo                             | 🟥 Alta (Must have)   |
-| **US18**      | Gerenciar estoque                              | 🟥 Alta (Must have)   |
-| **US19**      | Gerenciar situação dos pedidos                 | 🟥 Alta (Must have)   |
-| **US03**      | Deslogar usuário                               | 🟧 Média (Should have)|
-| **US04**      | Recuperar senha                                | 🟧 Média (Should have)|
-| **US14**      | Personalizar produto                           | 🟧 Média (Should have)|
-| **US17**      | Atualização automática do estoque              | 🟧 Média (Should have)|
-| **US23**      | Solicitar devolução/troca                      | 🟧 Média (Should have)|
-| **US01**      | Cadastrar usuário                              | 🟨 Baixa (Could have) |
+| **US09**      | Visualizar Produtos                             | 🟥 Alta (Must have)   |
+| **US12**      | Visualizar resumo da compra                            | 🟥 Alta (Must have)   |
+| **US13**      | Selecionar Pagamento                               | 🟥 Alta (Must have)   |
+| **US14**      |  Selecionar pagamento                            | 🟥 Alta (Must have)   |
+| **US17**      |  Gerenciar catálogo                                | 🟥 Alta (Must have)   |
+| **US18**      |   Atualização automática do estoque                  | 🟥 Alta (Must have)   |
+| **US19**      | Editar estoque                    | 🟥 Alta (Must have)   |
+| **US20**      | Gerenciar situação dos pedidos                             | 🟥 Alta (Must have)   |
+| **US25**      | Solicitar devolução/troca                              | 🟥 Alta (Must have)   |
+| **US01**      | Cadastrar usuário                 | 🟧 Média (Should have)   |
+| **US02**      |  Autenticar usuário                               | 🟧 Média (Should have)|
+| **US03**      | Deslogar usuário                                | 🟧 Média (Should have)|
+| **US04**      |  Recuperar senha                           | 🟧 Média (Should have)|
+| **US07**      | Adicionar produtos ao carrinho              | 🟧 Média (Should have)|
+| **US08**      |  Remover produtos do carrinho                      | 🟧 Média (Should have)|
+| **US10**      |  Buscar produtos                      | 🟧 Média (Should have)|
+| **US15**      | Personalizar produto                             | 🟧 Média (Should have) |
 | **US05**      | Editar dados da conta                          | 🟨 Baixa (Could have) |
 | **US06**      | Deletar usuário                                | 🟨 Baixa (Could have) |
 | **US11**      | Filtrar produtos                               | 🟨 Baixa (Could have) |
-| **US15**      | Aplicar códigos de desconto                    | 🟨 Baixa (Could have) |
-| **US20**      | Enviar notificações automáticas                | 🟨 Baixa (Could have) |
-| **US21**      | Gerar códigos de desconto                      | 🟨 Baixa (Could have) |
-| **US22**      | Sistema de avaliação                           | 🟨 Baixa (Could have) |
+| **US16**      | Aplicar códigos de desconto                    | 🟨 Baixa (Could have) |
+| **US21**      | Enviar notificações automáticas                | 🟨 Baixa (Could have) |
+| **US22**      | Enviar notificações automáticas ao administrador (pedido realizado)                     | 🟨 Baixa (Could have) |
+| **US23**      | Gerar códigos de desconto                           | 🟨 Baixa (Could have) |
+| **US24**      | Sistema de avaliação                           | 🟨 Baixa (Could have) |
+
+
+### 9.3 MVP
+
+A priorização das funcionalidades teve como objetivo assegurar que o desenvolvimento do produto esteja focado nos itens mais críticos, alinhando-se tanto às necessidades do negócio quanto aos recursos disponíveis. Para isso, elaboramos uma tabela que detalha a classificação de cada item do backlog, promovendo maior clareza e organização para as próximas etapas do projeto.
+
+Com base nesse processo, foi definido o MVP (Produto Mínimo Viável), composto por todos os itens classificados como “Must have”. Vale ressaltar que toda a priorização e definição do MVP foi realizada em conjunto com a LF Bag Your Dreams, garantindo o alinhamento com as expectativas e demandas da empresa.
+
+| **ID**  | **Descrição**                                      | **Prioridade**        |
+|---------|---------------------------------------------------|----------------------|
+| **US09** | Visualizar Produtos                               | 🟥 Alta (Must have)  |
+| **US12** | Visualizar resumo da compra                       | 🟥 Alta (Must have)  |
+| **US13** | Selecionar Pagamento                              | 🟥 Alta (Must have)  |
+| **US14** | Selecionar pagamento                              | 🟥 Alta (Must have)  |
+| **US17** | Gerenciar catálogo                                | 🟥 Alta (Must have)  |
+| **US18** | Atualização automática do estoque                 | 🟥 Alta (Must have)  |
+| **US19** | Editar estoque                                    | 🟥 Alta (Must have)  |
+| **US20** | Gerenciar situação dos pedidos                    | 🟥 Alta (Must have)  |
+| **US25** | Solicitar devolução/troca                         | 🟥 Alta (Must have)  |
+
+

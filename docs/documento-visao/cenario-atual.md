@@ -6,20 +6,20 @@ A loja opera exclusivamente online através de canais como WhatsApp e Instagram,
 
 ### 1.2 Identificação da Oportunidade ou Problema
 
-A principal oportunidade identificada para o negócio de bolsas artesanais é a criação e lançamento de sua plataforma de e-commerce, que atualmente há uma **limitação no crescimento do negócio e na organização das vendas**. Atualmente, a empreendedora não possui loja física nem virtual para comercialização de seus produtos. Embora as bolsas produzidas tenham qualidade reconhecida e estejam alinhadas com princípios de sustentabilidade e design criativo, a ausência de uma estrutura digital impede o crescimento do negócio e limita o alcance ao público-alvo.
+A principal oportunidade identificada para o negócio de bolsas artesanais é a criação e lançamento de sua plataforma de e-commerce, que atualmente há uma limitação na **organização das vendas**. Atualmente, a empreendedora não possui loja física nem virtual para comercialização de seus produtos. Embora as bolsas produzidas tenham qualidade reconhecida e estejam alinhadas com princípios de sustentabilidade e design criativo, a ausência de uma estrutura digital impede o crescimento do negócio e limita o alcance ao público-alvo.
 
 As bolsas autorais da marca carregam estilo, autenticidade e propósito. No entanto, sem uma plataforma online estruturada, a comercialização ainda ocorre de forma informal e com pouca visibilidade, restringindo o potencial de vendas e a expansão da marca.
 
 Com o crescimento do comércio eletrônico e a tendência crescente de consumo por produtos artesanais e com propósito, o cenário atual apresenta uma oportunidade estratégica para posicionar a marca no ambiente digital. A criação de um site funcional permitirá não apenas a venda direta ao consumidor final, mas também a organização do processo de produção, administração e atendimento, hoje realizados de forma individual e sem apoio tecnológico.
 
-A Figura, a seguir apresenta o diagrama de Ishikawa contendo as causas (organização pelos 6M 's) e o problema da LF Bag Your Dreams.
+A Figura 1, a seguir apresenta o diagrama de Ishikawa contendo as causas (organização pelos 6M 's) e o problema da LF Bag Your Dreams.
 
 ![Ishikawa](../assets/diagrama%20de%20ishikawa.png)
 <center><strong>Figura 1:</strong> Diagrama de Ishikawa </center>
 
 ### 1.3 Desafios do Projeto
 
-O principal desafio enfrentado pela LF Bag Your Dreams, que atualmente utiliza apenas WhatsApp e Instagram como canais de venda, é a limitação na organização de vendas e divulgação. Como todas as interações são feitas manualmente, desde a apresentação dos produtos até o fechamento do pedido, a gestão se torna mais trabalhosa, especialmente com o aumento da demanda. Isso pode gerar erros em pedidos, atrasos nas respostas aos clientes e dificuldade no controle de estoque. Como o negócio é pequeno e gerido por uma equipe reduzida, pode haver uma curva de aprendizado para se adaptar ao uso de novas ferramentas.
+O principal desafio enfrentado pela LF Bag Your Dreams, que atualmente utiliza apenas WhatsApp e Instagram como canais de venda, é a limitação na organização de vendas. Como todas as interações são feitas manualmente, desde a apresentação dos produtos até o fechamento do pedido, a gestão se torna mais trabalhosa, especialmente com o aumento da demanda. Isso pode gerar erros em pedidos, atrasos nas respostas aos clientes e dificuldade no controle de estoque. Como o negócio é pequeno e gerido por uma equipe reduzida, pode haver uma curva de aprendizado para se adaptar ao uso de novas ferramentas.
 
 ### 1.4 Segmentação de Clientes
 

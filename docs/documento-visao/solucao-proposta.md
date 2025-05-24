@@ -2,24 +2,33 @@
 
 O objetivo geral do produto é facilitar a organização de vendas da marca. Nesse sentido, o produto pretende ampliar o alcance de vendas das bolsas artesanais. A solução possibilitará à empreendedora expandir seu negócio de forma sustentável, aumentando sua visibilidade no mercado e facilitando o processo de vendas, garantindo que o sistema seja simples o suficiente para operação independente e, ao mesmo tempo, atenda a todas as necessidades dos usuários finais.
 Diante do objetivo geral, pode-se extrair objetivos específicos, a saber: 
-      **1. Ampliar o alcance de vendas/Expandir o negócio;** 
-      **2. Facilitar o processo de vendas;**
-      **3. Otimizar processos de gestão;** 
-      **4. Integrar canais de venda e estoque.**
 
+1. **Ampliar o alcance de vendas/Expandir o negócio**
+2. **Facilitar o processo de vendas**
+3. **Otimizar processos de gestão**
+4. **Integrar canais de venda e estoque**
 
 ### 2.2 Características da Solução
 
-      - O sistema possuirá um layout responsivo garantindo uma boa experiência tanto em dispositivos móveis quanto em computadores.
-      - O sistema permitirá ao usuário personalizar cada componente de um produto a ser comprado, de modo a promover uma experiência de total personalização.
-      - O sistema e-commerce será sincronizado com o estoque da empreendedora, garantindo que os clientes vejam a disponibilidade dos produtos em tempo real.
-      - O sistema contará com uma área de administração, para que a proprietária possa adicionar, editar e remover produtos sem conhecimentos técnicos avançados.
-      - O sistema contará com uma área de clientes, onde os usuários poderão acompanhar pedidos, solicitar devoluções e gerenciar suas informações pessoais.
-      - O sistema contará com notificações automáticas que manterão clientes informados sobre status de pedidos e confirmações de pagamento através de múltiplos canais de comunicação (e-mail, SMS e WhatsApp), enquanto a vendedora receberá alertas instantâneos sobre novas compras.
-      - O site possuirá um sistema de avaliação, onde os clientes podem classificar com estrelas e compartilhar fotos e vídeos de cada produto comprado.
-      - O sistema será desenvolvido com foco em segurança, garantindo proteção de dados dos clientes e conformidade com LGPD.
-      - O processo de compra será simplificado, com opções de pagamento múltiplas (cartão, boleto, Pix) e um checkout rápido em poucas etapas.
-      - O sistema permitirá ao usuário mecanismos de desconto a partir da divulgação do software a outros usuários.
+- O sistema possuirá um layout responsivo garantindo uma boa experiência tanto em dispositivos móveis quanto em computadores.
+
+- O sistema permitirá ao usuário personalizar cada componente de um produto a ser comprado, de modo a promover uma experiência de total personalização.
+
+- O sistema e-commerce será sincronizado com o estoque da empreendedora, garantindo que os clientes vejam a disponibilidade dos produtos em tempo real.
+
+- O sistema contará com uma área de administração, para que a proprietária possa adicionar, editar e remover produtos sem conhecimentos técnicos avançados.
+
+- O sistema contará com uma área de clientes, onde os usuários poderão acompanhar pedidos, solicitar devoluções e gerenciar suas informações pessoais.
+
+- O sistema contará com notificações automáticas que manterão clientes informados sobre status de pedidos e confirmações de pagamento através de múltiplos canais de comunicação (e-mail, SMS e WhatsApp), enquanto a vendedora receberá alertas instantâneos sobre novas compras.
+
+- O site possuirá um sistema de avaliação, onde os clientes podem classificar com estrelas e compartilhar fotos e vídeos de cada produto comprado.
+
+- O sistema será desenvolvido com foco em segurança, garantindo proteção de dados dos clientes e conformidade com LGPD.
+
+- O processo de compra será simplificado, com opções de pagamento múltiplas (cartão, boleto, Pix) e um checkout rápido em poucas etapas.
+
+- O sistema permitirá ao usuário mecanismos de desconto a partir da divulgação do software a outros usuários.
 
 ### 2.3 Tecnologias a Serem Utilizadas
 
@@ -48,7 +57,7 @@ A solução da LF Bag Your Dreams irá se diferenciar por:
 - **Design chamativo:** a plataforma possuirá um design moderno, elegante e alinhado à identidade visual da marca, tornando a experiência acolhedora e convidativa.
 - **Sistema de incentivo à divulgação:** a solução apresentará um mecanismo de desconto ao usuário que promover a divulgação do software a outros usuários.
 
-**2.5 Análise de Viabilidade**
+### 2.5 Análise de Viabilidade
 
 A equipe já possui experiência com projetos e com as tecnologias propostas, o que reduz o tempo de aprendizado e aumenta a produtividade, o que torna muito viável tecnicamente.
 

@@ -2,6 +2,8 @@
 
 Requisitos funcionais descrevem as funcionalidades e as ações que um sistema ou produto deve ser capaz de executar. Eles detalham as tarefas específicas que este produto deve realizar para atender às necessidades do usuário.
 
+<br>**Área do usuário**
+
 **Autenticação**
 
 - **RF01 - Cadastrar usuário no sistema:** O usuário deverá ser capaz de cadastrar uma conta no sistema, fornecendo os dados solicitados.
@@ -21,33 +23,36 @@ Requisitos funcionais descrevem as funcionalidades e as ações que um sistema o
 - **RF09 - Visualizar produtos no sistema:** O usuário deverá ser capaz de visualizar um catálogo que apresente os produtos cadastrados no sistema pelo administrador.
 - **RF10 - Buscar produtos no sistema:** O usuário deverá ser capaz de buscar por produtos específicos no sistema.
 - **RF11 - Filtrar produtos por categoria:** O usuário deverá ser capaz de filtrar os produtos que visualiza no catálogo por categoria (bolsas casuais, bolsas térmicas, mochilas universitárias, carteiras, necessaire).
+- **RF12 - Visualizar detalhes de produto:** O usuário deverá ser capaz de visualizar detalhes de um produto, tais como: descrição, valor, opções de personalização.
 
 **Checkout**
 
-- **RF12 - Visualizar o resumo da compra:** O usuário deverá ser capaz de visualizar os produtos escolhidos para a compra.
-- **RF13 - Escolher a forma de pagamento:** O usuário deverá ser capaz de escolher como realizar o pagamento (pix, boleto, cartão).
-- **RF14 - Personalizar o produto:** O usuário deverá ser capaz de personalizar cada componente de um produto para realizar a compra.
-- **RF15 - Aplicar códigos de desconto:** O usuário deverá ser capaz de inserir códigos válidos para aplicar descontos na finalização da compra.
+- **RF13 - Visualizar o resumo da compra:** O usuário deverá ser capaz de visualizar os produtos escolhidos para a compra.
+- **RF14 - Escolher a forma de pagamento:** O usuário deverá ser capaz de escolher como realizar o pagamento (pix, boleto, cartão).
+- **RF15 - Personalizar o produto:** O usuário deverá ser capaz de personalizar cada componente de um produto para realizar a compra.
+- **RF16 - Aplicar códigos de desconto:** O usuário deverá ser capaz de inserir códigos válidos para aplicar descontos na finalização da compra.
 
 **Área do Administrador**
 
-- **RF16 - Gerenciar catálogo:** O administrador deverá ser capaz de visualizar, adicionar, editar e remover produtos a serem exibidos no catálogo para todos os usuários.
-- **RF17 - Atualização automática do estoque:** O sistema deverá atualizar automaticamente a quantidade disponível de cada produto no sistema conforme compras realizadas pelos usuários.
-- **RF18 - Gerenciar estoque:** O administrador deverá ser capaz de editar a quantidade disponível para cada produto no sistema.
-- **RF19 - Gerenciar situação dos pedidos:** O administrador deverá ser capaz de visualizar todos os pedidos e atualizar seu status (ex: em processamento, enviado, entregue, cancelado).
+- **RF17 - Gerenciar catálogo:** O administrador deverá ser capaz de visualizar, adicionar, editar e remover produtos a serem exibidos no catálogo para todos os usuários.
+- **RF18 - Atualização automática do estoque:** O sistema deverá atualizar automaticamente a quantidade disponível de cada produto no sistema conforme compras realizadas pelos usuários.
+- **RF19 - Gerenciar estoque:** O administrador deverá ser capaz de editar a quantidade disponível para cada produto no sistema.
+- **RF20 - Gerenciar situação dos pedidos:** O administrador deverá ser capaz de visualizar todos os pedidos e atualizar seu status (ex: em processamento, enviado, entregue, cancelado).
 
 **Notificações**
 
-- **RF20 - Enviar notificações automáticas (e-mail) para confirmação de pedidos:** O sistema deverá enviar automaticamente um e-mail de confirmação ao usuário após a finalização de um pedido.
+- **RF21 - Enviar notificações automáticas (e-mail) para confirmação de pedidos:** O sistema deverá enviar automaticamente um e-mail de confirmação ao usuário após a finalização de um pedido.
+- **RF22 - Enviar notificação automática (e-mail, WhatsApp) para informar compra realizada**: O sistema deverá enviar automaticamente ao administrador um e-mail/mensagem de WhatsApp para informar um pedido realizado por um usuário.
+
 
 **Descontos por Recomendação**
 
-- **RF21 - Gerar códigos ou links de desconto por recomendação:** O sistema deverá fornecer códigos ou links de desconto após o usuário compartilhar o site com outras pessoas.
+- **RF23 - Gerar códigos ou links de desconto por recomendação:** O sistema deverá fornecer códigos ou links de desconto após o usuário compartilhar o site com outras pessoas.
 
 **Avaliação de Produtos**
 
-- **RF22 - Sistema de avaliação de produtos (estrelas, comentários, imagens, vídeos):** O usuário deverá ser capaz de avaliar produtos adquiridos utilizando um sistema de estrelas (de 1 a 5), deixar comentários textuais sobre os produtos e anexar imagens e vídeos às suas avaliações.
-- **RF23 - Solicitar devolução/troca de produto:** O usuário dev
+- **RF24 - Sistema de avaliação de produtos (estrelas, comentários, imagens, vídeos):** O usuário deverá ser capaz de avaliar produtos adquiridos utilizando um sistema de estrelas (de 1 a 5), deixar comentários textuais sobre os produtos e anexar imagens e vídeos às suas avaliações.
+- **RF25 - Solicitar devolução/troca de produto:** O usuário dev
 
 ### 7.2 Lista de Requisitos Não Funcionais
 

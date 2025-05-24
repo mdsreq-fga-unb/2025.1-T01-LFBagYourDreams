@@ -1,5 +1,8 @@
 ### 8.1 Definition of Ready (DoR)
 
+O DoR é um acordo entre o time e o Product Owner (PO) indicando quando um requisito estará preparado para ser puxado para uma Sprint. Alguns itens que podem ser verificados para determinar se um requisito está 'Ready'
+são:
+
 - **O Requisito possui informação necessária para ser trabalhado?**  
    É fundamental que o requisito apresente informações claras e detalhadas, garantindo que a equipe de desenvolvimento possa iniciar o trabalho sem interpretações erradas.
 
@@ -19,6 +22,8 @@
    Se o requisito tiver dependências (ex: APIs, times externos, componentes de UI), elas devem estar mapeadas e com plano de ação definido.
 
 ### 8.2 Definition of Done (DoD)
+
+O DoD é um acordo que demonstra a qualidade do requisito produzido indicando que “Done” comprova a satisfação de todos com o trabalho realizado. Se um requisito não atende ao “Done”, ele não deve ser liberado ou apresentado nas entregas dos ciclos. Alguns itens que devem ser verificados para determinar se um requisito está 'Done' são:
 
 - **A interface está de acordo com o protótipo passado pelo stakeholder?**  
   A interface deve estar de acordo com o que foi validado pela stakeholder.

@@ -30,12 +30,12 @@ Com base nas características do projeto e nos desafios enfrentados pela LF Bag 
 
 **3.3.1. Flexibilidade e entregas rápidas**
 
-- Ao contrário do OpenUP, que possui foco na arquitetura e é orientado a papéis bem definidos, o RAD é focado em prototipação eficiente e colaboração contínua com o cliente, permitindo que a equipe receba feedbacks a cada ciclo, e viabilizando maior flexibilidade na construção da solução. Esse fator é importantíssimo para este projeto, cujo diferencial está justamente na experiência personalizada do usuário. O desenvolvimento iterativo e incremental facilita ajustes ao longo do processo, mantendo o sistema sempre direcionado às necessidades básicas dos usuários finais.
+- Ao contrário do OpenUP, que possui foco na arquitetura e é orientado a papeis bem definidos, o RAD é focado em **prototipação eficiente** e **colaboração** contínua com o cliente, permitindo que a equipe receba **feedbacks a cada ciclo**, e viabilizando maior flexibilidade na construção da solução. Esse fator é importantíssimo para este projeto, cujo diferencial está justamente na experiência personalizada do usuário. O desenvolvimento iterativo e incremental facilita ajustes ao longo do processo, mantendo o sistema sempre direcionado às necessidades básicas dos usuários finais.
 
 **3.3.2. Práticas de qualidade técnica eficientes**
 
 - A partir da entrega rápida de protótipo funcional, o RAD antecipa a identificação de possíveis problemas na interface e facilita a confirmação de escolhas de design.
-- O RAD favorece práticas de testes a cada ciclo de desenvolvimento, de modo a adequar-se ao cronograma curto, e permitindo a entrega de valor rápida a cada ciclo. 
+- O RAD favorece práticas de **testes a cada ciclo** de desenvolvimento, de modo a adequar-se ao cronograma curto, e permitindo a **entrega de valor rápida a cada ciclo**. 
 - O RAD incentiva a reutilização de código, com fácil integração.
 
 **3.3.3. Satisfação do cliente**
