@@ -1,12 +1,179 @@
 
-| **Ciclo** | **Início** | **Fim** | **Objetivo Principal** | **Entregas Esperadas** | **Validação do Cliente** |
-|:---:| :---: | :---: | :---: | :---: | :---: |
-| **1** | 22/04/2025 | 04/05/2025 | Planejamento e Definição de Backlog | \- Definição do backlog inicial.<br><br>\- Configuração da arquitetura (React, Python, MongoDB, Docker).<br><br>\- Ambiente de desenvolvimento pronto. | Revisão do backlog e confirmação de prioridades. |
-| **2** | 05/05/2025 | 18/05/2025 | Interface inicial do sistema | \- Catálogo de produtos;<br><br>\- Sistema de personalização de cada produto;<br><br>\- Sistema de autenticação. | Validação do catálogo, sistema de personalização de produtos, e sistema de autenticação. |
-| **3** | 19/05/2025 | 28/05/2025 | Perfil do usuário, pagamento através da plataforma| \- Edição de dados da conta do usuário;<br><br>\- Integração com sistema de pagamento externo. | Validação da área de perfil do usuário e do fluxo de pedidos.
-| **4** | 29/05/2025 | 08/06/2025 | Notificações automáticas e mecanismo de desconto, área de administração | \- Notificações automáticas (e-mail) para confirmação de pedidos.<br><br> \- Descontos por recomendação (código de desconto ou links).<br><br> \- Gerenciamento de estoque;<br><br> \- Gerenciamento de situação dos pedidos. | Validação do sistema de notificações por e-mail; validação do sistema de descontos por divulgação do software.<br>Validação das funcionalidades do administrador.
-| **5** | 09/06/2025 | 18/06/2025 | Avaliação dos produtos, carrinho de compras  | \- Implementação do sistema de avaliação de produtos (estrelas, comentários, imagens, vídeos).<br><br> \- Implementação do carrinho de compras. | Feedback das avaliações e validação do fluxo do carrinho de compras.
-| **6** | 19/06/2025 | 28/06/2025 | Lançamento Final e Monitoramento | \- Lançamento final do sistema para todos os usuários;<br><br>\- Monitoramento pós-lançamento e ajustes com base nos primeiros feedbacks. | Homologação pela cliente e aprovação final.<br>Feedback dos primeiros usuários reais e ajustes pós-lançamento. |
+<table border="5">
+  <tr style="background-color:rgb(194, 194, 194); color: black;">
+    <th style="vertical-align:middle;">Ciclo</th>
+    <th style="vertical-align:middle;">Início</th>
+    <th style="vertical-align:middle;">Fim</th>
+    <th style="vertical-align:middle;">Objetivo Principal</th>
+    <th style="vertical-align:middle;">Entregas Esperadas</th>
+    <th style="vertical-align:middle;">Validação do Cliente</th>
+  </tr>
+
+  <!-- Planejamento Inicial - Parte 1 -->
+  <tr>
+    <td style="vertical-align:middle;"><strong>Planejamento Inicial</strong></td>
+    <td style="vertical-align:middle;">22/04/25</td>
+    <td style="vertical-align:middle;">04/05/25</td>
+    <td style="vertical-align:middle;">Levantamento dos Requisitos</td>
+    <td style="vertical-align:middle;">Documento com requisitos definidos</td>
+    <td style="vertical-align:middle;">Revisão e validação dos requisitos por videochamada</td>
+  </tr>
+  <!-- Planejamento Inicial - Parte 2 -->
+  <tr>
+    <td rowspan="2" style="vertical-align:middle;"><strong>Planejamento Inicial</strong></td>
+    <td rowspan="2" style="vertical-align:middle;">05/05/25</td>
+    <td rowspan="2" style="vertical-align:middle;">24/05/25</td>
+    <td rowspan="2" style="vertical-align:middle;">Definição inicial do Backlog</td>
+    <td style="vertical-align:middle;"> Documento com o backlog definido</td>
+    <td rowspan="2" style="vertical-align:middle;">Revisão do documento de backlog</td>
+  </tr>
+  <tr>
+    <td>Priorização dos itens do backlog com MoSCoW</td>
+  </tr>
+
+  <!-- Ciclo 1 -->
+  <tr>
+    <td rowspan="2" style="vertical-align:middle;"><strong>Ciclo 1</strong></td>
+    <td rowspan="2" style="vertical-align:middle;">25/05/2025</td>
+    <td rowspan="2" style="vertical-align:middle;">03/06/25</td>
+    <td rowspan="2"style="vertical-align:middle;">Catálogo dos produtos</td>
+    <td style="vertical-align:middle;">Visualizar catálogo de produtos</td>
+    <td rowspan="2" style="vertical-align:middle;">Validação da interface inicial e do detalhamento dos produtos</td>
+  </tr>
+  <tr>
+    <td style="vertical-align:middle;">Visualizar descrição do produto</td>
+  </tr>
+
+  <!-- Ciclo 2 -->
+  <tr>
+    <td rowspan="4" style="vertical-align:middle;"><strong>Ciclo 2</strong></td>
+    <td rowspan="4" style="vertical-align:middle;">04/06/2025</td>
+    <td rowspan="4" style="vertical-align:middle;">13/06/25</td>
+    <td rowspan="4" style="vertical-align:middle;">Pedidos e pagamento através da plataforma</td>
+    <td>Ver o resumo da compra</td>
+    <td rowspan="4" style="vertical-align:middle;">Validação do fluxo de pedidos e pagamentos</td>
+  </tr>
+  <tr>
+    <td>Selecionar meio de pagamento</td>
+  </tr>
+  <tr>
+    <td>Integração com sistema de pagamento externo</td>
+  </tr>
+  <tr>
+    <td>Visualizar situação do pedido (usuário)</td>
+  </tr>
+
+  <!-- Ciclo 3 -->
+  <tr>
+    <td rowspan="4" style="vertical-align:middle;"><strong>Ciclo 3</strong></td>
+    <td rowspan="4" style="vertical-align:middle;">14/06/25</td>
+    <td rowspan="4" style="vertical-align:middle;">23/06/25</td>
+    <td rowspan="4" style="vertical-align:middle;">Interface do administrador</td>
+    <td>Gerenciamento de catálogo</td>
+    <td rowspan="4" style="vertical-align:middle;">Validação do sistema de gerenciamento pelo administrador</td>
+  </tr>
+  <tr>
+    <td>Gerenciamento de estoque</td>
+  </tr>
+  <tr>
+    <td>Atualização automática do estoque</td>
+  </tr>
+  <tr>
+    <td>Gerenciamento de situação dos pedidos</td>
+  </tr>
+
+  <!-- Ciclo 4 -->
+  <tr>
+    <td style="vertical-align:middle;"><strong>Ciclo 4</strong></td>
+    <td style="vertical-align:middle;">24/06/25</td>
+    <td style="vertical-align:middle;">03/07/25</td>
+    <td style="vertical-align:middle;">Troca/devolução de pedidos</td>
+    <td>Sistema de solicitação (e confirmação) de troca/devolução de produtos</td>
+    <td style="vertical-align:middle;">Validação do sistema de solicitação de troca/devolução</td>
+  </tr>
+
+  <!-- Ciclo 5 -->
+  <tr>
+    <td rowspan="2" style="vertical-align:middle;"><strong>Ciclo 5</strong></td>
+    <td rowspan="2" style="vertical-align:middle;">04/07/25</td>
+    <td rowspan="2" style="vertical-align:middle;">13/07/25</td>
+    <td rowspan="2" style="vertical-align:middle;">Lançamento do MVP e Monitoramento</td>
+    <td>Lançamento parcial do sistema para todos os usuários</td>
+    <td rowspan="2" style="vertical-align:middle;">Homologação pela cliente e aprovação do MVP <br><br> Feedback dos primeiros usuários reais e ajustes pós-lançamento do MVP</td>
+  </tr>
+  <tr>
+    <td>Monitoramento pós-lançamento e ajustes com base nos primeiros feedbacks</td>
+  </tr>
+
+  <!-- Ciclo 6 -->
+  <tr>
+    <td rowspan="2" style="vertical-align:middle;"><strong>Ciclo 6</strong></td>
+    <td rowspan="2" style="vertical-align:middle;">14/07/25</td>
+    <td rowspan="2" style="vertical-align:middle;">23/07/25</td>
+    <td rowspan="2" style="vertical-align:middle;">Notificação de compra realizada</td>
+    <td>Notificação de compra ao usuário</td>
+    <td rowspan="2" style="vertical-align:middle;">Validação da funcionalidade de notificações</td>
+  </tr>
+  <tr>
+    <td>Notificação de compra ao administrador</td>
+  </tr>
+
+  <!-- Ciclo 7 -->
+  <tr>
+    <td style="vertical-align:middle;"><strong>Ciclo 7</strong></td>
+    <td style="vertical-align:middle;">24/07/25</td>
+    <td style="vertical-align:middle;">02/08/25</td>
+    <td style="vertical-align:middle;">Personalização de produto</td>
+    <td style="vertical-align:middle;">Personalização de produtos</td>
+    <td style="vertical-align:middle;">Validação do mecanismo de personalização de produto</td>
+  </tr>
+
+  <!-- Ciclo 8 -->
+  <tr>
+    <td rowspan="2" style="vertical-align:middle;"><strong>Ciclo 8</strong></td>
+    <td rowspan="2" style="vertical-align:middle;">03/08/25</td>
+    <td rowspan="2" style="vertical-align:middle;">12/08/25</td>
+    <td rowspan="2" style="vertical-align:middle;">Autenticação, carrinho</td>
+    <td>Implementação de sistema de autenticação de usuários</td>
+    <td rowspan="2" style="vertical-align:middle;">Validação do sistema de autenticação e carrinho de compras</td>
+  </tr>
+  <tr>
+    <td>Funcionalidade de carrinho de compras</td>
+  </tr>
+
+  <!-- Ciclo 9 -->
+  <tr>
+    <td style="vertical-align:middle;"><strong>Ciclo 9</strong></td>
+    <td style="vertical-align:middle;">13/08/25</td>
+    <td style="vertical-align:middle;">22/08/25</td>
+    <td style="vertical-align:middle;">Avaliação de produtos</td>
+    <td style="vertical-align:middle;">Sistema de avaliação de produtos pelos usuários</td>
+    <td style="vertical-align:middle;">Validação do sistema de avaliações de produtos</td>
+  </tr>
+
+  <!-- Ciclo 10 -->
+  <tr>
+    <td style="vertical-align:middle;"><strong>Ciclo 10</strong></td>
+    <td style="vertical-align:middle;">23/08/25</td>
+    <td style="vertical-align:middle;">01/09/25</td>
+    <td style="vertical-align:middle;">Desconto em compras por divulgação da plataforma</td>
+    <td style="vertical-align:middle;">Implementação de sistema de descontos para usuários que divulgarem a plataforma</td>
+    <td style="vertical-align:middle;">Validação do sistema de descontos por divulgação</td>
+  </tr>
+
+  <!-- Ciclo 11 -->
+  <tr>
+    <td style="vertical-align:middle;"><strong>Ciclo 11</strong></td>
+    <td style="vertical-align:middle;">02/09/25</td>
+    <td style="vertical-align:middle;">11/09/25</td>
+    <td style="vertical-align:middle;">Entrega Final</td>
+    <td style="vertical-align:middle;">Lançamento final do sistema, para todos os usuários</td>
+    <td style="vertical-align:middle;">Homologação pela cliente e aprovação final <br><br> Feedback dos primeiros usuários reais e ajustes pós-lançamento final</td>
+  </tr>
+</table>
+
+
+
 
 
 **Considerações importantes:**

@@ -48,7 +48,7 @@
 
   <!-- Tema 1 (linhas 1 a 4) -->
   <tr>
-    <td rowspan="4" style="vertical-align:middle;"><strong>Levantamento dos Requisitos</strong></td>
+    <td rowspan="7" style="vertical-align:middle;"><strong>Levantamento dos Requisitos</strong></td>
     <td rowspan="4" style="vertical-align:middle;"><strong> Elicitação e Descoberta</strong></td>
     <td style="vertical-align:middle;">Levantamento de ideias por meio de reuniões</td>
     <td style="vertical-align:middle;"><strong>Brainstorm</strong></td>
@@ -69,47 +69,7 @@
     <td style="vertical-align:middle;"><strong>Análise de tarefas</strong></td>
     <td style="vertical-align:middle;">Identificação de oportunidades de facilitação/organização das tarefas por solução de software</td>
   </tr>
-
-  <!-- Tema 2 (linhas 5 a 8) -->
   <tr>
-    <td rowspan="6" style="vertical-align:middle;"><strong>Design e Prototipação</strong></td>
-    <td style="vertical-align:middle;"><strong>Elicitação e Descoberta</strong></td>
-    <td style="vertical-align:middle;">Realização de entrevistas com cliente</td>
-    <td style="vertical-align:middle;"><strong>Entrevista </strong></td>
-    <td style="vertical-align:middle;">Confirmar e alinhar expectativas</td>
-  </tr>
-  <tr>
-    <td rowspan="2" style="vertical-align:middle;"><strong>Representação de Requisitos</strong></td>
-    <td style="vertical-align:middle;">Desenvolvimento de protótipos de interface para facilitar entendimento</td>
-    <td style="vertical-align:middle;"><strong>Prototipagem</strong></td>
-    <td style="vertical-align:middle;">Maior clareza dos requisitos e validação visual prévia</td>
-  </tr>
-  <tr>
-    <td style="vertical-align:middle;">Esboço de Interface</td>
-    <td style="vertical-align:middle;"><strong>Wireframes</strong></td>
-    <td style="vertical-align:middle;">Visualização simplificada da interface do usuário</td>
-  </tr>
-  <tr>
-    <td rowspan="2" style="vertical-align:middle;"><strong>Análise e Consenso</strong></td>
-    <td style="vertical-align:middle;">Discussão de prioridades e viabilidade com cliente e equipe</td>
-    <td style="vertical-align:middle;"><strong>Negociação </strong></td>
-    <td style="vertical-align:middle;">Requisitos priorizados e viáveis, com consenso entre cliente e equipe</td>
-  </tr>
-  <tr>
-    <td style="vertical-align:middle;">Avaliação do custo e do benefício de cada funcionalidade</td>
-    <td style="vertical-align:middle;"><strong>Análise de Custo / Benefício</strong></td>
-    <td style="vertical-align:middle;">Lista de funcionalidades priorizadas com base em valor e viabilidade</td>
-  </tr>
-  <tr>
-    <td style="vertical-align:middle;"><strong>Verificação e Validação</strong></td>
-    <td style="vertical-align:middle;">Testes de Interface com cliente</td>
-    <td style="vertical-align:middle;"><strong>Teste Usabilidade</strong></td>
-    <td style="vertical-align:middle;">Identificação de áreas problemáticas na interface</td>
-  </tr>
-
-  <!-- Tema 3 (linhas 9 a 12) -->
-  <tr>
-    <td rowspan="4" style="vertical-align:middle;"><strong>Construção</strong></td>
     <td rowspan="3" style="vertical-align:middle;"><strong>Declaração de Requisitos</strong></td>
     <td style="vertical-align:middle;">Utilização de IA generativa para criar esboços de requisitos e user stories</td>
     <td style="vertical-align:middle;"><strong>Prompt IA</strong></td>
@@ -126,6 +86,52 @@
     <td style="vertical-align:middle;">Lista funcional organizada por módulos, servindo como base para desenvolvimento</td>
   </tr>
   <tr>
+
+   <!-- Tema 2 (linhas 5 a 8) -->
+  <tr>
+    <td rowspan="7" style="vertical-align:middle;"><strong>User Design</strong></td>
+    <td style="vertical-align:middle;"><strong>Elicitação e Descoberta</strong></td>
+    <td style="vertical-align:middle;">Realização de entrevistas com cliente</td>
+    <td style="vertical-align:middle;"><strong>Entrevista </strong></td>
+    <td style="vertical-align:middle;">Confirmar e alinhar expectativas</td>
+  </tr>
+  <tr>
+    <td style="vertical-align:middle;"><strong>Verificação e Validação</strong></td>
+    <td style="vertical-align:middle;">Testes de Interface com cliente</td>
+    <td style="vertical-align:middle;"><strong>Teste Usabilidade</strong></td>
+    <td style="vertical-align:middle;">Identificação de áreas problemáticas na interface</td>
+  </tr>
+  <tr>
+    <td rowspan="3" style="vertical-align:middle;"><strong>Representação de Requisitos</strong></td>
+    <td style="vertical-align:middle;">Esboço de Interface</td>
+    <td style="vertical-align:middle;"><strong>Wireframes</strong></td>
+    <td style="vertical-align:middle;">Visualização simplificada da interface do usuário</td>
+  </tr>
+  <tr>
+    <td style="vertical-align:middle;">Desenvolvimento de protótipos de interface para facilitar entendimento</td>
+    <td style="vertical-align:middle;"><strong>Prototipagem</strong></td>
+    <td style="vertical-align:middle;">Maior clareza dos requisitos e validação visual prévia</td>
+  </tr>
+   <tr>
+    <td style="vertical-align:middle;">Elaboração de diagramas (caso de uso, fluxo de dados) para representar lógica do sistema</td>
+    <td style="vertical-align:middle;"><strong>Diagramas</strong></td>
+    <td style="vertical-align:middle;">Representações estruturadas que ajudam na compreensão técnica dos requisitos</td>
+  </tr>
+  <tr>
+    <td rowspan="2" style="vertical-align:middle;"><strong>Análise e Consenso</strong></td>
+    <td style="vertical-align:middle;">Discussão de prioridades e viabilidade com cliente e equipe</td>
+    <td style="vertical-align:middle;"><strong>Negociação </strong></td>
+    <td style="vertical-align:middle;">Requisitos priorizados e viáveis, com consenso entre cliente e equipe</td>
+  </tr>
+  <tr>
+    <td style="vertical-align:middle;">Avaliação do custo e do benefício de cada funcionalidade</td>
+    <td style="vertical-align:middle;"><strong>Análise de Custo / Benefício</strong></td>
+    <td style="vertical-align:middle;">Lista de funcionalidades priorizadas com base em valor e viabilidade</td>
+  </tr>
+
+  <!-- Tema 3 (linhas 9 a 12) -->
+  <tr>
+    <td style="vertical-align:middle;"><strong>Construção</strong></td>
     <td style="vertical-align:middle;"><strong>Organização e Atualização de Requisitos</strong></td>
     <td style="vertical-align:middle;">Ordenar requisitos conforme seu impacto no negócio e nas necessidades do cliente</td>
     <td style="vertical-align:middle;"><strong>Organização e Atualização do backlog</strong></td>
@@ -135,15 +141,16 @@
   <!-- Tema 4 (linhas 13 a 18) -->
   <tr>
     <td rowspan="2" style="vertical-align:middle;"><strong>Testes</strong></td>
-    <td rowspan="2" style="vertical-align:middle;"><strong>Representação de Requisitos</strong></td>
+    <td style="vertical-align:middle;"><strong>Representação de Requisitos</strong></td>
     <td style="vertical-align:middle;">Criação de protótipos navegáveis no Figma para visualizar o fluxo do sistema</td>
     <td style="vertical-align:middle;"><strong>Protótipos </strong></td>
     <td style="vertical-align:middle;">Validação visual e funcional dos requisitos pelo cliente</td>
   </tr>
-  <tr>
-    <td style="vertical-align:middle;">Elaboração de diagramas (caso de uso, fluxo de dados) para representar lógica do sistema</td>
-    <td style="vertical-align:middle;"><strong>Diagramas</strong></td>
-    <td style="vertical-align:middle;">Representações estruturadas que ajudam na compreensão técnica dos requisitos</td>
+  <tr> 
+    <td style="vertical-align:middle;"><strong>Verificação e Validação</strong></td>
+    <td style="vertical-align:middle;">Testes de Interface com cliente</td>
+    <td style="vertical-align:middle;"><strong>Teste Usabilidade</strong></td>
+    <td style="vertical-align:middle;">Identificação de áreas problemáticas na interface</td>
   </tr>
    <!-- Tema 5 (linhas 13 a 18) -->
   <tr>
