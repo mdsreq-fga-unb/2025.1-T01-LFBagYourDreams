@@ -1,5 +1,3 @@
-####
-
 Na segunda fase de desenvolvimento do projeto LF-Bag-Your-Dreams, foram extraídas diversas lições valiosas que impactarão diretamente as próximas etapas. A seguir, estão listadas essas lições, com foco nos desafios enfrentados, nas ações tomadas para superá-los e nas oportunidades de melhoria identificadas.
 
 **Lições Aprendidas e Melhorias para o Processo**
@@ -23,5 +21,3 @@ Na segunda fase de desenvolvimento do projeto LF-Bag-Your-Dreams, foram extraíd
 
 - **Desafio**: Dificuldade de compreender como conduzir a relação entre os integrantes da equipe e entre a equipe com a cliente, de maneira a conciliar e equilibrar a diferença de perfis e comportamentos particulares de cada indivíduo.
 - **Ação de melhoria**: Após aula com a análise dos perfis identificados para cada equipe e cada cliente, foi possível compreender quais ações e tipos de condução das relações pela equipe e pelo líder são recomendados a cada realidade de compatibilidade dos perfis dos indivíduos envolvidos no projeto, de modo a gerar um ambiente adequado para o desenvolvimento saudável do trabalho e das relações de todos.
-
-####
