@@ -1,6 +1,6 @@
 ### 9.1 Backlog Geral
 
-## Autenticação
+# Autenticação
 
 **US01** - Como usuário, eu quero me cadastrar fornecendo os meus dados para que eu possa ter acesso às funcionalidades do sistema.
 
@@ -14,13 +14,13 @@
 
 **US06** - Como usuário, eu quero poder deletar a minha conta, para quando eu não possuir mais interesse em continuar na plataforma.
 
-## Carrinho de Compras
+# Carrinho de Compras
 
 **US07** - Como usuário, eu quero poder adicionar itens a um carrinho de compras a partir de um catálogo de produtos para que eu possa realizar uma compra.
 
 **US08** - Como usuário, eu quero poder remover itens de um carrinho de compras para que esses itens não sejam incluídos em uma compra.
 
-## Catálogo de Produtos
+# Catálogo de Produtos
 
 **US09** - Como usuário, eu gostaria de visualizar os produtos no catálogo, para melhor escolher o produto desejado.
 
@@ -30,7 +30,7 @@
 
 **US12** - Como usuário, eu gostaria de visualizar detalhes de cada produto, para confirmar que ele se tornará o item de uma compra.
 
-## Checkout
+# Checkout
 
 **US13** - Como usuário, eu quero poder visualizar um resumo de uma compra a ser finalizada, definido por um conjunto de itens que adicionei ao carrinho.
 
@@ -40,7 +40,7 @@
 
 **US16** - Como usuário, eu quero poder aplicar um código de desconto a uma compra para que o valor final da compra receba o desconto correspondente.
 
-## Área do Administrador
+# Área do Administrador
 
 **US17** - Como administrador, eu quero gerenciar o catálogo de produtos (visualizar, adicionar, editar, remover) para que eu possa manter minha loja atualizada com os produtos corretos.
 
@@ -50,17 +50,17 @@
 
 **US20** - Como administrador, eu quero gerenciar o status de cada compra - compra em processamento, enviado, entregue ou cancelado -, para que eu possa estar atento a quaisquer eventualidades que possam ocorrer na compra.
 
-## Notificações
+# Notificações
 
 **US21** - Como usuário, eu quero receber notificações automáticas no e-mail para confirmar o meu pedido, para que eu possa ter confirmação e acompanhamento da compra.
 
 **US22** - Como administrador, eu quero receber notificação automática no e-mail/WhatsApp para informar pedido realizado por um usuário, para facilitar o gerenciamento de pedidos.
 
-## Descontos por Recomendação
+# Descontos por Recomendação
 
 **US23** - Como usuário, eu quero receber desconto ao compartilhar o site com outras pessoas, para que eu possa obter benefícios em compras por indicar o site para meus contatos.
 
-## Avaliação de Produtos
+# Avaliação de Produtos
 
 **US24** - Como usuário, eu quero avaliar produtos que adquiri (usando estrelas, comentários, imagens e vídeos), para que eu possa compartilhar minha experiência e dar meu feedback com outros clientes e com a loja.
 
@@ -69,7 +69,7 @@
 
 ### 9.2 Priorização do Backlog Geral
 
-## Priorização do Backlog - Técnica MoSCoW
+# Priorização do Backlog - Técnica MoSCoW
 
 Nesta seção, realizamos a priorização dos itens do backlog utilizando a técnica **MoSCoW**, que organiza as funcionalidades em três categorias principais:
 
@@ -79,7 +79,7 @@ Nesta seção, realizamos a priorização dos itens do backlog utilizando a téc
 
 A priorização teve como objetivo garantir que o desenvolvimento fosse focado nas funcionalidades mais críticas, alinhando o produto às necessidades do negócio e aos recursos disponíveis. Cada integrante do grupo deu notas de 1 a 3, cada uma tendo sua recṕroca nas categorias do MoSCoW, para cada um dos requisitos. A partir da média dessas notas, foi realizada a priorização.
 
-## 📋 Tabela de Backlog com Priorização
+# 📋 Tabela de Backlog com Priorização
 
 | **User Story** | **Descrição**                                 | **Prioridade**         |
 |:--------------:|:---------------------------------------------:|:---------------------:|

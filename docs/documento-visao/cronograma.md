@@ -180,7 +180,7 @@
 
 1. **Datas de início e fim:** Cada ciclo tem a duração de 9 dias, começando em 22/04/2025 e finalizando em 13/07/2025, distribuindo as entregas parciais ao longo do tempo, com exceção do ciclo 1 e 2. 
 
-2. **Etapas da metodologia RAD a cada ciclo:** Inicialmente, será realizada a etapa de **levantamento de requisitos**, em conjunto com a cliente. Em seguida, ocorrerá o **User Design** (prototipação), com foco na validação das necessidades e ajustes baseados em feedbacks. Em cada ciclo de entrega, serão realizadas a **construção** rápida e incremental de cada User Story, seguida de **testes** frequentes para validação e, posteriormente, a entrega das funcionalidades ao cliente. No último ciclo (cutover), será realizada a implantação completa do sistema.**
+2. **Etapas da metodologia RAD a cada ciclo:** Inicialmente, será realizada a etapa de **levantamento de requisitos**, em conjunto com a cliente. Em seguida, ocorrerá o **User Design** (prototipação), com foco na validação das necessidades e ajustes baseados em feedbacks. Em cada ciclo de entrega, serão realizadas a **construção** rápida e incremental de cada User Story, seguida de **testes** frequentes para validação e, posteriormente, a entrega das funcionalidades ao cliente. No último ciclo (cutover), será realizada a implantação completa do sistema.
 
 3. **Ciclos:** O RAD é centrado na iteratividade, prototipação rápida, feedback constante dos usuários e ajustes contínuos, e o nosso ciclo ilustrado na figura 2 segue a seguinte lógica: 
 
