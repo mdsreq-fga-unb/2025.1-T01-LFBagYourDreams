@@ -1,6 +1,6 @@
 ### 8.1 Definition of Ready (DoR)
 
-O DoR é um acordo entre o time e o Product Owner (PO) indicando quando um requisito estará preparado para ser puxado para uma Sprint. Alguns itens que podem ser verificados para determinar se um requisito está 'Ready'
+O DoR é um acordo entre o time e o Product Owner (PO) indicando quando um requisito estará preparado para ser puxado para uma Sprint. Alguns itens que podem ser verificados para determinar se um requisito está **Ready**
 são:
 
 - **O Requisito possui informação necessária para ser trabalhado?**  
@@ -42,14 +42,14 @@ O DoD é um acordo que demonstra a qualidade do requisito produzido indicando qu
 
 - **Entrega um incremento do produto?**
  A funcionalidade implementada deve agregar valor ao produto, gerando um incremento funcional, utilizável e validado pelo usuário final, conforme o protótipo aprovado pela stakeholder.
-
-– **Contempla os critérios de aceite estabelecidos?**
+ 
+ - **Contempla os critérios de aceite estabelecidos?**
  Os critérios de aceitação, definidos em conjunto com a stakeholder, devem estar totalmente atendidos, incluindo todas as ações e comportamentos esperados, conforme validado no protótipo.
 
-– **Está documentado para uso?**
+- **Está documentado para uso?**
  A documentação técnica e de usuário deve ser revisada e atualizada, garantindo que o incremento possa ser utilizado e mantido com facilidade pela equipe e pelo cliente.
 
-– **A funcionalidade foi integrada e testada no ambiente adequado?**
+- **A funcionalidade foi integrada e testada no ambiente adequado?**
  A integração entre backend e frontend deve estar completa e validada. Testes unitários e de integração devem ser realizados e aprovados, com produção em pares onde um desenvolve e testa o front-end e o outro o back-end, assegurando que a funcionalidade funciona corretamente e não impacta outras partes do sistema.
 
 

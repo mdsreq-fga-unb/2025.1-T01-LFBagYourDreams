@@ -95,38 +95,50 @@
 
 Nesta seção, realizamos a priorização dos itens do backlog utilizando a técnica **MoSCoW**, que organiza as funcionalidades em três categorias principais:
 
-1. **Must have (deve ter)**: Aquilo que é considerado obrigatório ou imprescindível para o projeto ou negócio;
-2. **Should have (deveria ter)**: Tudo aquilo que è importante ter, mas não é imprescindível para o projeto ou negócio;
-3. **Could have (poderia ter)**: Tudo aquilo que não é essencial, mas seria bom ter ou poderia ser um referencial;
-4. **Won’t have (não terá - por enquanto)**: Não agrega valor ao negócio no momento e, por enquanto, não será feito.
+  1. **Must have (deve ter)**: Aquilo que é considerado obrigatório ou imprescindível para o projeto ou negócio;
+  2. **Should have (deveria ter)**: Tudo aquilo que è importante ter, mas não é imprescindível para o projeto ou negócio;
+  3. **Could have (poderia ter)**: Tudo aquilo que não é essencial, mas seria bom ter ou poderia ser um referencial;
+  4. **Won’t have (não terá - por enquanto)**: Não agrega valor ao negócio no momento e, por enquanto, não será feito.
 
 # Critérios de priorização
 
 Como base para a priorização objetiva dos requisitos, a equipe selecionou a ferramenta WSJF (Weighted Shortest Job First), que considera critérios referentes ao valor para o negócio, a ferramenta RICE (Reach, Impact, Confidence, Effort), que considera critérios referentes ao valor para o usuário, e a pontuação de esforço relativo pela equipe.
 Para calcular os valores WSJF, utilizamos a fórmula:
-        **WSJF = Cost of Delay (CoD) / Job Duration**
+        
+<center><strong>WSJF = Cost of Delay (CoD) / Job Duration</strong></center><br>
 
 Para obter-se o custo de atraso (Cost of Delay - CoD), atribui-se um valor de 0 a 5 para os seguintes critérios. Posteriormente, somam-se esses valores:
-    -**Valor para o negócio**: Qual o potencial valor ou impacto negativo para o negócio? (0: mínimo valor de negócio; 5: máximo valor de negócio);
-    -**Criticidade temporal**: Como o valor comercial diminui ao longo do tempo? Os usuários esperarão por nós ou buscarão outra solução (0: mínima criticidade temporal; 5: máxima criticidade temporal);
-    -**Redução de risco**: Qual o risco de adiar essa iniciativa para o negócio? (0: mínima redução de risco; 5: máxima redução de risco).
+
+  - **Valor para o negócio**: Qual o potencial valor ou impacto negativo para o negócio? (0: mínimo valor de negócio; 5: máximo valor de negócio);
+
+  - **Criticidade temporal**: Como o valor comercial diminui ao longo do tempo? Os usuários esperarão por nós ou buscarão outra solução (0: mínima criticidade temporal; 5: máxima criticidade temporal);
+
+  - **Redução de risco**: Qual o risco de adiar essa iniciativa para o negócio? (0: mínima redução de risco; 5: máxima redução de risco).
 
 Para a atribuição de valor à duração ou ao tamanho do trabalho, considera-se o valor constante 3 (CAROLI, 2023).
 
 Para calcular Os valores **RICE**, utilizamos a fórmula:
-        **RICE = (Alcance + Impacto + Confiança ) / 3**
+        
+<center><strong>RICE = (Alcance + Impacto + Confiança ) / 3</strong></center><br>
 
 Os critérios RICE, aos quais se deve atribuir um valor de 0 a 5, definem-se como:
-* **Alcance**: Quantas pessoas serão impactadas por essa iniciativa? (Considerar para o mesmo período) (0: mínimo alcance; 5: máximo alcance);
-* **Impacto**: Quanto essa iniciativa afetará cada uma dessas pessoas? (0: mínimo impacto; 5: máximo impacto);
-* **Confiança**: Quão confiante a equipe está nesses números? (0: confiança mínima; 5: confiança máxima).
+
+- **Alcance**: Quantas pessoas serão impactadas por essa iniciativa? (Considerar para o mesmo período) (0: mínimo alcance; 5: máximo alcance);
+
+- **Impacto**: Quanto essa iniciativa afetará cada uma dessas pessoas? (0: mínimo impacto; 5: máximo impacto);
+
+- **Confiança**: Quão confiante a equipe está nesses números? (0: confiança mínima; 5: confiança máxima).
 
 Para obter a pontuação do esforço relativo pela equipe, estima-se, de 1 a 10, o esforço necessário para o desenvolvimento de cada requisito pela equipe. A iniciativa com menos esforço é classificada como 1. Todas as outras são comparadas ao esforço canônico - 1 (CAROLI, 2023).
 
 Por fim, a priorização de cada requisito se dará com base na divisão da soma dos valores de **WSJF** e **RICE** pelo valor do Esforço Relativo: **(WSJF * RICE) / Esforço Relativo**. As classificações MosCoW são atribuídas a cada requisito a partir dos seguintes intervalos:
+
 - 0 - 0.5: Won't have (1);
+
 - 0.6 - 1.5: Could have (2);
+
 - 1.6 - 2.5: Should have (3);
+
 - 2.6 - 25: Must have (4).
 
 ## Objetivos Específicos (OE)
