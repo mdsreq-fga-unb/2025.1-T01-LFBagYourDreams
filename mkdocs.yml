@@ -24,6 +24,8 @@ nav:
   - Vídeo Apresentação:
     - Unidade 1: "apresentacoes/apresentacao1.md"
     - Unidade 2: "apresentacoes/apresentacao2.md"
+  - Estudo de Caso:
+    - User Story Mapping: "estudo-de-caso/USM.md"
 theme:
   name: material
   features:
