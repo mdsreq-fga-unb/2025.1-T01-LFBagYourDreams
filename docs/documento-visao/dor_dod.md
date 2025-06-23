@@ -35,10 +35,22 @@ O DoD é um acordo que demonstra a qualidade do requisito produzido indicando qu
   Backend e frontend devem ser integrados corretamente.
 
 - **O código segue os padrões e convenções definidos pelo time?**  
-  O código deve estar de acordo com os padrões de estilo e formatação definidos pela equipe.
+  O código deve estar de acordo com os padrões de estilo e formatação definidos pela equipe: PEP-8 para Python, e Airbnb React/JSX Style Guide para React Native.
 
 - **A funcionalidade está responsiva?**  
-  A funcionalidade deve estar responsiva, validada para diferentes resoluções e navegadores.
+  A funcionalidade deve estar responsiva, adaptando-se corretamente a dispositivos móveis (largura mínima de 320px), tablets, e desktops (até 1920px), mantendo a usabilidade e legibilidade em todas as resoluções.
 
-- **O código está coberto por testes?**
-    Testes unitários, de integração e, quando aplicável, de aceitação devem ter sido implementados e aprovados.
+- **Entrega um incremento do produto?**
+ A funcionalidade implementada deve agregar valor ao produto, gerando um incremento funcional, utilizável e validado pelo usuário final, conforme o protótipo aprovado pela stakeholder.
+
+– **Contempla os critérios de aceite estabelecidos?**
+ Os critérios de aceitação, definidos em conjunto com a stakeholder, devem estar totalmente atendidos, incluindo todas as ações e comportamentos esperados, conforme validado no protótipo.
+
+– **Está documentado para uso?**
+ A documentação técnica e de usuário deve ser revisada e atualizada, garantindo que o incremento possa ser utilizado e mantido com facilidade pela equipe e pelo cliente.
+
+– **A funcionalidade foi integrada e testada no ambiente adequado?**
+ A integração entre backend e frontend deve estar completa e validada. Testes unitários e de integração devem ser realizados e aprovados, com produção em pares onde um desenvolve e testa o front-end e o outro o back-end, assegurando que a funcionalidade funciona corretamente e não impacta outras partes do sistema.
+
+
+
