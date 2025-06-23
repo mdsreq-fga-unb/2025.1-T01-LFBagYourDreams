@@ -4,63 +4,63 @@ Requisitos funcionais descrevem as funcionalidades e as ações que um sistema o
 
 **Gerenciamento de Conta do Usuário**
 
-- **RF01 - Cadastrar usuário no sistema** 
+- **RF01** - Cadastrar usuário no sistema 
 
-- **RF02 - Logar usuário no sistema** 
+- **RF02** - Logar usuário no sistema
 
-- **RF03 - Deslogar usuário do sistema** 
+- **RF03** - Deslogar usuário do sistema
 
-- **RF04 - Recuperar senha** 
+- **RF04** - Recuperar senha
 
-- **RF05 - Editar dados da conta do usuário**
+- **RF05** - Editar dados da conta do usuário
 
-- **RF06 - Deletar usuário do sistema** 
+- **RF06** - Deletar usuário do sistema
 
 **Processo de Compra**
 
-- **RF07 - Buscar por produtos no sistema por nome e categoria** 
+- **RF07** - Buscar por produtos no sistema por nome e categoria
 
-- **RF08 - Personalizar o produto** 
+- **RF08** - Personalizar o produto
 
 **Carrinho de Compras**
 
-- **RF09 - Adicionar produtos ao carrinho** 
+- **RF09** - Adicionar produtos ao carrinho
 
-- **RF10 - Editar produtos do carrinho** 
+- **RF10** - Editar produtos do carrinho
 
-- **RF11 - Remover produtos do carrinho**
+- **RF11** - Remover produtos do carrinho
 
 **Finalização da Compra e Pagamento**
 
-- **RF12 - Gerar resumo da compra** 
+- **RF12** - Gerar resumo da compra
 
-- **RF13 - Finalizar compra**
+- **RF13** - Finalizar compra
     * **Regra de negócio**: Enviar notificação automática para informar compra realizada.
 
 **Engajamento e Pós-Venda**
 
-- **RF14 -  Gerar códigos ou links de desconto por recomendação** 
+- **RF14** -  Gerar códigos ou links de desconto por recomendação
 
-- **RF15 - Adicionar avaliação de produtos (estrelas e comentários)** 
+- **RF15** - Adicionar avaliação de produtos (estrelas e comentários)
 
-- **RF16 - Remover avaliação de produtos (estrelas e comentários)**
+- **RF16** - Remover avaliação de produtos (estrelas e comentários)
 
-- **RF17 - Solicitar devolução/troca de produto**
+- **RF17** - Solicitar devolução/troca de produto
 
 **Gerenciamento de Produtos pelo Administrador**
 
-- **RF18 - Adicionar produtos ao catálogo**
+- **RF18** - Adicionar produtos ao catálogo
 
-- **RF19 - Editar produtos do catálogo**
+- **RF19** - Editar produtos do catálogo
 
-- **RF20 - Remover produtos do catálogo**
+- **RF20** - Remover produtos do catálogo
 
 
 **Gestão de Estoque e Pedidos**
 
-- **RF21 - Editar a quantidade do produto em estoque**
+- **RF21** - Editar a quantidade do produto em estoque
 
-- **RF22 - Alterar status de um pedido**
+- **RF22** - Alterar status de um pedido
     * **Regra de negócio**: Notificar por e-mail mudanças no status do pedido
 
 

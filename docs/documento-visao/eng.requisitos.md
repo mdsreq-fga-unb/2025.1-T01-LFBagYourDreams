@@ -2,40 +2,54 @@
 **Elicitação e descoberta**
 
 * **BrainStorm** - Serão feitas reuniões iniciais com a equipe e cliente para levantar o máximo de ideias sobre funcionalidades, diferenciais e problemas comuns em e-commerce
+
 * **Entrevista** - Serão realizadas entrevistas rápidas com a cliente para identificar suas necessidades
+
 * **PromptIA** - Serão utilizadas IA’s generativas para gerar hipóteses de requisitos, exemplos de fluxos e levantamentos de dúvidas, acelerando processos
+
 * **Análise de concorrente** - Serão feitas avaliações detalhadas de e-commerces concorrentes diretos ou líderes de mercado para identificar padrões, recursos e lacunas.
+
 * **Análise de tarefas** - Serão analisadas as tarefas realizadas pelo cliente no cotidiano de seu negócio para a compreensão de requisitos do produto.
 
 **Análise e Consenso**
 
 * **Negociação** - As funcionalidades do software serão negociadas com a cliente, tendo em vista o equilíbrio entre os desejos da mesma e as possibilidades de desenvolvimento pela equipe, mas sempre de modo a garantir o atendimento às necessidades que podem ser resolvidas pelo sistema.
-* **Prototipagem** - A prototipagem será uma forma de representar e esclarecer os requisitos, de modo a torná-los mais compreensíveis e facilitar o consenso da equipe em relação aos mesmos.
+
 * **Análise de Custo / Benefício** - Para a definição de requisitos, a equipe realizará análises de quais requisitos, de diferentes complexidades de implementação, podem satisfazer uma mesma necessidade, a fim de estabelecer uma opção viável para o desenvolvimento pela equipe.
 
 **Declaração de Requisitos**
 
 * **Prompt IA** - Serão utilizadas IA’s generativas como auxílio na geração de textos de requisitos, como resumos de funcionalidades, user stories ou regras de negócio.
+
 * **Documento de Visão de Produto** - Todo o contexto que envolve a declaração de requisitos estará descrito no Documento de Visão do Produto.
-Diagramas - Serão produzidos diagramas para representar o sistema do ponto de vista de relações entre classes, casos de uso
-* **Features** -  Será desenvolvida uma lista de funcionalidades principais agrupadas por módulo.
+
+* **Histórias de usuário** - Serão elaboradas descrições simples e curtas das funcionalidades desejadas, a partir da perspectiva do usuário acerca do valor de negócio.
+
+* **Épicos** - Serão identificadas histórias grandes, os épicos, que não cabem dentro de um ciclo e podem ser repartidas em histórias menores.
+
+* **Temas** - Serão realizados agrupamentos de histórias de usuário, para declarar grandes funcionalidades desejadas.
+
 
 **Representação de Requisitos**
 
 * **Protótipos** - Com a prototipação interativa, a equipe irá criar versões iniciais do software, permitindo ao cliente uma visualização da solução e fornecer feedback rapidamente.  
+
 * **Diagramas** - Envolve a criação de diagramas que apoiam, de forma visual, a entender o direcionamento e o entendimento dos requisitos.
-* **Wireframes** - Serão desenvolvidos esboços básicos para proporcionar uma visão geral da interface do usuário, facilitando a comunicação entre a equipe e o cliente e permitindo discutir o layout e o fluxo de navegação sem entrar em detalhes específicos de design.
 
 
 **Verificação e Validação**
 
 * **Revisão e Feedback de validação**- Por meio de reuniões de feedback com o cliente, a equipe valida as escolhas de design, garantindo que elas atendam às necessidades e expectativas do cliente.
+
 * **Teste Usabilidade**- Realizaremos teste de interface onde a equipe identificará áreas problemáticas na interface.
 
 
 **Organização e Atualização de Requisitos**
 
-* **Organização e Atualização**- 
+* **Organização e Atualização**:  Usando técnicas como a priorização baseada em valor, grooming, a equipe garante que o backlog seja organizado,atualizado e alinhado com as prioridades.
+
+* **MoSCoW**: A equipe organizará os requisitos a partir da priorização de cada requisito com base na ferramenta MoSCoW (Must have, Should have, Could have, Won’t have). A priorização será obtida a partir do valor de negócio (ferramenta WSJF), do valor de produto (ferramenta RICE), e do esforço relativo de desenvolvimento do requisito pela equipe. 
+
 
 ### 4.2 Engenharia de Requisitos e o Rapid Application Development(RAD)
 <table border="5">
