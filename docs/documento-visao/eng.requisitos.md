@@ -44,13 +44,6 @@
 * **Teste Usabilidade**- Realizaremos teste de interface onde a equipe identificará áreas problemáticas na interface.
 
 
-**Organização e Atualização de Requisitos**
-
-* **Organização e Atualização**:  Usando técnicas como a priorização baseada em valor, grooming, a equipe garante que o backlog seja organizado,atualizado e alinhado com as prioridades.
-
-* **MoSCoW**: A equipe organizará os requisitos a partir da priorização de cada requisito com base na ferramenta MoSCoW (Must have, Should have, Could have, Won’t have). A priorização será obtida a partir do valor de negócio (ferramenta WSJF), do valor de produto (ferramenta RICE), e do esforço relativo de desenvolvimento do requisito pela equipe. 
-
-
 ### 4.2 Engenharia de Requisitos e o Rapid Application Development(RAD)
 <table border="5">
   <tr style="background-color:rgb(194, 194, 194); color: black;">
@@ -96,9 +89,9 @@
     <td style="vertical-align:middle;">Documento formal com visão compartilhada sobre o produto</td>
   </tr>
   <tr>
-    <td style="vertical-align:middle;">Listagem e organização de funcionalidades principais por módulos</td>
-    <td style="vertical-align:middle;"><strong>Features</strong></td>
-    <td style="vertical-align:middle;">Lista funcional organizada por módulos, servindo como base para desenvolvimento</td>
+    <td style="vertical-align:middle;">Listagem e organização de funcionalidades principais por User Story</td>
+    <td style="vertical-align:middle;"><strong>Histórias de Usuários</strong></td>
+    <td style="vertical-align:middle;">Lista funcional organizada por User Story, servindo como base para desenvolvimento</td>
   </tr>
 
   <!-- Tema 2 -->

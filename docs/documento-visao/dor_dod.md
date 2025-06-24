@@ -50,7 +50,7 @@ O DoD é um acordo que demonstra a qualidade do requisito produzido indicando qu
  A documentação técnica e de usuário deve ser revisada e atualizada, garantindo que o incremento possa ser utilizado e mantido com facilidade pela equipe e pelo cliente.
 
 - **A funcionalidade foi integrada e testada no ambiente adequado?**
- A integração entre backend e frontend deve estar completa e validada. Testes unitários e de integração devem ser realizados e aprovados, com produção em pares onde um desenvolve e testa o front-end e o outro o back-end, assegurando que a funcionalidade funciona corretamente e não impacta outras partes do sistema.
+ A integração entre backend e frontend deve estar completa e validada. Testes unitários e de integração devem ser realizados e aprovados com pelo menos 40% de cobertura de testes. A implementação deve seguir o modelo de produção em pares, sendo que um membro da dupla é responsável pelo desenvolvimento e testes do frontend e o outro pelo backend. Ambos devem garantir que a funcionalidade implementada opere corretamente e não cause impactos adversos em outras partes do sistema.
 
 
 

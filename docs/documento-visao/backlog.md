@@ -150,32 +150,311 @@ Por fim, a priorização de cada requisito se dará com base na divisão da soma
 4. Integrar canais de venda e estoque
 ```
 
-# 📋 Tabela de Backlog com Priorização
+# Tabela de Backlog com Priorização
 
-| **User Story** | **Descrição**                                 | **Prioridade**         |
-|:--------------:|:---------------------------------------------:|:---------------------:|
-| **US09**      | Visualizar Produtos                             | 🟥 Alta (Must have)   |
-| **US12**      | Visualizar resumo da compra                            | 🟥 Alta (Must have)   |
-| **US13**      | Selecionar Pagamento                               | 🟥 Alta (Must have)   |
-| **US14**      |  Selecionar pagamento                            | 🟥 Alta (Must have)   |
-| **US17**      |  Gerenciar catálogo                                | 🟥 Alta (Must have)   |
-| **US18**      |   Atualização automática do estoque                  | 🟥 Alta (Must have)   |
-| **US19**      | Editar estoque                    | 🟥 Alta (Must have)   |
-| **US20**      | Gerenciar situação dos pedidos                             | 🟥 Alta (Must have)   |
-| **US25**      | Solicitar devolução/troca                              | 🟥 Alta (Must have)   |
-| **US01**      | Cadastrar usuário                 | 🟧 Média (Should have)   |
-| **US02**      |  Autenticar usuário                               | 🟧 Média (Should have)|
-| **US03**      | Deslogar usuário                                | 🟧 Média (Should have)|
-| **US04**      |  Recuperar senha                           | 🟧 Média (Should have)|
-| **US07**      | Adicionar produtos ao carrinho              | 🟧 Média (Should have)|
-| **US08**      |  Remover produtos do carrinho                      | 🟧 Média (Should have)|
-| **US10**      |  Buscar produtos                      | 🟧 Média (Should have)|
-| **US15**      | Personalizar produto                             | 🟧 Média (Should have) |
-| **US05**      | Editar dados da conta                          | 🟨 Baixa (Could have) |
-| **US06**      | Deletar usuário                                | 🟨 Baixa (Could have) |
-| **US11**      | Filtrar produtos                               | 🟨 Baixa (Could have) |
-| **US16**      | Aplicar códigos de desconto                    | 🟨 Baixa (Could have) |
-| **US21**      | Enviar notificações automáticas                | 🟨 Baixa (Could have) |
-| **US22**      | Enviar notificações automáticas ao administrador (pedido realizado)                     | 🟨 Baixa (Could have) |
-| **US23**      | Gerar códigos de desconto                           | 🟨 Baixa (Could have) |
-| **US24**      | Sistema de avaliação                           | 🟨 Baixa (Could have) |
+
+<table border="1" cellpadding="4" cellspacing="0" style="border-collapse:collapse; width:100%; font-size:13px;">
+  <thead style="background:#f2f2f2;">
+    <tr>
+      <th>Tema</th>
+      <th>Épico</th>
+      <th>User Story</th>
+      <th>Descrição</th>
+      <th>OE</th>
+      <th>RF</th>
+      <th>WSJF</th>
+      <th>RICE</th>
+      <th>Esforço relativo</th>
+      <th>Prioridade</th>
+      <th>MVP</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>3. Gestão Interna e Otimização de Processos</td>
+      <td>3.1 Gerenciamento de Produtos pelo Administrador</td>
+      <td>US18</td>
+      <td>Adicionar produtos ao catálogo</td>
+      <td>OE4</td>
+      <td>RF18</td>
+      <td>4,33</td>
+      <td>5,00</td>
+      <td>4</td>
+      <td style="background:#f8d7da;">5,41</td>
+      <td>X</td>
+    </tr>
+    <tr>
+      <td>3. Gestão Interna e Otimização de Processos</td>
+      <td>3.2 Gestão de Estoque e Pedidos</td>
+      <td>US21</td>
+      <td>Editar quantidade em estoque</td>
+      <td>OE3</td>
+      <td>RF21</td>
+      <td>4,00</td>
+      <td>5,00</td>
+      <td>4</td>
+      <td style="background:#f8d7da;">5,00</td>
+      <td>X</td>
+    </tr>
+    <tr>
+      <td>3. Gestão Interna e Otimização de Processos</td>
+      <td>3.1 Gerenciamento de Produtos pelo Administrador</td>
+      <td>US20</td>
+      <td>Remover produtos do catálogo</td>
+      <td>OE3</td>
+      <td>RF20</td>
+      <td>3,67</td>
+      <td>5,00</td>
+      <td>4</td>
+      <td style="background:#f8d7da;">4,58</td>
+      <td>X</td>
+    </tr>
+    <tr>
+      <td>2. Vendas e Experiência do Cliente</td>
+      <td>2.1 Processo de compra</td>
+      <td>US07</td>
+      <td>Buscar Produtos</td>
+      <td>OE2</td>
+      <td>RF07</td>
+      <td>4,67</td>
+      <td>4,67</td>
+      <td>5</td>
+      <td style="background:#fff3cd;">4,36</td>
+      <td>X</td>
+    </tr>
+    <tr>
+      <td>2. Vendas e Experiência do Cliente</td>
+      <td>2.4 Engajamento e Pós-Venda</td>
+      <td>US17</td>
+      <td>Solicitar devolução/troca</td>
+      <td>OE3</td>
+      <td>RF17</td>
+      <td>4,00</td>
+      <td>4,33</td>
+      <td>4</td>
+      <td style="background:#fff3cd;">4,33</td>
+      <td>X</td>
+    </tr>
+    <tr>
+      <td>2. Vendas e Experiência do Cliente</td>
+      <td>2.2 Gerenciamento do Carrinho</td>
+      <td>US09</td>
+      <td>Adicionar produtos ao carrinho</td>
+      <td>OE2</td>
+      <td>RF09</td>
+      <td>3,33</td>
+      <td>3,33</td>
+      <td>4</td>
+      <td style="background:#fff3cd;">2,78</td>
+      <td>X</td>
+    </tr>
+    <tr>
+      <td>2. Vendas e Experiência do Cliente</td>
+      <td></td>
+      <td>US10</td>
+      <td>Editar produtos do carrinho</td>
+      <td>OE2</td>
+      <td>RF10</td>
+      <td>3,33</td>
+      <td>3,33</td>
+      <td>4</td>
+      <td style="background:#fff3cd;">2,78</td>
+      <td>X</td>
+    </tr>
+    <tr>
+      <td>2. Vendas e Experiência do Cliente</td>
+      <td></td>
+      <td>US11</td>
+      <td>Remover produtos do carrinho</td>
+      <td>OE2</td>
+      <td>RF11</td>
+      <td>3,33</td>
+      <td>3,33</td>
+      <td>4</td>
+      <td style="background:#fff3cd;">2,78</td>
+      <td>X</td>
+    </tr>
+    <tr>
+      <td>3. Gestão Interna e Otimização de Processos</td>
+      <td>3.2 Gestão de Estoque e Pedidos</td>
+      <td>US22</td>
+      <td>Gerenciar situação dos pedidos</td>
+      <td>OE3</td>
+      <td>RF22</td>
+      <td>3,00</td>
+      <td>3,67</td>
+      <td>4</td>
+      <td style="background:#fff3cd;">2,75</td>
+      <td>X</td>
+    </tr>
+    <tr>
+      <td>2. Vendas e Experiência do Cliente</td>
+      <td>2.3 Finalização da Compra e Pagamento</td>
+      <td>US13</td>
+      <td>Finalizar compra</td>
+      <td>OE2</td>
+      <td>RF13</td>
+      <td>4,00</td>
+      <td>4,67</td>
+      <td>7</td>
+      <td style="background:#fff3cd;">2,67</td>
+      <td>X</td>
+    </tr>
+    <tr>
+      <td>2. Vendas e Experiência do Cliente</td>
+      <td></td>
+      <td>US11</td>
+      <td>Visualizar resumo da compra</td>
+      <td>OE2</td>
+      <td>RF11</td>
+      <td>3,33</td>
+      <td>3,67</td>
+      <td>5</td>
+      <td style="background:#d4edda;">2,44</td>
+      <td>X</td>
+    </tr>
+    <tr>
+      <td>1. Gestão de Clientes e Usuários</td>
+      <td>1.2 Gerenciamento de perfil do usuário</td>
+      <td>US05</td>
+      <td>Editar dados da conta</td>
+      <td>OE2</td>
+      <td>RF05</td>
+      <td>3,00</td>
+      <td>4,00</td>
+      <td>5</td>
+      <td style="background:#d4edda;">2,40</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1. Gestão de Clientes e Usuários</td>
+      <td>1.1 Cadastro e Acesso do Usuário</td>
+      <td>US04</td>
+      <td>Recuperar senha</td>
+      <td>OE3</td>
+      <td>RF04</td>
+      <td>4,00</td>
+      <td>4,00</td>
+      <td>7</td>
+      <td style="background:#d4edda;">2,29</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>3. Gestão Interna e Otimização de Processos</td>
+      <td>3.1 Gerenciamento de Produtos pelo Administrador</td>
+      <td>US18</td>
+      <td>Editar produtos no catálogo</td>
+      <td>OE3</td>
+      <td>RF18</td>
+      <td>3,33</td>
+      <td>4,00</td>
+      <td>6</td>
+      <td style="background:#d4edda;">2,22</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1. Gestão de Clientes e Usuários</td>
+      <td>1.1 Cadastro e Acesso do Usuário</td>
+      <td>US01</td>
+      <td>Cadastrar usuário</td>
+      <td>OE2</td>
+      <td>RF01</td>
+      <td>2,67</td>
+      <td>3,00</td>
+      <td>4</td>
+      <td style="background:#d4edda;">2,00</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1. Gestão de Clientes e Usuários</td>
+      <td>1.1 Cadastro e Acesso do Usuário</td>
+      <td>US02</td>
+      <td>Logar usuário</td>
+      <td>OE2</td>
+      <td>RF02</td>
+      <td>2,67</td>
+      <td>3,00</td>
+      <td>4</td>
+      <td style="background:#d4edda;">2,00</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>2. Vendas e Experiência do Cliente</td>
+      <td>2.4 Engajamento e Pós-Venda</td>
+      <td>US15</td>
+      <td>Adicionar avaliação produtos</td>
+      <td>OE3</td>
+      <td>RF15</td>
+      <td>4,00</td>
+      <td>3,67</td>
+      <td>8</td>
+      <td style="background:#d4edda;">1,83</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>2. Vendas e Experiência do Cliente</td>
+      <td>2.4 Engajamento e Pós-Venda</td>
+      <td>US16</td>
+      <td>Remover Avaliação de produtos</td>
+      <td>OE3</td>
+      <td>RF16</td>
+      <td>4,00</td>
+      <td>3,67</td>
+      <td>8</td>
+      <td style="background:#d4edda;">1,83</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1. Gestão de Clientes e Usuários</td>
+      <td>1.1 Cadastro e Acesso do Usuário</td>
+      <td>US03</td>
+      <td>Deslogar usuário</td>
+      <td>OE2</td>
+      <td>RF03</td>
+      <td>2,67</td>
+      <td>2,67</td>
+      <td>4</td>
+      <td style="background:#d4edda;">1,78</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>1. Gestão de Clientes e Usuários</td>
+      <td>1.2 Gerenciamento de perfil do usuário</td>
+      <td>US06</td>
+      <td>Deletar usuário</td>
+      <td>OE3</td>
+      <td>RF06</td>
+      <td>1,33</td>
+      <td>2,33</td>
+      <td>2</td>
+      <td style="background:#d4edda;">1,56</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>2. Vendas e Experiência do Cliente</td>
+      <td>2.4 Engajamento e Pós-Venda</td>
+      <td>US14</td>
+      <td>Gerar códigos de desconto</td>
+      <td>OE1</td>
+      <td>RF14</td>
+      <td>2,33</td>
+      <td>2,67</td>
+      <td>5</td>
+      <td style="background:#d4edda;">1,24</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>2. Vendas e Experiência do Cliente</td>
+      <td>2.1 Processo de compra</td>
+      <td>US08</td>
+      <td>Personalizar produto</td>
+      <td>OE1</td>
+      <td>RF08</td>
+      <td>3,67</td>
+      <td>2,67</td>
+      <td>10</td>
+      <td style="background:#d4edda;">0,98</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
