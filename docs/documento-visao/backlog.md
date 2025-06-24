@@ -152,7 +152,6 @@ Por fim, a priorização de cada requisito se dará com base na divisão da soma
 
 # Tabela de Backlog com Priorização
 
-
 <table border="1" cellpadding="4" cellspacing="0" style="border-collapse:collapse; width:100%; font-size:13px;">
   <thead style="background:#f2f2f2;">
     <tr>
@@ -171,7 +170,7 @@ Por fim, a priorização de cada requisito se dará com base na divisão da soma
   </thead>
   <tbody>
     <tr>
-      <td>3. Gestão Interna e Otimização de Processos</td>
+      <td rowspan="3">3. Gestão Interna e Otimização de Processos</td>
       <td>3.1 Gerenciamento de Produtos pelo Administrador</td>
       <td>US18</td>
       <td>Adicionar produtos ao catálogo</td>
@@ -184,7 +183,6 @@ Por fim, a priorização de cada requisito se dará com base na divisão da soma
       <td>X</td>
     </tr>
     <tr>
-      <td>3. Gestão Interna e Otimização de Processos</td>
       <td>3.2 Gestão de Estoque e Pedidos</td>
       <td>US21</td>
       <td>Editar quantidade em estoque</td>
@@ -197,7 +195,6 @@ Por fim, a priorização de cada requisito se dará com base na divisão da soma
       <td>X</td>
     </tr>
     <tr>
-      <td>3. Gestão Interna e Otimização de Processos</td>
       <td>3.1 Gerenciamento de Produtos pelo Administrador</td>
       <td>US20</td>
       <td>Remover produtos do catálogo</td>
@@ -219,7 +216,7 @@ Por fim, a priorização de cada requisito se dará com base na divisão da soma
       <td>4,67</td>
       <td>4,67</td>
       <td>5</td>
-      <td style="background:#fff3cd;">4,36</td>
+      <td style="background:#f8d7da;">4,36</td>
       <td>X</td>
     </tr>
     <tr>
@@ -232,7 +229,7 @@ Por fim, a priorização de cada requisito se dará com base na divisão da soma
       <td>4,00</td>
       <td>4,33</td>
       <td>4</td>
-      <td style="background:#fff3cd;">4,33</td>
+      <td style="background:#f8d7da;">4,33</td>
       <td>X</td>
     </tr>
     <tr>
@@ -245,7 +242,7 @@ Por fim, a priorização de cada requisito se dará com base na divisão da soma
       <td>3,33</td>
       <td>3,33</td>
       <td>4</td>
-      <td style="background:#fff3cd;">2,78</td>
+      <td style="background:#f8d7da;">2,78</td>
       <td>X</td>
     </tr>
     <tr>
@@ -258,7 +255,7 @@ Por fim, a priorização de cada requisito se dará com base na divisão da soma
       <td>3,33</td>
       <td>3,33</td>
       <td>4</td>
-      <td style="background:#fff3cd;">2,78</td>
+      <td style="background:#f8d7da;">2,78</td>
       <td>X</td>
     </tr>
     <tr>
@@ -271,7 +268,7 @@ Por fim, a priorização de cada requisito se dará com base na divisão da soma
       <td>3,33</td>
       <td>3,33</td>
       <td>4</td>
-      <td style="background:#fff3cd;">2,78</td>
+      <td style="background:#f8d7da;">2,78</td>
       <td>X</td>
     </tr>
     <tr>
@@ -284,7 +281,7 @@ Por fim, a priorização de cada requisito se dará com base na divisão da soma
       <td>3,00</td>
       <td>3,67</td>
       <td>4</td>
-      <td style="background:#fff3cd;">2,75</td>
+      <td style="background:#f8d7da;">2,75</td>
       <td>X</td>
     </tr>
     <tr>
@@ -297,7 +294,7 @@ Por fim, a priorização de cada requisito se dará com base na divisão da soma
       <td>4,00</td>
       <td>4,67</td>
       <td>7</td>
-      <td style="background:#fff3cd;">2,67</td>
+      <td style="background:#f8d7da;">2,67</td>
       <td>X</td>
     </tr>
     <tr>
@@ -310,7 +307,7 @@ Por fim, a priorização de cada requisito se dará com base na divisão da soma
       <td>3,33</td>
       <td>3,67</td>
       <td>5</td>
-      <td style="background:#d4edda;">2,44</td>
+      <td style="background:#fff3cd;">2,44</td>
       <td>X</td>
     </tr>
     <tr>
@@ -323,7 +320,7 @@ Por fim, a priorização de cada requisito se dará com base na divisão da soma
       <td>3,00</td>
       <td>4,00</td>
       <td>5</td>
-      <td style="background:#d4edda;">2,40</td>
+      <td style="background:#fff3cd;">2,40</td>
       <td></td>
     </tr>
     <tr>
@@ -336,7 +333,7 @@ Por fim, a priorização de cada requisito se dará com base na divisão da soma
       <td>4,00</td>
       <td>4,00</td>
       <td>7</td>
-      <td style="background:#d4edda;">2,29</td>
+      <td style="background:#fff3cd;">2,29</td>
       <td></td>
     </tr>
     <tr>
@@ -349,7 +346,7 @@ Por fim, a priorização de cada requisito se dará com base na divisão da soma
       <td>3,33</td>
       <td>4,00</td>
       <td>6</td>
-      <td style="background:#d4edda;">2,22</td>
+      <td style="background:#fff3cd;">2,22</td>
       <td></td>
     </tr>
     <tr>
@@ -362,7 +359,7 @@ Por fim, a priorização de cada requisito se dará com base na divisão da soma
       <td>2,67</td>
       <td>3,00</td>
       <td>4</td>
-      <td style="background:#d4edda;">2,00</td>
+      <td style="background:#fff3cd;">2,00</td>
       <td></td>
     </tr>
     <tr>
@@ -375,7 +372,7 @@ Por fim, a priorização de cada requisito se dará com base na divisão da soma
       <td>2,67</td>
       <td>3,00</td>
       <td>4</td>
-      <td style="background:#d4edda;">2,00</td>
+      <td style="background:#fff3cd;">2,00</td>
       <td></td>
     </tr>
     <tr>
@@ -388,7 +385,7 @@ Por fim, a priorização de cada requisito se dará com base na divisão da soma
       <td>4,00</td>
       <td>3,67</td>
       <td>8</td>
-      <td style="background:#d4edda;">1,83</td>
+      <td style="background:#fff3cd;">1,83</td>
       <td></td>
     </tr>
     <tr>
@@ -401,7 +398,7 @@ Por fim, a priorização de cada requisito se dará com base na divisão da soma
       <td>4,00</td>
       <td>3,67</td>
       <td>8</td>
-      <td style="background:#d4edda;">1,83</td>
+      <td style="background:#fff3cd;">1,83</td>
       <td></td>
     </tr>
     <tr>
@@ -414,7 +411,7 @@ Por fim, a priorização de cada requisito se dará com base na divisão da soma
       <td>2,67</td>
       <td>2,67</td>
       <td>4</td>
-      <td style="background:#d4edda;">1,78</td>
+      <td style="background:#fff3cd;">1,78</td>
       <td></td>
     </tr>
     <tr>
