@@ -65,7 +65,7 @@ Após a priorização dos <b>Product Backlog Items</b> e <b>User Stories</b>, ut
 
 <pre>
 <code>
-<span style="color: yellow;">Funcionalidade</span>: Registrar novos pacientes
+<span style="color: blue;">Funcionalidade</span>: Registrar novos pacientes
 
 <span style="color: green;">Cenário</span>: A recepcionista registra um novo paciente na recepção
     <span style="color: orange;">Dado</span> que a recepcionista está registrando o paciente utilizando o sistema,
