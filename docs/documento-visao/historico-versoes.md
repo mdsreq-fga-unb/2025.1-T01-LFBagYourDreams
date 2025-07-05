@@ -11,3 +11,4 @@
 | 23/06/2025 | 0.7        | Atualizações Backlog, Requisitos, MVP | Equipe    |
 | 24/06/2025 | 0.8        | Adição do PBB e BDD                   | Equipe    |
 | 05/07/2025 | 0.9        | Atualização do Cronograma             | Equipe    |
+| 05/07/2025 | 1.0        | Adição dos Casos de Uso               | Equipe    |
