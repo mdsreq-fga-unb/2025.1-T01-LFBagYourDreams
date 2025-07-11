@@ -21,9 +21,7 @@
 <p style="text-align: justify">
 Antes da implementação da nova solução digital, a HealthNet enfrentava uma série de desafios operacionais, clínicos e de comunicação que comprometiam a qualidade do atendimento e a eficiência dos processos internos. Entre os principais problemas identificados,temos:
 
-<div align='center'>
-  <img sytle="border: 2px solid black;" src="../assets/pbb/pbb_problems.png">
-</div>
+![Problemas](../assets/pbb/pbb_problems.png)
 
 ### 1.2 Expectativas da solução
 
@@ -31,9 +29,7 @@ Antes da implementação da nova solução digital, a HealthNet enfrentava uma s
 Uma vez identificado os problemas, o sistema da HealthNet busca entregar os seguintes resultados:
 </p>
 
-<div align='center'>
-  <img sytle="border: 2px solid black;" src="../assets/pbb/pbb_solutions.png">
-</div>
+![Soluções](../assets/pbb/pbb_solutions.png)
 
 ## 2. Personas & Features
 
@@ -41,83 +37,49 @@ As personas representam os usuários do sistema, e identificamos sua jornada (o 
 
 ### 2.1 Jornadas e Expectativas das Personas
 
-<div align='center'>
-  <img sytle="border: 2px solid black;" src="../assets/pbb/persona_recepcionista.png">
-</div>
+![Persona recepcionista](../assets/pbb/persona_recepcionista.png)
 
-<br>
+![Persona médico](../assets/pbb/persona_medico.png)
 
-<div align='center'>
-  <img sytle="border: 2px solid black;" src="../assets/pbb/persona_medico.png">
-</div>
+![Persona farmacêutica](../assets/pbb/persona_farmaceutica.png)
 
-<br>
+![Persona coordenador](../assets/pbb/persona_coordenador.png)
 
-<div align='center'>
-  <img sytle="border: 2px solid black;" src="../assets/pbb/persona_farmaceutica.png">
-</div>
+![Persona paciente](../assets/pbb/persona_paciente.png)
 
-<br>
-
-<div align='center'>
-  <img sytle="border: 2px solid black;" src="../assets/pbb/persona_coordenador.png">
-</div>
-
-<br>
-
-<div align='center'>
-  <img sytle="border: 2px solid black;" src="../assets/pbb/persona_paciente.png">
-</div>
-
-<br>
-
-<div align='center'>
-  <img sytle="border: 2px solid black;" src="../assets/pbb/persona_diretor.png">
-</div>
+![Persona diretor](../assets/pbb/persona_diretor.png)
 
 ## 3. Features
 
 Uma vez identificada as **Personas** e suas atividades, é possível organizar as **Features**, que são as macrofuncionalidades que o sistema possuirá, associando os **problemas** que cada Feature resolve e seus **benefícios**.
 
-- `Maria - Recepcionista`
-<div align='center'>
-  <img sytle="border: 2px solid black;" src="../assets/pbb/feature_recepcionista.png">
-</div>
+- `Recepcionista`
+  ![Feature recepcionista](../assets/pbb/feature_recepcionista.png)
 
 <br>
 
-- `João - Médico`
-<div align='center'>
-  <img sytle="border: 2px solid black;" src="../assets/pbb/feature_medico.png">
-</div>
+- `Médico`
+  ![Feature médico](../assets/pbb/feature_medico.png)
 
 <br>
 
-- `Lívia - Farmacêutica`
-<div align='center'>
-  <img sytle="border: 2px solid black;" src="../assets/pbb/feature_farmaceutica.png">
-</div>
+- `Farmacêutica`
+  ![Feature farmacêutica](../assets/pbb/feature_farmaceutica.png)
 
 <br>
 
-- `Rafael - Coordenador de Agendamento`
-<div align='center'>
-  <img sytle="border: 2px solid black;" src="../assets/pbb/feature_coordenador.png">
-</div>
+- `Coordenador`
+  ![Feature coordenador](../assets/pbb/feature_coordenador.png)
 
 <br>
 
-- `Clara - Paciente`
-<div align='center'>
-  <img sytle="border: 2px solid black;" src="../assets/pbb/feature_paciente.png">
-</div>
+- `Paciente`
+  ![Feature paciente](../assets/pbb/feature_paciente.png)
 
 <br>
 
-- `Roberto - Diretor de Tecnologia`
-<div align='center'>
-  <img sytle="border: 2px solid black;" src="../assets/pbb/feature_diretor.png">
-</div>
+- `Diretor`
+  ![Feature diretor](../assets/pbb/feature_diretor.png)
 
 ## 4. Product Backlog Item e COORG
 
@@ -185,9 +147,7 @@ Já o valor de negócio é determinado com uma <b>nota de 1 à 3</b>, que varia 
   </tbody>
 </table>
 
-<div align='center'>
-  <img sytle="border: 2px solid black;" src="../assets/pbb/pbi_recepcionista.png">
-</div>
+![PBI recepcionista](../assets/pbb/pbi_recepcionista.png)
 
 #### 4.2.2 Feature: Realizar atendimento médico
 
@@ -220,9 +180,7 @@ Já o valor de negócio é determinado com uma <b>nota de 1 à 3</b>, que varia 
   </tbody>
 </table>
 
-<div align='center'>
-  <img sytle="border: 2px solid black;" src="../assets/pbb/pbi_medico.png">
-</div>
+![PBI médico](../assets/pbb/pbi_medico.png)
 
 #### 4.2.3 Feature: Gerenciar estoque de medicamentos
 
@@ -259,9 +217,7 @@ Já o valor de negócio é determinado com uma <b>nota de 1 à 3</b>, que varia 
   </tbody>
 </table>
 
-<div align='center'>
-  <img sytle="border: 2px solid black;" src="../assets/pbb/pbi_recepcionista.png">
-</div>
+![PBI farmacêutica](../assets/pbb/pbi_farmaceutica.png)
 
 #### 4.2.4 Feature: Agendamento de consultas
 
@@ -294,9 +250,7 @@ Já o valor de negócio é determinado com uma <b>nota de 1 à 3</b>, que varia 
   </tbody>
 </table>
 
-<div align='center'>
-  <img sytle="border: 2px solid black;" src="../assets/pbb/pbi_coordenador.png">
-</div>
+![PBI coordenador](../assets/pbb/pbi_coordenador.png)
 
 #### 4.2.5 Feature: Gerenciar atendimento dos pacientes
 
@@ -345,9 +299,7 @@ Já o valor de negócio é determinado com uma <b>nota de 1 à 3</b>, que varia 
   </tbody>
 </table>
 
-<div align='center'>
-  <img sytle="border: 2px solid black;" src="../assets/pbb/pbi_paciente.png">
-</div>
+![PBI paciente](../assets/pbb/pbi_paciente.png)
 
 #### 4.2.6 Feature: Supervisionar a infraestrutura tecnológica
 
@@ -388,9 +340,7 @@ Já o valor de negócio é determinado com uma <b>nota de 1 à 3</b>, que varia 
   </tbody>
 </table>
 
-<div align='center'>
-  <img sytle="border: 2px solid black;" src="../assets/pbb/pbi_diretor.png">
-</div>
+![PBI diretor](../assets/pbb/pbi_diretor.png)
 
 ## 5. Histórias de Usuário e BDD
 
