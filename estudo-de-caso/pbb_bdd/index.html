@@ -1,0 +1,2312 @@
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../USM/">
+      
+      
+        <link rel="next" href="../casos_de_uso/">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.15">
+    
+    
+      
+        <title>PBB & BDD - Documentação LFBagYourDreams</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.342714a4.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../css/custom.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="black">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#product-backlog-building" class="md-skip">
+          Ir para o conteúdo
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabeçalho">
+    <a href="../.." title="Documentação LFBagYourDreams" class="md-header__button md-logo" aria-label="Documentação LFBagYourDreams" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Documentação LFBagYourDreams
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              PBB & BDD
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="black"  aria-label="Dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7.1 10c1-1 2.4-1.7 3.9-1.9V2h2v6.1c1.5.2 2.9.9 3.9 1.9zm-1.8 3c-.2.6-.3 1.3-.3 2 0 3.9 3.1 7 7 7s7-3.1 7-7c0-.7-.1-1.4-.3-2z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="white" data-md-color-accent="black"  aria-label="Light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 8.08V2h-2v6.08c-3.39.49-6 3.39-6 6.92 0 3.87 3.13 7 7 7s7-3.13 7-7c0-3.53-2.61-6.43-6-6.92M12 20c-2.76 0-5-2.24-5-5 0-1.13.39-2.16 1.03-3h7.94c.64.84 1.03 1.87 1.03 3 0 2.76-2.24 5-5 5"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Buscar" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Pesquisar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpar" aria-label="Limpar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando a pesquisa
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Abas" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Página Inicial
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../documento-visao/cenario-atual/" class="md-tabs__link">
+          
+  
+  
+  Documento
+
+        </a>
+      </li>
+    
+  
+
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../atas/ata_reuniao_19_04_25/" class="md-tabs__link">
+          
+  
+  
+  Atas
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../documento-visao/licoes-aprendidas/licoes-U1/" class="md-tabs__link">
+          
+  
+  
+  Lições aprendidas
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../apresentacoes/apresentacao1/" class="md-tabs__link">
+          
+  
+  
+  Vídeo Apresentação
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../USM/" class="md-tabs__link">
+          
+  
+  
+  Estudo de Caso
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navegação" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Documentação LFBagYourDreams" class="md-nav__button md-logo" aria-label="Documentação LFBagYourDreams" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Documentação LFBagYourDreams
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Página Inicial
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Documento
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Documento
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_1" id="__nav_2_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Visão do Produto e Projeto
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_1">
+            <span class="md-nav__icon md-icon"></span>
+            Visão do Produto e Projeto
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../documento-visao/cenario-atual/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    1. Cenário Atual do Cliente e do Negócio
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../documento-visao/solucao-proposta/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2. Solução Proposta
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../documento-visao/estrategias/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    3. Estratégias de Engenharia de Software
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../documento-visao/eng.requisitos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    4. Engenharia de Requisitos
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../documento-visao/cronograma/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    5. Cronogramas e Entregas
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../documento-visao/interacao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    6. Interação entre Equipe e cliente
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../documento-visao/req.software/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    7. Requisitos de Software
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../documento-visao/dor_dod/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    8. DoR e DoD
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../documento-visao/backlog/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    9. Backlog de Produto
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../documento-visao/historico-versoes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Histórico de versões do documento
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../documento-visao/referencias/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Referências Bibliograficas
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Atas
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Atas
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../atas/ata_reuniao_19_04_25/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Ata dia 19/04/2025
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../atas/ata_reuniao_03_05_25/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Ata dia 03/05/2025
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../atas/ata_reuniao_19_06_25/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Ata dia 19/06/2025
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Lições aprendidas
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Lições aprendidas
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../documento-visao/licoes-aprendidas/licoes-U1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Unidade 1
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../documento-visao/licoes-aprendidas/licoes-U2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Unidade 2
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../documento-visao/licoes-aprendidas/licoes-U3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Unidade 3
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Vídeo Apresentação
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Vídeo Apresentação
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../apresentacoes/apresentacao1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Unidade 1
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../apresentacoes/apresentacao2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Unidade 2
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../apresentacoes/apresentacao3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Unidade 3
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Estudo de Caso
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Estudo de Caso
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../USM/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    User Story Mapping
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    PBB & BDD
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    PBB & BDD
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-empresa-healthnet" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Empresa HealthNet
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Empresa HealthNet">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#11-problemas-identificados" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.1 Problemas identificados
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12-expectativas-da-solucao" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.2 Expectativas da solução
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-personas-features" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Personas &amp; Features
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Personas &amp; Features">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21-jornadas-e-expectativas-das-personas" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.1 Jornadas e Expectativas das Personas
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-features" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Features
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-product-backlog-item-e-coorg" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Product Backlog Item e COORG
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Product Backlog Item e COORG">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#41-priorizacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.1 Priorização
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4.1 Priorização">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#411-frequencia-de-uso" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.1.1 Frequência de Uso
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#412-valor-de-negocio" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.1.2 Valor de Negócio
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#413-pontuacao-final" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.1.3 Pontuação Final
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#42-listagem-dos-pbis-por-feature" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.2 Listagem dos PBIs por Feature
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4.2 Listagem dos PBIs por Feature">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#421-feature-gerenciar-atendimento-dos-pacientes" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.2.1 Feature: Gerenciar atendimento dos pacientes
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#422-feature-realizar-atendimento-medico" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.2.2 Feature: Realizar atendimento médico
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#423-feature-gerenciar-estoque-de-medicamentos" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.2.3 Feature: Gerenciar estoque de medicamentos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#424-feature-agendamento-de-consultas" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.2.4 Feature: Agendamento de consultas
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#425-feature-gerenciar-atendimento-dos-pacientes" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.2.5 Feature: Gerenciar atendimento dos pacientes
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#426-feature-supervisionar-a-infraestrutura-tecnologica" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.2.6 Feature: Supervisionar a infraestrutura tecnológica
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-historias-de-usuario-e-bdd" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Histórias de Usuário e BDD
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Histórias de Usuário e BDD">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#5-relacao-de-historias-e-bdd" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Relação de Histórias e BDD
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../casos_de_uso/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Casos de Uso
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-empresa-healthnet" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Empresa HealthNet
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Empresa HealthNet">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#11-problemas-identificados" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.1 Problemas identificados
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12-expectativas-da-solucao" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.2 Expectativas da solução
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-personas-features" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Personas &amp; Features
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Personas &amp; Features">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21-jornadas-e-expectativas-das-personas" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.1 Jornadas e Expectativas das Personas
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-features" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Features
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-product-backlog-item-e-coorg" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Product Backlog Item e COORG
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Product Backlog Item e COORG">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#41-priorizacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.1 Priorização
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4.1 Priorização">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#411-frequencia-de-uso" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.1.1 Frequência de Uso
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#412-valor-de-negocio" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.1.2 Valor de Negócio
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#413-pontuacao-final" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.1.3 Pontuação Final
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#42-listagem-dos-pbis-por-feature" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.2 Listagem dos PBIs por Feature
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4.2 Listagem dos PBIs por Feature">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#421-feature-gerenciar-atendimento-dos-pacientes" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.2.1 Feature: Gerenciar atendimento dos pacientes
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#422-feature-realizar-atendimento-medico" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.2.2 Feature: Realizar atendimento médico
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#423-feature-gerenciar-estoque-de-medicamentos" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.2.3 Feature: Gerenciar estoque de medicamentos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#424-feature-agendamento-de-consultas" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.2.4 Feature: Agendamento de consultas
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#425-feature-gerenciar-atendimento-dos-pacientes" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.2.5 Feature: Gerenciar atendimento dos pacientes
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#426-feature-supervisionar-a-infraestrutura-tecnologica" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.2.6 Feature: Supervisionar a infraestrutura tecnológica
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-historias-de-usuario-e-bdd" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Histórias de Usuário e BDD
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Histórias de Usuário e BDD">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#5-relacao-de-historias-e-bdd" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Relação de Histórias e BDD
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="product-backlog-building">📋 Product Backlog Building</h1>
+<div style="text-align: justify">
+
+  <p>
+  Este estudo de caso utiliza a técnica <b>Product Backlog Building (PBB)</b> para estruturar e organizar as funcionalidades de uma solução digital para a empresa fictícia <b>HealthNet</b>, uma rede de clínicas e hospitais com atuação nacional. A proposta é resolver problemas reais enfrentados pela empresa, como sistemas legados desconectados, falhas nos agendamentos, prontuários descentralizados e erros na dispensação de medicamentos.
+  </p>
+
+  <p>
+  Através do PBB, foi possível identificar os principais <b>atores envolvidos</b>, seus <b>objetivos</b> e as <b>necessidades</b> de negócio, transformando essas informações em um backlog colaborativo e orientado a valor. O resultado é uma visão clara e priorizada do produto, alinhada com os diferentes perfis de usuários, desde pacientes até o diretor de tecnologia da organização.
+  </p>
+
+</div>
+
+<h2 id="1-empresa-healthnet">1. Empresa HealthNet</h2>
+<div style="text-align: justify"> A HealthNet é uma ampla rede de clínicas e hospitais distribuídos por diversos estados que enfrenta desafios significativos na gestão de dados de pacientes e na integração de processos clínicos e administrativos. Diante disso, essa secção traz à tona os problemas e a solução proposta para a empresa.</div>
+
+<h3 id="11-problemas-identificados">1.1 Problemas identificados</h3>
+<p style="text-align: justify">
+Antes da implementação da nova solução digital, a HealthNet enfrentava uma série de desafios operacionais, clínicos e de comunicação que comprometiam a qualidade do atendimento e a eficiência dos processos internos. Entre os principais problemas identificados, temos:</p>
+
+<p><img alt="Problemas" src="../../assets/pbb/pbb_problems.png" /></p>
+<h3 id="12-expectativas-da-solucao">1.2 Expectativas da solução</h3>
+<p style="text-align: justify">
+Uma vez identificado os problemas, o sistema da HealthNet busca entregar os seguintes resultados:
+</p>
+
+<p><img alt="Soluções" src="../../assets/pbb/pbb_solutions.png" /></p>
+<h2 id="2-personas-features">2. Personas &amp; Features</h2>
+<p>As personas representam os usuários do sistema, e identificamos sua jornada (o que faz) de trabalho atual, e o que se espera com a solução.</p>
+<h3 id="21-jornadas-e-expectativas-das-personas">2.1 Jornadas e Expectativas das Personas</h3>
+<p><img alt="Persona recepcionista" src="../../assets/pbb/persona_recepcionista.png" /></p>
+<p><img alt="Persona médico" src="../../assets/pbb/persona_medico.png" /></p>
+<p><img alt="Persona farmacêutica" src="../../assets/pbb/persona_farmaceutica.png" /></p>
+<p><img alt="Persona coordenador" src="../../assets/pbb/persona_coordenador.png" /></p>
+<p><img alt="Persona paciente" src="../../assets/pbb/persona_paciente.png" /></p>
+<p><img alt="Persona diretor" src="../../assets/pbb/persona_diretor.png" /></p>
+<h2 id="3-features">3. Features</h2>
+<p>Uma vez identificada as <strong>Personas</strong> e suas atividades, é possível organizar as <strong>Features</strong>, que são as macrofuncionalidades que o sistema possuirá, associando os <strong>problemas</strong> que cada Feature resolve e seus <strong>benefícios</strong>.</p>
+<ul>
+<li><code>Recepcionista</code>
+  <img alt="Feature recepcionista" src="../../assets/pbb/feature_recepcionista.png" /></li>
+</ul>
+<p><br></p>
+<ul>
+<li><code>Médico</code>
+  <img alt="Feature médico" src="../../assets/pbb/feature_medico.png" /></li>
+</ul>
+<p><br></p>
+<ul>
+<li><code>Farmacêutica</code>
+  <img alt="Feature farmacêutica" src="../../assets/pbb/feature_farmaceutica.png" /></li>
+</ul>
+<p><br></p>
+<ul>
+<li><code>Coordenador</code>
+  <img alt="Feature coordenador" src="../../assets/pbb/feature_coordenador.png" /></li>
+</ul>
+<p><br></p>
+<ul>
+<li><code>Paciente</code>
+  <img alt="Feature paciente" src="../../assets/pbb/feature_paciente.png" /></li>
+</ul>
+<p><br></p>
+<ul>
+<li><code>Diretor</code>
+  <img alt="Feature diretor" src="../../assets/pbb/feature_diretor.png" /></li>
+</ul>
+<h2 id="4-product-backlog-item-e-coorg">4. Product Backlog Item e COORG</h2>
+<p style="text-align: justify">Identificadas as <b>Features</b> do sistema, cada uma foi quebrada em microfuncionalidades com maior nível de granularidade, formando os <b>PBIs (Product Backlog Item)</b>. Eles são mais precisos que a <b>Feature</b>, e têm o papel de ajudar o desenvolvedor a entender exatamente o que deve ser construído.</p>
+
+<hr />
+<h3 id="41-priorizacao">4.1 Priorização</h3>
+<div style="text-align: justify">
+No projeto HealthNet, a priorização foi feita a partir da utilização do método COORG, que avalia os Product Backlog Items - PBI - pela suas pontuações em <b>Frequência de Uso</b> e seu <b>Valor de Negócio</b>, que são posteriormente somadas.
+</div>
+
+<h4 id="411-frequencia-de-uso">4.1.1 Frequência de Uso</h4>
+<p>A frequência de uso é determinada com uma <b>nota de 1 à 5</b>, que varia conforme a descrição abaixo:</p>
+<ul>
+<li><strong>(5) Hora a Hora:</strong> utilizado mais de uma vez ao dia.</li>
+<li><strong>(4) Diário:</strong> utilizado uma vez no dia, pelo menos.</li>
+<li><strong>(3) Semanal:</strong> utilizado uma, duas ou três vezes na semana.</li>
+<li><strong>(2) Mensal:</strong> utilizado uma vez no mês, ou pouco mais de uma vez.</li>
+<li><strong>(1) Trimestral:</strong> utilizado, pelo menos, uma vez a cada 3 meses.</li>
+</ul>
+<h4 id="412-valor-de-negocio">4.1.2 Valor de Negócio</h4>
+<p>Já o valor de negócio é determinado com uma <b>nota de 1 à 3</b>, que varia conforme descrição abaixo:</p>
+<ul>
+<li><strong>(3) Alto:</strong> muito importante, principal, algo com um valor de negócio alto.</li>
+<li><strong>(2) Médio:</strong> algo que tem relevância, um valor de negócio médio.</li>
+<li><strong>(1) Baixo:</strong> algo que faz sentido, mas que não agrega muito valor no
+  momento atual, um valor de negócio baixo.</li>
+</ul>
+<h4 id="413-pontuacao-final">4.1.3 Pontuação Final</h4>
+<p><span style="font-weight: bold; color: orange">Valor_do_PBI</span> = <span style="font-weight: bold; color: cyan">Valor de Negócio</span> + <span style="font-weight: bold; color: yellow">Frequência de Uso</span></p>
+<hr />
+<h3 id="42-listagem-dos-pbis-por-feature">4.2 Listagem dos PBIs por Feature</h3>
+<h4 id="421-feature-gerenciar-atendimento-dos-pacientes">4.2.1 Feature: Gerenciar atendimento dos pacientes</h4>
+<table style="width: 100%; border-collapse: collapse;">
+
+  <thead>
+    <tr style="background-color:rgb(72, 81, 161);">
+      <th style="border: 1px solid #ccc; padding: 10px; text-align: center;">PBI</th>
+      <th style="border: 1px solid #ccc; padding: 10px; text-align: center;">Priorização</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">Registrar novos pacientes</td>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">7</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">Consultar pacientes registrados</td>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">6</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">Atualizar informações dos pacientes regulares</td>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">5</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><img alt="PBI recepcionista" src="../../assets/pbb/pbi_recepcionista.png" /></p>
+<h4 id="422-feature-realizar-atendimento-medico">4.2.2 Feature: Realizar atendimento médico</h4>
+<table style="width: 100%; border-collapse: collapse;">
+
+  <thead>
+    <tr style="background-color:rgb(72, 81, 161);">
+      <th style="border: 1px solid #ccc; padding: 10px; text-align: center;">PBI</th>
+      <th style="border: 1px solid #ccc; padding: 10px; text-align: center;">Priorização</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">Acessar históricos médicos dos pacientes</td>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">7</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">Gerar atestados</td>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">6</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">Prescrever medicamentos</td>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">6</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">Inserir notas de observações</td>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">5</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><img alt="PBI médico" src="../../assets/pbb/pbi_medico.png" /></p>
+<h4 id="423-feature-gerenciar-estoque-de-medicamentos">4.2.3 Feature: Gerenciar estoque de medicamentos</h4>
+<table style="width: 100%; border-collapse: collapse;">
+
+  <thead>
+    <tr style="background-color:rgb(72, 81, 161);">
+      <th style="border: 1px solid #ccc; padding: 10px; text-align: center;">PBI</th>
+      <th style="border: 1px solid #ccc; padding: 10px; text-align: center;">Priorização</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">Dispensar medicamentos</td>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">7</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">Registrar medicamentos</td>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">6</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">Registrar dispensação no histórico do paciente</td>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">6</td>
+    </tr>
+        <tr>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">Imprimir etiqueta com instruções para o paciente</td>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">5</td>
+    </tr>
+        <tr>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">Consultar informações/bula do medicamento</td>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">5</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><img alt="PBI farmacêutica" src="../../assets/pbb/pbi_farmaceutica.png" /></p>
+<h4 id="424-feature-agendamento-de-consultas">4.2.4 Feature: Agendamento de consultas</h4>
+<table style="width: 100%; border-collapse: collapse;">
+
+  <thead>
+    <tr style="background-color:rgb(72, 81, 161);">
+      <th style="border: 1px solid #ccc; padding: 10px; text-align: center;">PBI</th>
+      <th style="border: 1px solid #ccc; padding: 10px; text-align: center;">Priorização</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">Cancelar ou remarcar uma consulta existente</td>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">7</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">Marcar nova consulta para um paciente</td>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">6</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">Visualizar agenda unificada de múltiplos médicos</td>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">6</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">Bloquear horários na agenda</td>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">5</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><img alt="PBI coordenador" src="../../assets/pbb/pbi_coordenador.png" /></p>
+<h4 id="425-feature-gerenciar-atendimento-dos-pacientes">4.2.5 Feature: Gerenciar atendimento dos pacientes</h4>
+<table style="width: 100%; border-collapse: collapse;">
+
+  <thead>
+    <tr style="background-color:rgb(72, 81, 161);">
+      <th style="border: 1px solid #ccc; padding: 10px; text-align: center;">PBI</th>
+      <th style="border: 1px solid #ccc; padding: 10px; text-align: center;">Priorização</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">Realizar login no portal</td>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">6</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">Realizar cadastro no portal</td>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">6</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">Realizar logout no portal</td>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">6</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">Agendar consultas no portal</td>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">5</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">Visualizar seu histórico de exames e laudos</td>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">5</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">Baixar resultados de exames</td>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">4</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">Visualizar suas próximas consultas</td>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">3</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">Atualizar dados cadastrais</td>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">3</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><img alt="PBI paciente" src="../../assets/pbb/pbi_paciente.png" /></p>
+<h4 id="426-feature-supervisionar-a-infraestrutura-tecnologica">4.2.6 Feature: Supervisionar a infraestrutura tecnológica</h4>
+<table style="width: 100%; border-collapse: collapse;">
+
+  <thead>
+    <tr style="background-color:rgb(72, 81, 161);">
+      <th style="border: 1px solid #ccc; padding: 10px; text-align: center;">PBI</th>
+      <th style="border: 1px solid #ccc; padding: 10px; text-align: center;">Priorização</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">Realizar Backups</td>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">7</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">Visualizar logs do sistema</td>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">7</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">Realizar restaurações do sistema</td>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">7</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">Emitir relatórios de desempenho</td>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">6</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">Monitorar o desempenho do sistema</td>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">6</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">Controlar permissões de acesso</td>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">4</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><img alt="PBI diretor" src="../../assets/pbb/pbi_diretor.png" /></p>
+<h2 id="5-historias-de-usuario-e-bdd">5. Histórias de Usuário e BDD</h2>
+<p style="text-align: justify">
+Nesta etapa, os <b>PBIs priorizados</b> foram refinados em <b>Histórias de Usuário</b>, com foco em representar claramente a perspectiva dos usuários e suas necessidades no uso do sistema. Para garantir que os requisitos estejam bem definidos e testáveis, cada história é complementada por critérios de aceitação escritos com base na técnica de <b>Behavior-Driven Development (BDD)</b>. Essa abordagem orientada a comportamento contribui para a construção de funcionalidades alinhadas aos objetivos de negócio e à experiência esperada pelo usuário final.
+</p>
+
+<h3 id="5-relacao-de-historias-e-bdd">5. Relação de Histórias e BDD</h3>
+<table style="width: 100%; border-collapse: collapse;">
+
+  <thead>
+    <tr style="background-color:rgb(72, 81, 161);">
+      <th style="border: 1px solid #ccc; padding: 10px; text-align: center;">PBI</th>
+      <th style="border: 1px solid #ccc; padding: 10px; text-align: center;">User Story</th>
+      <th style="border: 1px solid #ccc; padding: 10px; text-align: center;">BDD</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">Registrar novos pacientes</td>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">Eu, como recepcionista, quero registrar novos pacientes, para reduzir o tempo de espera na recepção.</td>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">Dado que a recepcionista está registrando o paciente utilizando o sistema, quando ela preenche os dados do novo paciente, então o paciente deve ser adicionado ao sistema e o tempo de espera na recepção deve ser reduzido.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">Atualizar informações dos pacientes regulares</td>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">Eu, como recepcionista, quero atualizar informações dos pacientes regulares, para ter agilidade no registro e centralização das informações do paciente.</td>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">Dado que a recepcionista está logada no sistema e está na tela de cadastro do paciente, quando localiza o paciente pelo nome ou CPF e edita os campos de informações e confirma a atualização, então o sistema deve salvar os novos dados no cadastro do paciente e registrar a data e o usuário responsável pela alteração.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">Consultar pacientes registrados</td>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">Eu, como recepcionista, quero consultar pacientes registrados, para ter acesso rápido a informações de pacientes de outras unidades.</td>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">Dado que a recepcionista está na tela de busca dos pacientes, quando ela digita o CPF de um paciente e confirma a busca, então os dados do paciente são mostrados na tela.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">Acessar históricos médicos dos pacientes</td>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">Eu, como médico clínico geral, quero acessar históricos médicos dos pacientes, para ter acesso às informações atualizadas dos pacientes.</td>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">Dado que o médico clínico geral está atendendo um paciente, quando ele digita o CPF do paciente no sistema e confirma a busca, então o histórico médico completo dos pacientes é exibido.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">Inserir notas de observações</td>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">Eu, como médico clínico geral, quero inserir notas de observações, para documentação das consultas dos pacientes.</td>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">Dado que o médico clínico está atendendo um paciente e está na ficha dele, quando ele digita uma observação no campo de notas e clica no botão "Salvar nota", então o sistema deve registrar a nota no histórico do paciente e exibir a nova observação na linha do tempo de atendimento</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">Gerar atestados</td>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">Eu, como médico clínico geral, quero gerar atestados, para agilização do fluxo de atendimento.</td>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">Dado que o médico clínico geral está realizando uma consulta médica, quando ele seleciona a opção de gerar atestado e preenche os dados, então um atestado válido deve ser gerado e salvo no sistema.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">Prescrever medicamentos</td>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">Eu, como médico clínico geral, quero prescrever medicamentos, para agilização do fluxo de atendimento.</td>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">Dado o médico médico clínico geral está logado no sistema e está visualizando a ficha de um paciente durante uma consulta, quando ele seleciona a opção "Prescrever medicamento" e preenche o nome do medicamento, a dosagem e a duração do tratamento e clico em "Salvar prescrição", então o sistema deve registrar a prescrição no prontuário do paciente e exibir a prescrição na lista atual de medicamentos.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">Dispensar medicamentos</td>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">Eu, como farmacêutica quero dispensar medicamentos, para diminuição de erros.</td>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">Dado que recebi uma prescrição médica no sistema, quando eu seleciono o medicamento e confirmo a dispensação, então o sistema deve registrar a saída e associar ao paciente e alertar se houver risco de erro ou interação.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">Imprimir etiqueta com instruções para o paciente</td>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">Eu, como farmacêutica quero imprimir uma etiqueta com as instruções de uso do medicamento para tirar dúvidas rapidamente e orientar melhor os pacientes.</td>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">Dado que a farmacêutica está logada no sistema e está visualizando a prescrição médica de um paciente, quando seleciona a opção "Imprimir etiqueta" e revisa ou complementa as instruções de uso (como dosagem, horários e precauções), então o sistema deve gerar uma etiqueta com as instruções do medicamento e enviar a etiqueta para a impressora.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">Registrar medicamentos</td>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">Eu, como farmacêutica quero registrar medicamentos para manter um registro preciso e garantir a rastreabilidade do tratamento.</td>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">Dado que que estou dispensando um medicamento, quando eu confirmo a entrega ao paciente, então o sistema deve atualizar automaticamente o histórico do paciente.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">Consultar informações/bula do medicamento</td>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">Eu, como farmacêutica quero consultar as informações e a bula de um medicamento dentro do sistema para tirar dúvidas rapidamente e orientar melhor os pacientes.</td>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">Dado que a farmacêutica está logada no sistema e está na tela de prescrição ou dispensação de medicamentos, quando pesquisa pelo nome do medicamento e seleciona a opção "Ver bula", então o sistema deve exibir as informações completas do medicamento.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">Registrar dispensação no histórico do paciente</td>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">Eu, como farmacêutica quero registrar a dispensação de um medicamento no histórico do paciente com um clique para garantir a rastreabilidade do tratamento.</td>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">Dado que finalizei a dispensação de um medicamento, quando eu clico na opção de imprimir instruções de uso, então uma etiqueta com a dose e modo de uso deve ser impressa.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">Cancelar ou remarcar uma consulta existente</td>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">Eu, como coordenador de agendamento, quero cancelar ou remarcar a consulta de um paciente, para melhor experiência para o paciente.</td>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">Dado que o coordenador de agendamento está na agenda de um médico e a consulta está marcada para um horário específico, quando eu seleciono a opção "Remarcar" e escolho uma nova data e horário disponíveis, então o sistema deve atualizar o agendamento do paciente e enviar uma notificação ao paciente com os novos dados.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">Marcar nova consulta para um paciente</td>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">Eu, como coordenador de agendamento quero marcar uma nova consulta para um paciente para melhor experiência para o paciente.</td>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">Dado que recebo a solicitação de agendamento de um paciente, quando eu seleciono um horário disponível e confirmo o agendamento, então a consulta deve ser adicionada à agenda do médico e o paciente deve receber a confirmação.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">Visualizar agenda unificada de múltiplos médicos</td>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">Eu, como coordenador de agendamento quero visualizar a agenda unificada de múltiplos médicos para otimizar a marcação de consultas.</td>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">Dado que estou organizando agendamentos para pacientes com múltiplos especialistas, quando eu acesso a tela de agendas unificadas, então devo visualizar a disponibilidade de todos os médicos envolvidos e posso selecionar horários compatíveis para marcações otimizadas.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">Bloquear horários na agenda</td>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">Eu, como coordenador de agendamento quero bloquear horários na agenda de um médico para reduzir conflitos.</td>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">Dado que um médico informa que estará indisponível em determinado horário, quando eu acesso a agenda dele e bloqueio o horário indicado, então esse horário não deve estar disponível para novos agendamentos.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">Realizar login no portal</td>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">Eu, como paciente quero realizar um login  no portal, para ter acesso seguro às minhas informações.</td>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">Dado que estou na tela inicial do portal, quando eu insiro meu CPF e senha corretamente, então devo acessar o portal com segurança e ver minhas informações de saúde</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">Visualizar suas próximas consultas</td>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">Eu, como paciente quero visualizar minhas próximas consultas agendadas, para ter minhas informações centralizadas.</td>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">Dado que estou logada no portal como paciente, quando eu acesso a seção "Minhas consultas", então devo ver uma lista com datas, horários e nomes dos médicos agendados.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">Baixar resultados de exames</td>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">Eu, como paciente quero baixar os resultados dos meus exames  para ter mais autonomia e conveniência.</td>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">Dado que estou na seção de exames, quando eu clico em "Baixar PDF" de um exame, então o sistema deve permitir o download do documento e o arquivo deve conter os dados médicos e a assinatura do responsável.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">Realizar cadastro no portal</td>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">Eu, como paciente quero realizar um cadastro no portal, para ter acesso seguro às minhas informações.</td>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">Dado que estou na página de cadastro do portal, quando eu preencho meus dados pessoais e defino uma senha, então minha conta deve ser criada e devo receber um e-mail de confirmação de acesso.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">Realizar logout no portal</td>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">Eu, como paciente quero realizar um logout no portal, para ter acesso seguro às minhas informações.</td>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">Dado que estou logado como paciente  no sistema, quando eu clico em “Sair”, então minha sessão deve ser encerrada e o sistema deve garantir que ninguém acesse minhas informações sem nova autenticação.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">Agendar consultas no portal</td>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">Eu, como paciente quero agendar consultas no portal, para ter mais autonomia e conveniência.</td>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">Dado que estou logado como paciente no sistema, quando eu seleciono uma especialidade e escolho um horário disponível, então a consulta deve ser agendada e exibida nas minhas próximas consultas.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">Visualizar seu histórico de exames e laudos</td>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">Eu, como paciente quero visualizar todo o meu histórico de exames e laudos médico, para ter minhas informações centralizadas.</td>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">Dado que estou logada no portal como paciente, quando eu acesso a seção de exames e laudos, então devo ver a lista completa dos exames realizados e seus respectivos resultados.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">Atualizar dados cadastrais</td>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">Eu, como paciente quero atualizar meus dados cadastrais no portal para para ter mais autonomia e conveniência.</td>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">Dado que estou logada no portal, quando eu altero meus dados pessoais, então o sistema deve atualizar minhas informações com sucesso.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">Visualizar logs do sistema</td>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">Eu, como Diretor de TI, quero visualizar os logs do sistema, para se ter eficiência operacional.</td>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">Dado que estou na área administrativa do sistema, quando eu acesso os logs de eventos, então devo ver registros de acesso, erros e alterações relevantes.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">Realizar Backups</td>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">Eu, como Diretor de TI quero realizar backups para garantir a segurança e a integridade dos dados.</td>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">Dado que o sistema está em operação normal, quando eu inicio o processo de backup, então os dados devem ser salvos em um local seguro e uma notificação de sucesso deve ser gerada após cada backup.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">Realizar restaurações do sistema</td>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">Eu, como Diretor de TI, quero realizar restaurações do sistema, para garantir a segurança e integridade dos dados.</td>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">Dado que ocorreu uma falha no sistema, quando eu seleciono o backup mais recente e inicio a restauração, então os dados e configurações devem ser recuperados com sucesso e o sistema deve voltar ao estado anterior à falha.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">Monitorar o desempenho do sistema</td>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">Eu, como Diretor de TI quero monitorar o desempenho do sistema para garantir uma eficiência operacional.</td>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">Dado que o sistema está em funcionamento, quando eu abro o painel de desempenho, então devo ver métricas como uso de CPU, memória e tempo de resposta.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">Emitir relatórios de desempenho</td>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">Eu, como Diretor de TI quero emitir relatórios de desempenho para garantir uma eficiência operacional.</td>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">Dado que o sistema coletou dados de uso, quando eu seleciono o período desejado e solicito o relatório, então um documento com estatísticas de desempenho deve ser gerado.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">Controlar permissões de acesso</td>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">Eu, como Diretor de TI quero controlar permissões de acesso sistema para garantir a segurança e a integridade dos dados.</td>
+      <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">Dado que estou na área de controle de acesso, quando eu atribuo permissões específicas a um novo usuário, então ele deve ter acesso apenas às funcionalidades autorizadas.</td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Voltar ao topo
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Rodapé" >
+        
+          
+          <a href="../USM/" class="md-footer__link md-footer__link--prev" aria-label="Anterior: User Story Mapping">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Anterior
+              </span>
+              <div class="md-ellipsis">
+                User Story Mapping
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../casos_de_uso/" class="md-footer__link md-footer__link--next" aria-label="Próximo: Casos de Uso">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Próximo
+              </span>
+              <div class="md-ellipsis">
+                Casos de Uso
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "navigation.tracking", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.footer", "toc.follow", "search.suggest", "search.highlight", "content.tabs.link", "content.code.annotation", "content.code.copy"], "search": "../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "Mais 1 nesta p\u00e1gina", "search.result.more.other": "Mais # nesta p\u00e1gina", "search.result.none": "Nenhum resultado encontrado", "search.result.one": "1 resultado encontrado", "search.result.other": "# resultados encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.56ea9cef.min.js"></script>
+      
+    
+  </body>
+</html>
