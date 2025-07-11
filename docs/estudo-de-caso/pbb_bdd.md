@@ -14,12 +14,12 @@
 
 ## 1. Empresa HealthNet
 
-<div style="text-align: justify"> A HealthNet é uma ampla rede de clínicas e hospitais distribuídos por diversos estados que enfrenta desafios significativos na gestão de dados de pacientes e na integração de processos clínicos e administrativos. Diante disso, essa secção traz à tona os problemas e a solução proposta para a empresa.
+<div style="text-align: justify"> A HealthNet é uma ampla rede de clínicas e hospitais distribuídos por diversos estados que enfrenta desafios significativos na gestão de dados de pacientes e na integração de processos clínicos e administrativos. Diante disso, essa secção traz à tona os problemas e a solução proposta para a empresa.</div>
 
 ### 1.1 Problemas identificados
 
 <p style="text-align: justify">
-Antes da implementação da nova solução digital, a HealthNet enfrentava uma série de desafios operacionais, clínicos e de comunicação que comprometiam a qualidade do atendimento e a eficiência dos processos internos. Entre os principais problemas identificados,temos:
+Antes da implementação da nova solução digital, a HealthNet enfrentava uma série de desafios operacionais, clínicos e de comunicação que comprometiam a qualidade do atendimento e a eficiência dos processos internos. Entre os principais problemas identificados, temos:</p>
 
 ![Problemas](../assets/pbb/pbb_problems.png)
 
