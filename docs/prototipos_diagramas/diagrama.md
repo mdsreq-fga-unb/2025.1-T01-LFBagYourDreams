@@ -4,6 +4,8 @@ O diagrama Entidade-Relacionamento (DER) da aplicação **LF Bag Your Dreams** d
 
 ![Diagrama de Entidade-Relacionamento](../assets/DER.png)
 
+ [Link do diagrama interativo no Canva](https://www.canva.com/design/DAGq1JkDmDc/BgNqcK6bSG_swYnlJUK5og/edit?utm_content=DAGq1JkDmDc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+
 ## Observações
 
 - O modelo segue boas práticas de normalização, separando entidades e mantendo relacionamentos muitos-para-muitos através de entidades associativas como `Produto_Carrinho`.
