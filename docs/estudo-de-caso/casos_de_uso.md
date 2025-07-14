@@ -23,6 +23,10 @@
 
 ---
 
+![Print Casos de Uso](../assets/casosUso.jpeg)
+
+---
+
 ## 📘 Identificação dos Atores
 
 - **Refugiados**<br>
@@ -96,6 +100,12 @@ Caso de Uso: [Agendar Consulta Médica](agendar.md)
 Caso de Uso: [Reservar Vaga em Abrigo](reservar.md)
 
 Caso de Uso: [Anunciar Vaga de Trabalho](anunciar.md)
+
+Caso de Uso: [Gerenciar Recursos](gerenciar.md)
+
+Caso de Uso: [Integrar Novos Parceiros à Plataforma](integrar.md)
+
+Caso de Uso: [Cadastrar Perfil](cadastrar.md)
 
 
 
