@@ -12,10 +12,10 @@ são:
 - **O Requisito está representado por uma história de usuário?**  
    O requisito deve ser expresso como uma user story, garantindo melhor compreensão pelo time.
 
-- **O Requisito está coberto por Critérios de Aceite?**  
+- **O Requisito está coberto por Critérios de Aceite(Quando necessário)?**  
    O requisito deve conter critérios de aceite claros e específicos, no formato Behavior Driven Development, antes de entrar em desenvolvimento.
 
-- **O Requisito está mapeado para uma interface (quando necessário)?**  
+- **O Requisito está mapeado para uma interface (Quando necessário)?**  
    Caso o requisito demande uma interface, ele precisa ter sua representação visual definida (protótipo) para melhor clareza no desenvolvimento.
 
 - **As dependências do Requisito estão identificadas (se houver)?**  
