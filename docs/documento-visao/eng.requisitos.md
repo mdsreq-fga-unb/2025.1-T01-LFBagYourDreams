@@ -1,21 +1,21 @@
 ### 4.1 Atividades e Técnicas de ER
 **Elicitação e descoberta**
 
-* **BrainStorm** - Serão feitas reuniões iniciais com a equipe e cliente para levantar o máximo de ideias sobre funcionalidades, diferenciais e problemas comuns em e-commerce
+* **BrainStorm (Ata-03/05/25)** - Serão feitas reuniões iniciais com a equipe e cliente para levantar o máximo de ideias sobre funcionalidades, diferenciais e problemas comuns em e-commerce
 
-* **Entrevista** - Serão realizadas entrevistas rápidas com a cliente para identificar suas necessidades
+* **Entrevista (Ata 05/04/25, 19/04/25)** - Serão realizadas entrevistas rápidas com a cliente para identificar suas necessidades
 
 * **PromptIA** - Serão utilizadas IA’s generativas para gerar hipóteses de requisitos, exemplos de fluxos e levantamentos de dúvidas, acelerando processos
 
-* **Análise de concorrente** - Serão feitas avaliações detalhadas de e-commerces concorrentes diretos ou líderes de mercado para identificar padrões, recursos e lacunas.
+* **Análise de concorrente (Ata 03/05/25)** - Serão feitas avaliações detalhadas de e-commerces concorrentes diretos ou líderes de mercado para identificar padrões, recursos e lacunas.
 
-* **Análise de tarefas** - Serão analisadas as tarefas realizadas pelo cliente no cotidiano de seu negócio para a compreensão de requisitos do produto.
+* **Análise de tarefas (Ata 05/04/25, 19/04/25)** - Serão analisadas as tarefas realizadas pelo cliente no cotidiano de seu negócio para a compreensão de requisitos do produto.
 
 **Análise e Consenso**
 
-* **Negociação** - As funcionalidades do software serão negociadas com a cliente, tendo em vista o equilíbrio entre os desejos da mesma e as possibilidades de desenvolvimento pela equipe, mas sempre de modo a garantir o atendimento às necessidades que podem ser resolvidas pelo sistema.
+* **Negociação (Ata 03/05/25)** - As funcionalidades do software serão negociadas com a cliente, tendo em vista o equilíbrio entre os desejos da mesma e as possibilidades de desenvolvimento pela equipe, mas sempre de modo a garantir o atendimento às necessidades que podem ser resolvidas pelo sistema.
 
-* **Análise de Custo / Benefício** - Para a definição de requisitos, a equipe realizará análises de quais requisitos, de diferentes complexidades de implementação, podem satisfazer uma mesma necessidade, a fim de estabelecer uma opção viável para o desenvolvimento pela equipe.
+* **Análise de Custo / Benefício (Ata 03/05/25)** - Para a definição de requisitos, a equipe realizará análises de quais requisitos, de diferentes complexidades de implementação, podem satisfazer uma mesma necessidade, a fim de estabelecer uma opção viável para o desenvolvimento pela equipe.
 
 **Declaração de Requisitos**
 
@@ -32,7 +32,7 @@
 
 **Representação de Requisitos**
 
-* **Protótipos** - Com a prototipação interativa, a equipe irá criar versões iniciais do software, permitindo ao cliente uma visualização da solução e fornecer feedback rapidamente.  
+* **Protótipos** - Com a prototipação, a equipe irá criar versões iniciais do software, permitindo ao cliente uma visualização da solução e fornecer feedback rapidamente.  
 
 * **Diagramas** - Envolve a criação de diagramas que apoiam, de forma visual, a entender o direcionamento e o entendimento dos requisitos.
 
