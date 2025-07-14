@@ -88,3 +88,14 @@ Facilitar a reintegração social e econômica dos refugiados palestinos com dig
 - Conseguiu **emprego em projeto comunitário**
 - **Fortaleceu laços sociais** e **contribuiu para a reconstrução**
 - Recuperou **autonomia, dignidade e esperança**
+
+## Especificações dos Casos de Uso:
+
+Caso de Uso: [Agendar Consulta Médica](agendar.md)
+
+Caso de Uso: [Reservar Vaga em Abrigo](reservar.md)
+
+Caso de Uso: [Anunciar Vaga de Trabalho](anunciar.md)
+
+
+
