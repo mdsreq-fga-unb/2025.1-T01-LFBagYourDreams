@@ -15,22 +15,27 @@ nav:
           - 9. Backlog de Produto: "documento-visao/backlog.md"
       - Histórico de versões do documento: "documento-visao/historico-versoes.md"
       - Referências Bibliograficas: "documento-visao/referencias.md"
-  - Atas:
-      - Ata dia 19/04/2025: "atas/ata_reuniao_19_04_25.md"
-      - Ata dia 03/05/2025: "atas/ata_reuniao_03_05_25.md"
-      - Ata dia 19/06/2025: "atas/ata_reuniao_19_06_25.md"
+  - Estudo de Caso:
+      - User Story Mapping: "estudo-de-caso/USM.md"
+      - PBB & BDD: "estudo-de-caso/pbb_bdd.md"
+      - Casos de Uso: "estudo-de-caso/casos_de_uso.md" 
   - Lições aprendidas:
       - Unidade 1: "documento-visao/licoes-aprendidas/licoes-U1.md"
       - Unidade 2: "documento-visao/licoes-aprendidas/licoes-U2.md"
       - Unidade 3: "documento-visao/licoes-aprendidas/licoes-U3.md"
+  - Protótipos e Diagrama:
+      - Protótipos:
+      - Modelagem Banco de Dados: "prototipos_diagramas/diagrama.md"
+  - Atas:
+      - Ata dia 05/04/2025: "atas/ata_reuniao_05_04_25.md"
+      - Ata dia 19/04/2025: "atas/ata_reuniao_19_04_25.md"
+      - Ata dia 03/05/2025: "atas/ata_reuniao_03_05_25.md"
+      - Ata dia 19/06/2025: "atas/ata_reuniao_19_06_25.md"
   - Vídeo Apresentação:
       - Unidade 1: "apresentacoes/apresentacao1.md"
       - Unidade 2: "apresentacoes/apresentacao2.md"
       - Unidade 3: "apresentacoes/apresentacao3.md"
-  - Estudo de Caso:
-      - User Story Mapping: "estudo-de-caso/USM.md"
-      - PBB & BDD: "estudo-de-caso/pbb_bdd.md"
-      - Casos de Uso: "estudo-de-caso/casos_de_uso.md"
+  
 theme:
   name: material
   features:
