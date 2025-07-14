@@ -16,14 +16,11 @@
 
 - **Whatsapp:** Será utilizado como principal canal de comunicação com o cliente, permitindo contatos rápidos, envio de atualizações pontuais e compartilhamento de materiais. Também poderá ser utilizado para interações rápidas com a equipe, facilitando a comunicação ágil no dia a dia.
 - **Google Meet:** As reuniões semanais com o cliente serão realizadas por videoconferência através do Google Meet (ou Microsoft Teams), com o objetivo de alinhar expectativas, apresentar o progresso do projeto e coletar feedbacks. A ferramenta também será utilizada para chamadas em tempo real entre os membros da equipe, quando necessário.
-- **Zenhub:** Será a ferramenta de gerenciamento do backlog, controle de tarefas e acompanhamento do progresso de cada sprint. Ela permitirá que tanto a equipe quanto o cliente visualizem o andamento do projeto e participem ativamente do processo de priorização das funcionalidades.
 
 **Métodos e Frequência de Reuniões**
 
 - **Reuniões semanais com a equipe:** A proposta é garantir um ritmo constante de entrega, com ajustes e validação rápida das funcionalidades desenvolvidas. Nessas reuniões iremos realizar o planejamento das próximas tarefas e prioridades da semana seguinte e discutir o que foi desenvolvido na última semana
-- **Reuniões semanais com o cliente:** Essa prática está alinhada com a abordagem iterativa do nosso processo e é fundamental para garantir que o desenvolvimento esteja atendendo às expectativas e necessidades do negócio**,** recebendo feedbacks do cliente sobre o
-
-que foi desenvolvido e discutindo possíveis ajustes ou mudanças de prioridade.
+- **Reuniões semanais com o cliente:** Essa prática está alinhada com a abordagem iterativa do nosso processo e é fundamental para garantir que o desenvolvimento esteja atendendo às expectativas e necessidades do negócio**,** recebendo feedbacks do cliente sobre o que foi desenvolvido e discutindo possíveis ajustes ou mudanças de prioridade.
 
 ### 5.3 Processo de Validação
 

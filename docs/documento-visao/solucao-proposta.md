@@ -32,12 +32,12 @@ Diante do objetivo geral, pode-se extrair objetivos específicos, a saber:
 
 ### 2.3 Tecnologias a Serem Utilizadas
 
-- **Front-End:** nesta área optamos por utilizar **ReactJS** \- framework do JavaScript - devido à sua performance, flexibilidade e escalabilidade. Além disso, é um framework que já conhecemos e temos familiaridade, trazendo rapidez no desenvolvimento do produto, prezando por atender aos prazos estabelecidos.
-- **Back-End:** nesta área, **Python** foi escolhido principalmente pela sua simplicidade. Ele não só conta com várias bibliotecas que facilitam a integração e a manipulação de dados, como também é compatível com diversas soluções de deploy.
+- **Front-End**: Para o desenvolvimento da interface, optamos por utilizar React em conjunto com TypeScript e Tailwind CSS. A escolha por essas tecnologias se deu pela familiaridade da equipe, o que contribui para maior produtividade e agilidade na entrega, mantendo o foco em qualidade e cumprimento dos prazos.
+- **Back-End**: Para o back-end, optamos por utilizar Python em conjunto com o Django REST Framework pela sua simplicidade. Ele não só oferece diversas bibliotecas que facilitam a integração, autenticação, manipulação de dados e escalabilidade como também compatível com diversas soluções de deploy.
 - **Design:** para construir o design optamos por utilizar **Figma**, pois é uma ferramenta User Friendly, leve, popular e de fácil compartilhamento. Ela permite que várias pessoas de uma mesma equipe editem um protótipo ao mesmo tempo, o que facilita a cooperação.
 - **Controle de versão e monitoramento de código:** aqui optamos por utilizar **Git** em conjunto com o **Github**, pois são ferramentas que já temos expertise em utilizar, trazendo velocidade e facilitando o desenvolvimento.
 - **Ambiente de desenvolvimento:** aqui escolhemos utilizar **Docker**, pois é uma ferramenta que permite que o código seja desenvolvido e executado em diferentes sistemas operacionais e versões, eliminando o problema de incompatibilidade entre sistemas.
-- **Banco de dados:** O **MongoDB** foi escolhido por se tratar de um banco de dados de fácil uso e de alta flexibilidade, além de possuir grande compatibilidade com **Python** - linguagem escolhida para fazer o Back-End.
+- **Banco de dados:** O **SupaBase** foi escolhido por se tratar de um banco de dados de fácil uso e de alta flexibilidade, além de possuir grande compatibilidade com **Python** - linguagem escolhida para fazer o Back-End.
 
 ### 2.4 Pesquisa de Mercado e Análise Competitiva
 
