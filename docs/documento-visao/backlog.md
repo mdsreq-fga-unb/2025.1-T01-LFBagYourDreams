@@ -1,93 +1,236 @@
 ### 9.1 Backlog Geral
 
-# Gestão de Clientes e Usuários
+## 9.1.1 Tema: Gestão de Clientes e Usuários
 
-## 1.1 Épico: Cadastro e Acesso do Usuário
+### 9.1.1.1 Épico: Cadastro e Acesso do Usuário
 
-**US01**: Como usuário, eu quero poder cadastrar os meus dados pessoais, para que eu possa realizar compras sem ter que preencher minhas informações toda vez que realizar um pedido.
+* **US01 - Como usuário, eu quero poder cadastrar os meus dados pessoais, para que eu possa realizar compras sem ter que preencher minhas informações toda vez que realizar um pedido.**
+    * **Critérios de aceitação:**
+        * O sistema deve apresentar um formulário de cadastro de usuário claro e acessível.
+        * O sistema deve enviar um e-mail de confirmação de cadastro para o endereço fornecido.
+        * Após o cadastro bem-sucedido, o usuário deve ser automaticamente logado no sistema ou direcionado para a página de login.
+    * **Regras de negócio:**
+        * O formulário de cadastro deve solicitar nome completo, e-mail, senha, CPF, CEP, endereço completo (rua, número, complemento, bairro, cidade, estado).
+        * O sistema deve validar o formato do e-mail e do CPF: XXX.XXX.XXX-XX.
+        * O sistema deve exigir uma senha que atenda a critérios de segurança: mínimo de 9 caracteres, entre letras, números e caracteres especiais.
+    * [x] DoR
+    * [ ] DoD
 
-**US02**: Como usuário, eu quero fazer login no sistema com as minhas credenciais, para que eu possa acessar minha conta e todas as suas funcionalidades.
+* **US02: Como usuário, eu quero fazer login no sistema com as minhas credenciais para que eu possa acessar minha conta e todas as suas funcionalidades.**
+    * **Critérios de aceitação:**
+        * O sistema deve apresentar uma página de login com campos para e-mail/usuário e senha.
+        * O sistema deve autenticar o usuário com as credenciais corretas.
+        * Em caso de credenciais inválidas, o sistema deve exibir uma mensagem de erro clara e informativa.
+        * Após o login bem-sucedido, o usuário deve ser redirecionado para a página inicial (catálogo de produtos).
+        * A sessão do usuário deve ser mantida durante a navegação, permitindo acesso às funcionalidades da conta.
+    * [x] DoR
+    * [ ] DoD
 
-**US03**: Como usuário, eu quero poder realizar o logoff, para proteger meus dados pessoais.
+* **US03 - Como usuário, eu quero poder realizar o logoff para proteger meus dados pessoais.**
+    * **Critérios de Aceitação:**
+        * O sistema deve exibir um botão "Sair" ou "Logoff" visível no cabeçalho ou menu da conta do usuário.
+        * Ao clicar em "Sair", a sessão do usuário deve ser encerrada.
+        * O usuário deve ser redirecionado para a página inicial ou de login após o logoff.
+        * Após o logoff, as funcionalidades da conta do usuário (editar perfil: US05) não devem estar acessíveis sem um novo login.
+    * [x] DoR
+    * [ ] DoD
 
-**US04**: Como usuário, eu quero poder recuperar minha senha, para acessar minha conta caso eu a perca.
+* **US04: Como usuário, eu quero poder recuperar minha senha para acessar minha conta caso eu a perca.**
+    * **Critérios de Aceitação:**
+        * O sistema deve apresentar uma opção "Esqueci minha senha" na página de login.
+        * Ao clicar em "Esqueci minha senha", o sistema deve solicitar o e-mail cadastrado.
+        * O sistema deve enviar um link de redefinição de senha para o e-mail fornecido, se o e-mail estiver cadastrado.
+        * Ao acessar o link, o usuário deve ser capaz de definir uma nova senha.
+        * O sistema deve exibir uma confirmação de que a senha foi redefinida com sucesso.
+    * **Regras de negócio:**
+        * O link de redefinição deve ser válido por um período determinado.
+        * A nova senha deve atender aos mesmos critérios de segurança do cadastro.
+    * [x] DoR
+    * [ ] DoD
 
-## 1.2 Épico: Gerenciamento de Perfil do Usuário
+### 9.1.1.2 Épico: Gerenciamento de perfil do usuário
 
-**US05**: Como usuário, eu quero poder editar meus dados como “e-mail” e “senha”, para manter minhas informações atualizadas.
+* **US05: Como usuário, eu quero poder editar meus dados como “e-mail” e “senha”, para manter minhas informações atualizadas.**
+    * **Critérios de Aceitação:**
+        * O sistema deve fornecer uma seção no perfil do usuário onde o e-mail e a senha podem ser editados.
+        * Para editar o e-mail, o sistema pode solicitar a senha atual para confirmação.
+        * Para editar a senha, o sistema deve solicitar a senha atual e a nova senha (com confirmação da nova senha).
+        * O sistema deve exibir uma mensagem de sucesso após a atualização dos dados.
+        * O sistema deve enviar uma notificação para o e-mail antigo e/ou novo informando sobre a alteração do e-mail/senha.
+    * **Regras de negócio:**
+        * A nova senha deve atender aos mesmos critérios de segurança do cadastro.
+    * [x] DoR
+    * [ ] DoD
 
-**US06**: Como usuário, eu quero poder deletar a minha conta, para quando eu não possuir mais interesse em continuar na plataforma.
+* **US06: Como usuário, eu quero poder deletar a minha conta, para quando eu não possuir mais interesse em continuar na plataforma.**
+    * **Critérios de Aceitação:**
+        * O sistema deve apresentar uma opção clara para exclusão de conta na seção de perfil do usuário.
+        * O sistema deve solicitar uma confirmação (re-entrada da senha) antes de prosseguir com a exclusão.
+        * O usuário deve ser deslogado do sistema imediatamente após a exclusão da conta.
+        * O sistema deve exibir uma mensagem de confirmação de exclusão da conta.
+    * [x] DoR
+    * [ ] DoD
 
-# Vendas e Experiência do Cliente
+## 9.1.2 Tema: Vendas e Experiência do Cliente
 
-## 2.1 Épico: Processo de Compra
+### 9.1.2.1 Épico: Processo de compra
 
-**US07**: Como usuário, eu gostaria de buscar por produtos, para visualizar informações específicas deles.
+* **US07: Como usuário, eu gostaria de buscar por produtos, para visualizar informações específicas deles.**
+    * **Critérios de Aceitação:**
+        * O sistema deve apresentar um campo de busca visível na página inicial (catálogo de produtos).
+        * O sistema deve permitir a busca por nome do produto, categoria e cor.
+        * Ao pesquisar, o sistema deve exibir uma lista de produtos relevantes.
+        * Ao clicar em um produto na lista de resultados, o sistema deve exibir a página de detalhes do produto com nome, descrição, imagens, preço e disponibilidade em estoque.
+        * A página de detalhes do produto deve mostrar as opções de personalização disponíveis (cor, alça, material).
+    * [x] DoR
+    * [x] DoD
 
-**US08**: Como usuário, eu gostaria de personalizar e escolher cada um dos componentes das bolsas, para garantir que a bolsa seja do jeito que eu quero.
+* **US08: Como usuário, eu gostaria de personalizar e escolher cada um dos componentes das bolsas, para garantir que a bolsa seja do jeito que eu quero.**
+    * **Critérios de Aceitação:**
+        * O sistema deve permitir ao usuário selecionar a cor do material para todos os tipos de produtos.
+        * A personalização deve ser visualmente representada na interface do usuário.
+        * O sistema deve permitir ao usuário adicionar o produto personalizado ao carrinho de compras.
+    * **Regras de negócio:**
+        * Para todos os tipos de produto, apenas a cor do material pode ser modificada.
+    * [ ] DoR
+    * [ ] DoD
 
-**Regras de Negócio**:
-    - Para todos os tipos de produto, poderá ser modificada apenas a **cor do material**.
-    - Para bolsas, além da **cor do material**, também poderá ser personalizada a **alça**.
+### 9.1.2.2 Épico: Gerenciamento do Carrinho
 
-## 2.2 Épico: Gerenciamento do Carrinho
+* **US09: Como usuário, eu quero poder adicionar itens a um carrinho de compras a partir de um catálogo de produtos para organizar e selecionar mais de um produto na minha compra.**
+    * **Critérios de Aceitação:**
+        * O sistema deve exibir um botão "Adicionar ao Carrinho" em cada produto no catálogo e na página de detalhes do produto.
+        * Ao clicar em "Adicionar ao Carrinho", o item deve ser adicionado ao carrinho de compras.
+        * O sistema deve exibir uma confirmação visual de que o item foi adicionado ao carrinho (ex: pop-up, alteração no ícone do carrinho).
+        * O ícone do carrinho no cabeçalho deve exibir o número de itens adicionados.
+        * Ao acessar o carrinho, o usuário deve visualizar todos os itens adicionados, com suas respectivas quantidades e preços unitários.
+    * [x] DoR
+    * [x] DoD
 
-**US09**: Como usuário, eu quero poder adicionar itens a um carrinho de compras a partir de um catálogo de produtos, para organizar e selecionar mais de um produto na minha compra.
+* **US10: Como usuário, eu quero poder editar itens de um carrinho de compras para que esses itens reflitam corretamente o que desejo comprar.**
+    * **Critérios de Aceitação:**
+        * O sistema deve permitir que eu altere a quantidade de um item no carrinho de compras.
+        * As alterações de quantidade devem ser refletidas no total do carrinho.
+    * [x] DoR
+    * [x] DoD
 
-**US10**: Como usuário, eu quero poder editar itens de um carrinho de compras, para que esses itens reflitam corretamente o que desejo comprar.
+* **US11: Como usuário, eu quero poder remover itens de um carrinho de compras para que esses itens não sejam incluídos na minha próxima compra.**
+    * **Critérios de Aceitação:**
+        * O sistema deve exibir um botão "Remover" ou ícone de lixeira ao lado de cada item no carrinho de compras.
+        * Ao clicar em "Remover", o item deve ser removido do carrinho.
+        * O sistema deve atualizar o total do carrinho após a remoção de um item.
+    * [x] DoR
+    * [x] DoD
 
-**Critério de Aceitação**:
-- O sistema deve permitir que eu altere a **cor** e a **quantidade** de um item no carrinho de compras.
+### 9.1.2.3 Épico: Finalização da Compra e Pagamento
 
-**US11**: Como usuário, eu quero poder remover itens de um carrinho de compras, para que esses itens não sejam incluídos na minha próxima compra.
+* **US12 - Como usuário, eu quero poder visualizar um resumo de uma compra a ser finalizada para confirmar os itens selecionados antes de pagar.**
+    * **Critérios de Aceitação:**
+        * O sistema deve exibir o resumo da compra antes do pagamento.
+        * O resumo da compra deve incluir todos os itens selecionados, suas quantidades, preços unitários e total.
+        * O usuário deve poder retornar ao carrinho para fazer edições a partir da página de resumo.
+    * [x] DoR
+    * [x] DoD
 
-## 2.3 Épico: Finalização da Compra e Pagamento
+* **US13 - Como usuário, quero confirmar a compra dos produtos no carrinho, para que o pedido seja registrado no sistema e processado corretamente.**
+    * **Critérios de Aceitação:**
+        * O sistema deve permitir que eu informe meus dados de entrega, incluindo:
+            * CPF (atendido)
+            * CEP (atendido)
+        * O sistema deve oferecer opções de pagamento, permitindo que eu escolha entre:
+            * Cartão de crédito/débito (atendido)
+            * Pix (não atendido)
+            * Boleto bancário (não atendido)
+        * Após a confirmação dos dados e da forma de pagamento, o pedido deve ser registrado com sucesso no sistema.
+    * **Regras de Negócio:**
+        * Se uma compra for finalizada com sucesso, então o administrador deve ser notificado, via e-mail, com as informações da transação.
+    * [x] DoR
+    * [ ] DoD
 
-**US12**: Como usuário, eu quero poder visualizar um resumo de uma compra a ser finalizada, para confirmar os itens selecionados antes de pagar.
+### 9.1.2.4 Épico: Engajamento e Pós-Venda
 
-**US13**: Como usuário, quero confirmar a compra dos produtos no carrinho, para que o pedido seja registrado no sistema e processado corretamente.
+* **US14: Como usuário, eu quero receber desconto ao compartilhar o site com outras pessoas, para que eu possa obter benefícios em compras por indicar o site para meus contatos.**
+    * **Critérios de Aceitação:**
+        * Não definidos
+    * [ ] DoR
+    * [ ] DoD
 
-**Critérios de Aceitação**:
-- O sistema deve permitir que eu informe meus dados de entrega, incluindo:
-  - CPF
-  - CEP
-- O sistema deve oferecer opções de pagamento, permitindo que eu escolha entre:
-  - Cartão de crédito/débito
-  - Pix
-  - Boleto bancário
+* **US15: Como usuário, eu quero poder adicionar avaliação de produtos que adquiri (usando estrelas e comentários), para que eu possa compartilhar minha experiência e dar meu feedback com outros clientes e com a loja.**
+    * **Critérios de Aceitação:**
+        * O sistema deve permitir que o usuário avalie produtos que já foram comprados.
+        * O sistema deve permitir a avaliação por estrelas (de 1 a 5 estrelas).
+        * O sistema deve permitir a adição de comentários de texto na avaliação.
+        * O sistema deve permitir que o usuário adicione fotos e vídeos à sua avaliação.
+        * A avaliação deve ser visível na página do produto para outros usuários.
+    * [x] DoR
+    * [ ] DoD
 
-**Regras de Negócio**:
-- Se uma compra for finalizada com sucesso, então o **administrador deve ser notificado** com as informações da transação.
+* **US16 Como usuário, quero poder remover minha avaliação de um produto adquirido (incluindo estrelas e comentários), para que eu possa gerenciar meu feedback e controlar as informações que compartilho com outros clientes e com a loja.**
+    * **Critérios de Aceitação:**
+        * O sistema deve permitir que o usuário acesse suas avaliações já publicadas.
+        * O sistema deve apresentar uma opção clara para remover uma avaliação existente.
+        * Ao remover uma avaliação, o sistema deve remover as estrelas, comentários, fotos e vídeos associados.
+        * O sistema deve exibir uma confirmação antes da remoção definitiva da avaliação.
+    * [x] DoR
+    * [ ] DoD
 
-## 2.4 Épico: Engajamento e Pós-Venda
+* **US17: Como usuário, eu quero ser capaz de iniciar um processo de devolução ou troca de um item comprado para que eu possa resolver problemas com produtos recebidos de forma prática e eficiente.**
+    * **Critérios de Aceitação:**
+        * O sistema deve fornecer uma área de cliente onde o usuário possa visualizar seus pedidos e iniciar processos de devolução ou troca.
+        * O sistema deve guiar o usuário através de um processo claro para solicitar devolução ou troca.
+        * O usuário deve poder informar o motivo da devolução/troca.
+        * O sistema deve notificar o administrador sobre a solicitação de devolução/troca.
+        * O usuário deve poder acompanhar o status da sua solicitação de devolução/troca.
+    * [x] DoR
+    * [ ] DoD
 
-**US14**: Como usuário, eu quero receber desconto ao compartilhar o site com outras pessoas, para que eu possa obter benefícios em compras por indicar o site para meus contatos.
+## 9.1.3 Tema: Gestão Interna e Otimização de Processos
 
-**US15**: Como usuário, eu quero poder adicionar avaliação de produtos que adquiri (usando estrelas e comentários), para que eu possa compartilhar minha experiência e dar meu feedback com outros clientes e com a loja.
+### 9.1.3.1 Épico: Gerenciamento de Produtos pelo Administrador
 
-**US16**: Como usuário, quero poder remover minha avaliação de um produto adquirido (incluindo estrelas e comentários), para que eu possa gerenciar meu feedback e controlar as informações que compartilho com outros clientes e com a loja.
+* **US18: Como administrador, eu quero adicionar novos produtos ao catálogo, para disponibilizá-los aos clientes.**
+    * **Critérios de Aceitação:**
+        * O administrador deve ser capaz de adicionar um novo produto.
+        * O produto adicionado deve ser imediatamente visível no catálogo para os clientes.
+    * **Regras de negócio:**
+        * O produto deve possuir as seguintes informações: nome, categoria, descrição, cor padrão, preço, imagem e quantidade em estoque.
+    * [x] DoR
+    * [x] DoD
 
-**US17**: Como usuário, eu quero ser capaz de iniciar um processo de devolução ou troca de um item comprado, para que eu possa resolver problemas com produtos recebidos de forma prática e eficiente.
+* **US19: Como administrador, eu quero editar produtos existentes no catálogo, para corrigir ou atualizar informações.**
+    * **Critérios de Aceitação:**
+        * O administrador deve ser capaz de editar um produto.
+        * As alterações devem ser salvas e refletidas no catálogo de produtos em tempo real.
+    * **Regras de negócio:**
+        * O administrador deve ser capaz de editar todas as informações sobre o produto definidas no cadastro desse produto.
+    * [x] DoR
+    * [x] DoD
 
-# Gestão Interna e Otimização de Processos
+* **US20: Como administrador, eu quero remover produtos do catálogo, para manter apenas itens disponíveis à venda.**
+    * **Critérios de Aceitação:**
+        * O sistema deve solicitar uma confirmação simples antes de remover um produto permanentemente: o usuário não necessitará inserir sua senha para confirmar a exclusão de um produto da lista de produtos.
+        * Após a remoção, o produto não deve ser mais visível no catálogo para os clientes.
+    * [x] DoR
+    * [x] DoD
 
-## 3.1 Épico: Gerenciamento de Produtos pelo Administrador
+### 9.1.3.2 Épico: Gestão de Estoque e Pedidos
 
-**US18**: Como administrador, eu quero adicionar novos produtos ao catálogo, para disponibilizá-los aos clientes.
+* **US21: Como administrador, eu quero editar as quantidades em estoque de cada produto, para que eu possa corrigir erros ou atualizar após reabastecimento.**
+    * **Critérios de Aceitação:**
+        * O sistema deve permitir a atualização manual da quantidade em estoque para produtos específicos.
+        * As alterações de estoque devem ser refletidas em tempo real na disponibilidade do produto para os clientes.
+    * [x] DoR
+    * [x] DoD
 
-**US19**: Como administrador, eu quero editar produtos existentes no catálogo, para corrigir ou atualizar informações.
-
-**US20**: Como administrador, eu quero remover produtos do catálogo, para manter apenas itens disponíveis à venda.
-
-## 3.2 Épico: Gestão de Estoque e Pedidos
-
-**US21**: Como administrador, eu quero editar as quantidades em estoque de cada produto, para que eu possa corrigir erros ou atualizar após reabastecimento.
-
-**US22**: Como administrador, eu quero poder alterar o status de uma compra (em processamento, enviado, entregue ou cancelado), para que o cliente acompanhe o andamento do pedido.
-
-**Regras de Negócio**:
-- Sempre que a situação de um pedido for atualizada, o **cliente deve ser notificado imediatamente** sobre a nova situação.
-
+* **US22: Como administrador, eu quero poder alterar o status de um pedido (em processamento, enviado, entregue ou cancelado), para que o cliente acompanhe o andamento do pedido.**
+    * **Critérios de Aceitação:**
+        * O sistema deve permitir ao administrador visualizar a lista de todos os pedidos.
+    * **Regras de Negócio:**
+        * Para cada pedido, o administrador deve ser capaz de selecionar e alterar o status para "em processamento", "enviado", "entregue" ou "cancelado".
+        * Sempre que a situação de um pedido for atualizada, o cliente deve ser notificado imediatamente sobre a nova situação através de e-mail.
+        * O cliente deve poder visualizar o status atualizado do seu pedido na sua área de cliente.
+    * [x] DoR
+    * [x] DoD
 
 ### 9.2 Priorização do Backlog Geral
 
