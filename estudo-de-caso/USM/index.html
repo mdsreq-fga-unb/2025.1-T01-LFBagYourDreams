@@ -1,0 +1,2730 @@
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../../evidencias/analise-tarefas-cliente/">
+      
+      
+        <link rel="next" href="../pbb_bdd/">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.15">
+    
+    
+      
+        <title>User Story Mapping - Documentação LFBagYourDreams</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.342714a4.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../css/custom.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="black">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#user-story-mapping" class="md-skip">
+          Ir para o conteúdo
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabeçalho">
+    <a href="../.." title="Documentação LFBagYourDreams" class="md-header__button md-logo" aria-label="Documentação LFBagYourDreams" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Documentação LFBagYourDreams
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              User Story Mapping
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="black"  aria-label="Dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7.1 10c1-1 2.4-1.7 3.9-1.9V2h2v6.1c1.5.2 2.9.9 3.9 1.9zm-1.8 3c-.2.6-.3 1.3-.3 2 0 3.9 3.1 7 7 7s7-3.1 7-7c0-.7-.1-1.4-.3-2z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="white" data-md-color-accent="black"  aria-label="Light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 8.08V2h-2v6.08c-3.39.49-6 3.39-6 6.92 0 3.87 3.13 7 7 7s7-3.13 7-7c0-3.53-2.61-6.43-6-6.92M12 20c-2.76 0-5-2.24-5-5 0-1.13.39-2.16 1.03-3h7.94c.64.84 1.03 1.87 1.03 3 0 2.76-2.24 5-5 5"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Buscar" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Pesquisar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpar" aria-label="Limpar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando a pesquisa
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Abas" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Página Inicial
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../documento-visao/cenario-atual/" class="md-tabs__link">
+          
+  
+  
+  Documento
+
+        </a>
+      </li>
+    
+  
+
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="./" class="md-tabs__link">
+          
+  
+  
+  Estudo de Caso
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../atas/ata_reuniao_05_04_25/" class="md-tabs__link">
+          
+  
+  
+  Atas
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../evidencias/analise-tarefas-cliente/" class="md-tabs__link">
+          
+  
+  
+  Outras Evidências
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../prototipos_diagramas/diagrama/" class="md-tabs__link">
+          
+  
+  
+  Protótipos e Diagrama
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../documento-visao/licoes-aprendidas/licoes-U1/" class="md-tabs__link">
+          
+  
+  
+  Lições aprendidas
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../apresentacoes/apresentacao1/" class="md-tabs__link">
+          
+  
+  
+  Vídeo Apresentação
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navegação" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Documentação LFBagYourDreams" class="md-nav__button md-logo" aria-label="Documentação LFBagYourDreams" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Documentação LFBagYourDreams
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Página Inicial
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Documento
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Documento
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_1" id="__nav_2_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Visão do Produto e Projeto
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_1">
+            <span class="md-nav__icon md-icon"></span>
+            Visão do Produto e Projeto
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../documento-visao/cenario-atual/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    1. Cenário Atual do Cliente e do Negócio
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../documento-visao/solucao-proposta/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2. Solução Proposta
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../documento-visao/estrategias/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    3. Estratégias de Engenharia de Software
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../documento-visao/eng.requisitos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    4. Engenharia de Requisitos
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../documento-visao/cronograma/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    5. Cronogramas e Entregas
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../documento-visao/interacao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    6. Interação entre Equipe e cliente
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../documento-visao/req.software/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    7. Requisitos de Software
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../documento-visao/dor_dod/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    8. DoR e DoD
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../documento-visao/backlog/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    9. Backlog de Produto
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../documento-visao/historico-versoes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Histórico de versões do documento
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../documento-visao/referencias/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Referências Bibliograficas
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../evidencias/analise-tarefas-cliente/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Análise Tarefas Cliente
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Estudo de Caso
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Estudo de Caso
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    User Story Mapping
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    User Story Mapping
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#empresa-educonnect" class="md-nav__link">
+    <span class="md-ellipsis">
+      Empresa EduConnect
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#quadro-do-usm" class="md-nav__link">
+    <span class="md-ellipsis">
+      Quadro do USM
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#personas-do-educonnect" class="md-nav__link">
+    <span class="md-ellipsis">
+      Personas do EduConnect
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Personas do EduConnect">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#professor-coodenador" class="md-nav__link">
+    <span class="md-ellipsis">
+      Professor Coodenador
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#professor-participante" class="md-nav__link">
+    <span class="md-ellipsis">
+      Professor Participante
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aluno" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aluno
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#professor-coordenador" class="md-nav__link">
+    <span class="md-ellipsis">
+      Professor Coordenador
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#especialista-externo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Especialista Externo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#coordenador-pedagogico" class="md-nav__link">
+    <span class="md-ellipsis">
+      Coordenador Pedagógico
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tecnica-de-priorizacao-wsjf-moscow" class="md-nav__link">
+    <span class="md-ellipsis">
+      Técnica de Priorização: WSJF + MoSCoW
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#criterios-de-aceitacao-para-as-us-presentes-no-mvp" class="md-nav__link">
+    <span class="md-ellipsis">
+      Critérios de Aceitação para as US presentes no MVP
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../pbb_bdd/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    PBB & BDD
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../casos_de_uso/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Casos de Uso
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Atas
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Atas
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../atas/ata_reuniao_05_04_25/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Ata dia 05/04/2025
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../atas/ata_reuniao_19_04_25/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Ata dia 19/04/2025
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../atas/ata_reuniao_03_05_25/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Ata dia 03/05/2025
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../atas/ata_reuniao_19_06_25/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Ata dia 19/06/2025
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Outras Evidências
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Outras Evidências
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../evidencias/analise-tarefas-cliente/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Análise Tarefas Cliente
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Protótipos e Diagrama
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Protótipos e Diagrama
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../prototipos_diagramas/diagrama/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Modelagem Banco de Dados
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../prototipos_diagramas/prototipov1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Protótipos
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Lições aprendidas
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            Lições aprendidas
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../documento-visao/licoes-aprendidas/licoes-U1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Unidade 1
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../documento-visao/licoes-aprendidas/licoes-U2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Unidade 2
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../documento-visao/licoes-aprendidas/licoes-U3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Unidade 3
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../documento-visao/licoes-aprendidas/licoes-U4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Unidade 4
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Vídeo Apresentação
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            Vídeo Apresentação
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../apresentacoes/apresentacao1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Unidade 1
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../apresentacoes/apresentacao2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Unidade 2
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../apresentacoes/apresentacao3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Unidade 3
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../apresentacoes/apresentacao4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Unidade 4
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../apresentacoes/validacaoMVP/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Validação MVP
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#empresa-educonnect" class="md-nav__link">
+    <span class="md-ellipsis">
+      Empresa EduConnect
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#quadro-do-usm" class="md-nav__link">
+    <span class="md-ellipsis">
+      Quadro do USM
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#personas-do-educonnect" class="md-nav__link">
+    <span class="md-ellipsis">
+      Personas do EduConnect
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Personas do EduConnect">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#professor-coodenador" class="md-nav__link">
+    <span class="md-ellipsis">
+      Professor Coodenador
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#professor-participante" class="md-nav__link">
+    <span class="md-ellipsis">
+      Professor Participante
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aluno" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aluno
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#professor-coordenador" class="md-nav__link">
+    <span class="md-ellipsis">
+      Professor Coordenador
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#especialista-externo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Especialista Externo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#coordenador-pedagogico" class="md-nav__link">
+    <span class="md-ellipsis">
+      Coordenador Pedagógico
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tecnica-de-priorizacao-wsjf-moscow" class="md-nav__link">
+    <span class="md-ellipsis">
+      Técnica de Priorização: WSJF + MoSCoW
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#criterios-de-aceitacao-para-as-us-presentes-no-mvp" class="md-nav__link">
+    <span class="md-ellipsis">
+      Critérios de Aceitação para as US presentes no MVP
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="user-story-mapping">User Story Mapping</h1>
+<hr />
+<h2 id="empresa-educonnect">Empresa EduConnect</h2>
+<div style="text-align: justify">
+O EduConnect é uma iniciativa que surgiu a partir da experiência de três educadores, que identificaram significativas dificuldades enfrentadas pelas instituições de ensino na organização e acompanhamento de projetos interdisciplinares e atividades extracurriculares. Diante desse cenário,o objetivo do negócio é oferecer uma plataforma única, acessível e eficiente, que ajude a planejar, gerenciar e avaliar esses projetos de forma integrada.
+</div>
+
+<hr />
+<h2 id="quadro-do-usm">Quadro do USM</h2>
+<iframe width="768" height="432" src="https://miro.com/app/live-embed/uXjVJf2K8Fo=/?embedMode=view_only_without_ui&moveToViewport=-5451,4116,6013,2982&embedId=719770441591" frameborder="0" scrolling="no" allow="fullscreen; clipboard-read; clipboard-write" allowfullscreen></iframe>
+
+<hr />
+<h2 id="personas-do-educonnect">Personas do EduConnect</h2>
+<table>
+<thead>
+<tr>
+<th><strong>Persona</strong></th>
+<th><strong>Papel no projeto</strong></th>
+<th><strong>Necessidades/Expectativas</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Professor Coordenador</strong></td>
+<td>Planeja e gerencia os projetos.</td>
+<td>Precisa de controle geral e visão estratégica.</td>
+</tr>
+<tr>
+<td><strong>Professor Participante</strong></td>
+<td>Contribui com sua área no projeto.</td>
+<td>Precisa de acesso às informações e boa comunicação.</td>
+</tr>
+<tr>
+<td><strong>Aluno</strong></td>
+<td>Participa ativamente dos projetos.</td>
+<td>Busca uma plataforma intuitiva e interativa.</td>
+</tr>
+<tr>
+<td><strong>Pais/Responsáveis</strong></td>
+<td>Acompanham o progresso dos filhos.</td>
+<td>Precisam de informações claras e atualizações regulares.</td>
+</tr>
+<tr>
+<td><strong>Especialista Externo</strong></td>
+<td>Colabora com conhecimento prático.</td>
+<td>Precisa de orientações claras e integração com a equipe.</td>
+</tr>
+<tr>
+<td><strong>Coordenador Pedagógico</strong></td>
+<td>Garante o alinhamento pedagógico.</td>
+<td>Precisa de visão global e dados para avaliar resultados.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="professor-coodenador">Professor Coodenador</h3>
+<p><img alt="Professor Coodenador" src="../../assets/usm/prof-coordenador.jpg" /></p>
+<table>
+<thead>
+<tr>
+<th><strong>Requisito Funcional</strong></th>
+<th><strong>User Story</strong></th>
+<th><strong>Priorização</strong></th>
+<th><strong>MVP</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>RF01 - Definir tema e escopo do projeto</td>
+<td>US01 - Como Professor coordenador, quero poder definir tema e escopo do projeto, para que eu tenha clareza e foco durante a execução do projeto.</td>
+<td>5.33</td>
+<td>X</td>
+</tr>
+<tr>
+<td>RF02 - Definir custos e obter recursos</td>
+<td>US02 - Como professor coordenador, quero poder definir custos e obter recursos para o projeto, para que eu possa gerenciar o orçamento e garantir o financiamento necessário para a execução do projeto.</td>
+<td>5.20</td>
+<td>X</td>
+</tr>
+<tr>
+<td>RF03 - Definir cronograma preliminar</td>
+<td>US03 - Como professor coordenador quero poder definir o cronograma preliminar para o projeto, para que eu possa organizar as etapas e garantir o cumprimento dos prazos.</td>
+<td>5.00</td>
+<td>X</td>
+</tr>
+<tr>
+<td>RF04 - Definir canais de comunicação</td>
+<td>US04 - Como professor coordenador quero poder definir os canais de comunicação que serão utilizados no projeto, pela plataforma, para que a comunicação entre os envolvidos seja eficiente e organizada.</td>
+<td>5.33</td>
+<td>X</td>
+</tr>
+<tr>
+<td>RF05 - Obter aprovações de orçamentos e recursos</td>
+<td>US05 - Como professor coordenador quero poder obter aprovações de orçamentos e recursos para o projeto, para garantir o financiamento necessário e assegurar a execução adequada do projeto.</td>
+<td>1.25</td>
+<td></td>
+</tr>
+<tr>
+<td>RF06 - Definir critérios de avaliação</td>
+<td>US06 - Como professor coordenador, quero definir critérios de avaliação para o projeto, para garantir uma avaliação clara e justa.</td>
+<td>2.00</td>
+<td></td>
+</tr>
+<tr>
+<td>RF07 - Identificar riscos</td>
+<td>US07 - Como professor coordenador, quero identificar os riscos do projeto, para que eu possa antecipar problemas e planejar ações de mitigação.</td>
+<td>0.75</td>
+<td></td>
+</tr>
+<tr>
+<td>RF08 - Identificar planos de contingência</td>
+<td>US08 - Como professor coordenador, quero identificar planos de contingência para o projeto, para que possamos estar preparados para enfrentar imprevistos e garantir a continuidade das atividades.</td>
+<td>0.75</td>
+<td></td>
+</tr>
+<tr>
+<td>RF09 - Avisar sobre novo projeto</td>
+<td>US09 - Como professor coordenador, quero avisar sobre novos projetos, para que outros participantes possam ser informados e solicitar participação.</td>
+<td>5.33</td>
+<td>X</td>
+</tr>
+<tr>
+<td>RF10 - Confirmar participantes</td>
+<td>US10 - Como professor coordenador, quero confirmar os participantes do projeto, para garantir que todos estejam devidamente registrados e possam contribuir nas atividades.</td>
+<td>5.20</td>
+<td>X</td>
+</tr>
+<tr>
+<td>RF11 - Coletar autorizações</td>
+<td>US11 - Como professor coordenador, quero coletar autorizações dos responsáveis dos alunos, para garantir que todos estejam formalmente aprovados para participar do projeto.</td>
+<td>5.33</td>
+<td>X</td>
+</tr>
+<tr>
+<td>RF12 - Definir papéis</td>
+<td>US12 - Como professor coordenador, quero definir os papéis dos participantes no projeto, para que as responsabilidades fiquem claras e o trabalho seja organizado.</td>
+<td>2.00</td>
+<td></td>
+</tr>
+<tr>
+<td>RF13 - Realizar reunião de alinhamento da equipe</td>
+<td>US13 - Como professor coordenador, quero realizar reunião de alinhamento com a equipe e as famílias, para compartilhar informações, alinhar expectativas e fortalecer a parceria no desenvolvimento do projeto.</td>
+<td>1.25</td>
+<td></td>
+</tr>
+<tr>
+<td>RF14 - Convidar especialistas externos</td>
+<td>US14 - Como professor coordenador, quero convidar especialistas externos para o projeto, para que possamos contar com conhecimentos especializados que enriqueçam e qualifiquem as atividades desenvolvidas.</td>
+<td>3.65</td>
+<td>X</td>
+</tr>
+<tr>
+<td>RF15 - Acompanhar progresso do trabalho</td>
+<td>US15 - Como professor coordenador, quero acompanhar o progresso do trabalho no projeto, para garantir que as atividades estejam sendo realizadas conforme o planejado e os prazos sejam cumpridos.</td>
+<td>5.33</td>
+<td>X</td>
+</tr>
+<tr>
+<td>RF16 - Monitorar entregas macro (marcos do projeto)</td>
+<td>US16 - Como professor coordenador, quero monitorar os marcos do projeto, para acompanhar os principais acontecimentos e garantir que as entregas importantes sejam realizadas no prazo.</td>
+<td>8.00</td>
+<td>X</td>
+</tr>
+<tr>
+<td>RF17 - Fornecer feedbacks aos alunos</td>
+<td>US17 - Como professor coordenador, quero fornecer feedbacks aos alunos, para que eles possam entender seu desempenho, identificar pontos de melhoria e se motivar no processo de aprendizagem.</td>
+<td>2.00</td>
+<td></td>
+</tr>
+<tr>
+<td>RF18 - Orientar apresentações finais</td>
+<td>US18 - Como professor coordenador, quero orientar as apresentações finais do projeto, para garantir que os alunos estejam preparados e que os resultados sejam apresentados de forma clara e organizada.</td>
+<td>5.20</td>
+<td>X</td>
+</tr>
+<tr>
+<td>RF19 - Documentar gestão dos recursos</td>
+<td>US19 - Como professor coordenador, quero documentar a gestão dos recursos do projeto, para garantir transparência, controle financeiro e facilitar a prestação de contas.</td>
+<td>3.33</td>
+<td>X</td>
+</tr>
+<tr>
+<td>RF20 - Documentar lições aprendidas</td>
+<td>US20 - Como professor coordenador, quero documentar as lições aprendidas durante o projeto, para registrar conhecimentos adquiridos e melhorar projetos futuros.</td>
+<td>1.25</td>
+<td></td>
+</tr>
+<tr>
+<td>RF21 - Compilar feedbacks de todos os envolvidos</td>
+<td>US21 - Como professor coordenador, quero compilar os feedbacks de todos os envolvidos no projeto, para obter uma visão completa sobre o desempenho, identificar pontos fortes e oportunidades de melhoria.</td>
+<td>1.25</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="professor-participante">Professor Participante</h3>
+<p><img alt="Professor Participante" src="../../assets/usm/prof-participante.jpg" /></p>
+<table>
+<thead>
+<tr>
+<th><strong>Requisito Funcional</strong></th>
+<th><strong>User Story</strong></th>
+<th><strong>Priorização</strong></th>
+<th><strong>MVP</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>RF22 - Visualizar informações sobre projetos</td>
+<td>US22 - Eu, como professor participante, quero poder visualizar informações gerais sobre projetos, para compreender o seu contexto específico.</td>
+<td>5.00</td>
+<td>X</td>
+</tr>
+<tr>
+<td>RF23 - Solicitar participação em projetos</td>
+<td>US23 - Eu, como professor participante, quero poder solicitar participação em um projeto, para que eu possa auxiliar a adaptação dos conteúdos e acompanhar o progresso dos alunos.</td>
+<td>2.60</td>
+<td>X</td>
+</tr>
+<tr>
+<td>RF24 - Ver grupos sobre sua responsabilidade</td>
+<td>US24 - Eu, como professor participante, quero poder visualizar os grupos de alunos de um projeto que estão sob minha responsabilidade, para que eu possa direcionar adequadamente minhas contribuições ao projeto.</td>
+<td>2.60</td>
+<td>X</td>
+</tr>
+<tr>
+<td>RF25 - Acessar informações sobre grupos</td>
+<td>US25 - Eu, como professor participante, quero ser capaz de acessar informações específicas sobre o progresso do trabalho e as entregas de cada grupo cadastrado em um projeto.</td>
+<td>2.00</td>
+<td></td>
+</tr>
+<tr>
+<td>RF26 - Submeter planos de aula adaptados</td>
+<td>US26 - Eu, como professor participante, quero poder submeter planos de aula adaptados para adequar os conteúdos de minha especialidade ao contexto do projeto.</td>
+<td>3.20</td>
+<td>X</td>
+</tr>
+<tr>
+<td>RF27 - Comunicação via mensagens</td>
+<td>US27 - Eu, como professor participante, quero ser capaz de me comunicar, via mensagens, com o professor coordenador e os outros professores participantes pelo sistema, para trocarmos assincronamente informações pertinentes ao projeto.</td>
+<td>2.00</td>
+<td></td>
+</tr>
+<tr>
+<td>RF28 - Comunicação via reuniões</td>
+<td>US28 - Eu, como professor participante, quero ser capaz de me comunicar, via reuniões, com o professor coordenador e os outros professores participantes pelo sistema, para trocarmos sincronamente informações pertinentes ao projeto.</td>
+<td>2.00</td>
+<td></td>
+</tr>
+<tr>
+<td>RF29 - Fornecer feedback contínuo</td>
+<td>US29 - Eu, como professor participante, quero poder fornecer feedback contínuo, via mensagens, aos alunos/grupos acerca de seu trabalho e entregas, para contribuir com suas.</td>
+<td>2.00</td>
+<td></td>
+</tr>
+<tr>
+<td>RF30 - Visualizar progresso dos alunos</td>
+<td>US30 - Eu, como professor participante, quero visualizar o progresso do trabalho dos alunos, para que eu possa estar ciente acerca do andamento do projeto e da compreensão dos alunos sobre os conteúdos.</td>
+<td>2.00</td>
+<td></td>
+</tr>
+<tr>
+<td>RF31 - Validar entregas</td>
+<td>US31 - Eu, como professor participante, quero validar as entregas dos grupos, com relação à minha especialidade, para confirmar sua adequação às exigências dos conteúdos.</td>
+<td>3.20</td>
+<td>X</td>
+</tr>
+<tr>
+<td>RF32 - Acompanhar indicadores de participação</td>
+<td>US32 - Eu, como professor participante, quero ser capaz de acompanhar os indicadores, estabelecidos pelo professor coordenador, de participação dos alunos no projeto, para que eu tenha ciência sobre a sua adesão à proposta.</td>
+<td>0.75</td>
+<td></td>
+</tr>
+<tr>
+<td>RF33 - Gerar relatório individual ou por grupo</td>
+<td>US33 - Eu, como professor participante, quero poder obter relatórios individuais e de grupo os quais compilem todo desempenho na execução do trabalho e nas entregas dos alunos, para viabilizar a minha análise desses dados.</td>
+<td>0.75</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="aluno">Aluno</h3>
+<p><img alt="Aluno" src="../../assets/usm/aluno.jpg" /></p>
+<table>
+<thead>
+<tr>
+<th><strong>Requisito Funcional</strong></th>
+<th><strong>User Story</strong></th>
+<th><strong>Priorização</strong></th>
+<th><strong>MVP</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>RF34 - Receber plano do projeto</td>
+<td>US34 - Eu, como aluno, quero receber o plano do projeto em que estou cadastrado para compreender o seu contexto específico e suas exigências.</td>
+<td>5.00</td>
+<td>X</td>
+</tr>
+<tr>
+<td>RF35 - Solicitar participação em um projeto</td>
+<td>US35 - Eu, como aluno, quero solicitar a participação em um projeto, para que eu possa iniciar a participação nesse projeto.</td>
+<td>3.33</td>
+<td>X</td>
+</tr>
+<tr>
+<td>RF36 - Formar grupos de trabalho</td>
+<td>US36 - Eu, como aluno, quero poder formar grupos de trabalho, para que esteja apto a iniciar a execução de um projeto.</td>
+<td>2.00</td>
+<td></td>
+</tr>
+<tr>
+<td>RF37 - Documentar progresso</td>
+<td>US37 - Eu, como aluno, quero ser capaz de acessar materiais e ferramentas disponibilizadas pelos professores coordenador e participantes para a execução adequada do projeto.</td>
+<td>5.33</td>
+<td>X</td>
+</tr>
+<tr>
+<td>RF38 - Submeter entrega final</td>
+<td>US38 - Eu, como aluno, quero poder documentar o progresso de meus trabalhos para que eu seja acompanhado adequadamente pelos professores coordenador, participantes e meus responsáveis.</td>
+<td>3.33</td>
+<td>X</td>
+</tr>
+<tr>
+<td>RF39 - Receber feedbacks dos professores</td>
+<td>US39 - Eu, como aluno, quero poder submeter a entrega final de meu grupo, para que essa possa ser devidamente avaliada e validada pelos professores coordenador e participantes.</td>
+<td>5.20</td>
+<td>X</td>
+</tr>
+<tr>
+<td>RF40 - Avaliar colegas</td>
+<td>US40 - Eu, como aluno, quero ser capaz de receber feedbacks dos professores coordenador e participantes (especialistas) para que eu possa ter a ciência de quão adequados estão os meus trabalhos e entregas.</td>
+<td>3.33</td>
+<td></td>
+</tr>
+<tr>
+<td>RF41 - Autoavaliar-se</td>
+<td>US41 - Eu, como aluno, quero, ao final de um projeto, avaliar os meus colegas de grupo quanto à sua contribuição aos trabalhos e entregas, para contribuir para uma avaliação geral justa de todos os integrantes do grupo.</td>
+<td>1.33</td>
+<td></td>
+</tr>
+<tr>
+<td>RF42 - Preencher formulário de autorização</td>
+<td>US42 - Eu, como aluno, quero, ao final do projeto, poder avaliar o meu próprio desempenho em trabalhos e entregas, para que eu possa identificar pontos de melhoria em minha participação.</td>
+<td>1.33</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="professor-coordenador">Professor Coordenador</h3>
+<p><img alt="Pais" src="../../assets/usm/pais.jpg" style="display: block; margin: 0 auto;" width="500" /></p>
+<table>
+<thead>
+<tr>
+<th><strong>Requisito Funcional</strong></th>
+<th><strong>User Story</strong></th>
+<th><strong>Priorização</strong></th>
+<th><strong>MVP</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>RF43 - Receber informações detalhadas sobre o projeto</td>
+<td>US43 - Eu, como pai/responsável, quero preencher o formulário de autorização, para que meu filho possa participar das atividades do projeto de forma regularizada e segura.</td>
+<td>5.30</td>
+<td>X</td>
+</tr>
+<tr>
+<td>RF44 - Participar de reuniões informativas</td>
+<td>US44 - Eu, como pai/responsável, quero receber informações detalhadas sobre o projeto, para que eu possa acompanhar de forma abrangente o envolvimento do meu filho.</td>
+<td>2.00</td>
+<td></td>
+</tr>
+<tr>
+<td>RF45 - Receber atualizações do andamento do projeto</td>
+<td>US45 - Eu, como pai/responsável, quero participar de reuniões informativas, para que eu possa compreender o meu papel e como posso apoiar o desenvolvimento do projeto e do meu filho.</td>
+<td>2.00</td>
+<td></td>
+</tr>
+<tr>
+<td>RF46 - Quando solicitado, contribuir com conhecimento</td>
+<td>US46 - Eu, como pai/responsável, quero receber atualizações do andamento do projeto, para que eu esteja sempre ciente do progresso e das possíveis necessidades do meu filho.</td>
+<td>3.33</td>
+<td>X</td>
+</tr>
+<tr>
+<td>RF47 - Comunicar-se com professor</td>
+<td>US47 - Eu, como pai/responsável, quero, quando solicitado, contribuir com conhecimento ou experiência, para enriquecer o projeto e oferecer uma perspectiva diferente aos alunos.</td>
+<td>1.20</td>
+<td></td>
+</tr>
+<tr>
+<td>RF48 - Acessar informações sobre o projeto</td>
+<td>US48 - Eu, como pai/responsável, quero poder comunicar-me com o professor, para que eu possa tirar dúvidas e discutir o desempenho ou necessidades do meu filho no projeto.</td>
+<td>1.20</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="especialista-externo">Especialista Externo</h3>
+<p><img alt="especilista externo" src="../../assets/usm/especialista.jpg" style="display: block; margin: 0 auto;" width="500" /></p>
+<table>
+<thead>
+<tr>
+<th><strong>Requisito Funcional</strong></th>
+<th><strong>User Story</strong></th>
+<th><strong>Priorização</strong></th>
+<th><strong>MVP</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>RF49 - Realizar reuniões de alinhamento com organizadores</td>
+<td>US49 - Eu, como especialista externo, quero acessar informações sobre o projeto, para que eu possa entender o contexto e me preparar para minhas contribuições.</td>
+<td>5.00</td>
+<td>X</td>
+</tr>
+<tr>
+<td>RF50 - Enviar sugestões/feedbacks</td>
+<td>US50 - Eu, como especialista externo, quero realizar reuniões de alinhamento com os organizadores do projeto, para que eu possa alinhar minhas expectativas e compreender meu papel.</td>
+<td>2.00</td>
+<td></td>
+</tr>
+<tr>
+<td>RF51 - Comentar em entregas ou protótipos</td>
+<td>US51 - Eu, como especialista externo, quero enviar sugestões/feedbacks sobre o projeto, para que as equipes possam aprimorar o trabalho desenvolvido.</td>
+<td>3.33</td>
+<td>X</td>
+</tr>
+<tr>
+<td>RF52 - Comentar entregas dos alunos</td>
+<td>US52 - Eu, como especialista externo, quero comentar em entregas ou protótipos dos alunos, para que eu possa fornecer insights práticos e direcionar o desenvolvimento.</td>
+<td>2.00</td>
+<td></td>
+</tr>
+<tr>
+<td>RF53 - Agendar e conduzir aulas de mentoria</td>
+<td>US53 - Eu, como especialista externo, quero agendar e conduzir aulas de mentoria, para que eu possa compartilhar meus conhecimentos e experiências diretamente com os alunos.</td>
+<td>1.25</td>
+<td></td>
+</tr>
+<tr>
+<td>RF54 - Enviar materiais complementares relevantes</td>
+<td>US54 - Eu, como especialista externo, quero enviar materiais complementares relevantes, para que eu possa enriquecer o aprendizado dos alunos e fornecer recursos adicionais.</td>
+<td>1.20</td>
+<td></td>
+</tr>
+<tr>
+<td>RF55 - Avaliar apresentações quando solicitado</td>
+<td>US55 - Eu, como especialista externo, quero avaliar apresentações quando solicitado, para que eu possa fornecer feedback construtivo sobre o desempenho dos alunos.</td>
+<td>1.20</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="coordenador-pedagogico">Coordenador Pedagógico</h3>
+<p><img alt="Coordenador Pedagógico" src="../../assets/usm/coordenadora-ped.jpg" /></p>
+<table>
+<thead>
+<tr>
+<th><strong>Requisito Funcional</strong></th>
+<th><strong>User Story</strong></th>
+<th><strong>Priorização</strong></th>
+<th><strong>MVP</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>RF56 - Visualizar todos os projetos em andamento</td>
+<td>US56 - Eu, como coordenador pedagógico, quero visualizar todos os projetos em andamento, para que eu possa ter uma visão panorâmica e acompanhar o progresso de cada um.</td>
+<td>5.33</td>
+<td>X</td>
+</tr>
+<tr>
+<td>RF57 - Validar conteúdos</td>
+<td>US57 - Eu, como coordenador pedagógico, quero validar conteúdos relacionados aos projetos, para garantir o alinhamento com os objetivos institucionais e a qualidade educacional.</td>
+<td>3.20</td>
+<td>X</td>
+</tr>
+<tr>
+<td>RF58 - Acessar métricas de qualidade pedagógica</td>
+<td>US58 - Eu, como coordenador pedagógico, quero acessar métricas de qualidade pedagógica, para que eu possa analisar o impacto educacional dos projetos e tomar decisões estratégicas.</td>
+<td>1.25</td>
+<td></td>
+</tr>
+<tr>
+<td>RF59 - Realizar reuniões com professores</td>
+<td>US59 - Eu, como coordenador pedagógico, quero realizar reuniões com professores, para que eu possa oferecer orientação estratégica e garantir a coesão pedagógica entre os projetos.</td>
+<td>2.00</td>
+<td></td>
+</tr>
+<tr>
+<td>RF60 - Editar conteúdos</td>
+<td>US60 - Eu, como coordenador pedagógico, quero poder editar conteúdos, para que eu possa ajustar informações e garantir a consistência e relevância dos materiais pedagógicos.</td>
+<td>1.20</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="tecnica-de-priorizacao-wsjf-moscow">Técnica de Priorização: WSJF + MoSCoW</h3>
+<div style="text-align: justify">
+No projeto EduConnect, a priorização das funcionalidades foi feita combinando dois métodos: WSJF e MoSCoW. Essa abordagem permite tomar decisões mais estratégicas sobre o que desenvolver primeiro, levando em conta impacto, custo e urgência.
+</div>
+
+<p><strong>1. WSJF – Weighted Shortest Job First</strong></p>
+<p>O WSJF (Trabalho Ponderado mais Curto Primeiro) é uma técnica usada para priorizar tarefas com base em três fatores:</p>
+<ul>
+<li><strong>CoD (Custo do Atraso):</strong> representa o impacto financeiro ou de oportunidade que a não implementação de uma funcionalidade pode causar.</li>
+<li><strong>CoR (Custo do Trabalho em Andamento):</strong> considera os custos contínuos enquanto a tarefa estiver em execução (como esforço da equipe e manutenção).</li>
+<li><strong>Tamanho do Trabalho:</strong> mede o esforço necessário para realizar a funcionalidade, com base em pontos (geralmente usando a sequência de Fibonacci: 1, 2, 3, 5, 8, 13...).</li>
+</ul>
+<p><strong>Fórmula:</strong></p>
+<p>WSJF = (CoD + CoR) / Tamanho do Trabalho</p>
+<p>Quanto maior o WSJF, mais vantajoso é realizar aquela funcionalidade primeiro.</p>
+<p><strong>2. Critério MoSCoW</strong></p>
+<p>Após calcular o WSJF, as funcionalidades são classificadas com base no modelo <strong>MoSCoW</strong>, que divide as demandas em quatro categorias:</p>
+<ul>
+<li>
+<p>🔴 <strong>Must Have (Essenciais):</strong><br />
+<code>WSJF &gt; 2.0</code><br />
+  Funcionalidades indispensáveis para o funcionamento mínimo do produto (MVP). Sem elas, o sistema não opera.</p>
+</li>
+<li>
+<p>🟢 <strong>Should Have (Importantes):</strong><br />
+<code>1.0 ≤ WSJF ≤ 2.0</code><br />
+  Funcionalidades importantes que aumentam a eficiência, mas não são críticas. São priorizadas para uma próxima versão (Release 2.0).</p>
+</li>
+<li>
+<p>🔵 <strong>Could Have (Desejáveis):</strong><br />
+<code>WSJF &lt; 1.0</code><br />
+  Funcionalidades que agregam valor ou diferencial competitivo, mas que só serão incluídas se houver tempo e recursos (Release 3.0).</p>
+</li>
+<li>
+<p>🟡 <strong>Won’t Have (Não essenciais neste momento):</strong><br />
+  Funcionalidades que não serão desenvolvidas nesta fase. Podem ser consideradas no futuro ou descartadas</p>
+</li>
+</ul>
+<h2 id="criterios-de-aceitacao-para-as-us-presentes-no-mvp">Critérios de Aceitação para as US presentes no MVP</h2>
+<table border="5">
+  <tr style="background-color:rgb(194, 194, 194); color: black;">
+    <th>ID</th>
+    <th empty>Critérios de Aceitação (MVP)</th>
+  </tr>
+
+  <!-- US01 -->
+  <tr>
+    <td rowspan="2" empty><strong>US01</strong></td>
+    <td empty><strong>1. O sistema deve permitir cadastrar: <br>- Título do projeto (máx. 100 caracteres).<br>- Descrição detalhada do tema (mín. 3 linhas).<br>- Limites claros do escopo (inclusões e exclusões).</strong></td>
+  </tr>
+  <tr>
+    <td empty><strong>2. Deve gerar um documento resumo em PDF para confirmação.</strong></td>
+  </tr>
+
+  <!-- US02 -->
+  <tr>
+    <td rowspan="2" empty><strong>US02</strong></td>
+    <td empty><strong>1. Deve permitir inserir: <br>- Itens de custo (recursos humanos, materiais, serviços).<br>- Valor estimado por item (com validação de formato monetário).<br>- Fontes de recursos (verba institucional, patrocínios).</strong></td>
+  </tr>
+  <tr>
+    <td empty><strong>2. Deve calcular automaticamente o custo total do projeto.</strong></td>
+  </tr>
+
+  <!-- US03 -->
+  <tr>
+    <td rowspan="2" empty><strong>US03</strong></td>
+    <td empty><strong>1. Deve permitir cadastrar etapas/marcos com: <br>- Data de início e término.<br>- Responsável por cada etapa.</strong></td>
+  </tr>
+  <tr>
+    <td empty><strong>2. Deve validar conflitos de datas.</strong></td>
+  </tr>
+
+  <!-- US04 -->
+  <tr>
+    <td rowspan="2" empty><strong>US04</strong></td>
+    <td empty><strong>1. Deve oferecer opções pré-definidas: <br>- E-mail institucional.<br>- Fórum na plataforma.<br>- Aplicativo de mensagens.</strong></td>
+  </tr>
+  <tr>
+    <td empty><strong>2. Deve notificar todos os participantes sobre os canais escolhidos.</strong></td>
+  </tr>
+
+  <!-- US09 -->
+  <tr>
+    <td rowspan="2" empty><strong>US09</strong></td>
+    <td empty><strong>1. Deve permitir publicar anúncio com: <br>- Título.<br>- Descrição resumida.<br>- Link para detalhes.</strong></td>
+  </tr>
+  <tr>
+    <td empty><strong>2. O anúncio deve ser distribuído para: <br>- Professores da instituição.<br>- Alunos de séries relevantes.</strong></td>
+  </tr>
+
+  <!-- US10 -->
+  <tr>
+    <td rowspan="2" empty><strong>US10</strong></td>
+    <td empty><strong>1. Deve listar todos os interessados (via US09).</strong></td>
+  </tr>
+  <tr>
+    <td empty><strong>2. Permitir ao coordenador: <br>- Aprovar/rejeitar participantes.<br>- Atribuir função (ex: "Pesquisador", "Suporte").</strong></td>
+  </tr>
+
+  <!-- US11 -->
+  <tr>
+    <td rowspan="2" empty><strong>US11</strong></td>
+    <td empty><strong>1. Deve gerar formulário de autorização com: <br>- Termo de consentimento.<br>- Campos para dados do responsável.<br>- Assinatura digital.</strong></td>
+  </tr>
+  <tr>
+    <td empty><strong>2. Permitir envio direto aos responsáveis via e-mail.</strong></td>
+  </tr>
+
+  <!-- US14 -->
+  <tr>
+    <td rowspan="2" empty><strong>US14</strong></td>
+    <td empty><strong>1. Deve permitir cadastrar especialista com: <br>- Nome.<br>- Área de expertise.<br>- Contato (e-mail obrigatório).</strong></td>
+  </tr>
+  <tr>
+    <td empty><strong>2. Enviar convite personalizado com: <br>- Objetivo da participação.<br>- Período estimado.</strong></td>
+  </tr>
+
+  <!-- US15 -->
+  <tr>
+    <td rowspan="2" empty><strong>US15</strong></td>
+    <td empty><strong>1. Sistema deve exibir painel visual com: <br>- % de conclusão por atividade.<br>- Tarefas atrasadas (destacadas em vermelho).<br>- Progresso geral do projeto (gráfico de barras).</strong></td>
+  </tr>
+  <tr>
+    <td empty><strong>2. Alertas automáticos quando: <br>- Tarefas estiverem paradas > 3 dias.<br>- Progresso real for 20% inferior ao planejado.</strong></td>
+  </tr>
+
+  <!-- US16 -->
+  <tr>
+    <td rowspan="2" empty><strong>US16</strong></td>
+    <td empty><strong>1. Para cada marco: <br>- Exibir data planejada vs. real.<br>- Status (Concluído/Em atraso/Pendente).</strong></td>
+  </tr>
+  <tr>
+    <td empty><strong>2. Notificação push 72h antes do vencimento.</strong></td>
+  </tr>
+
+  <!-- US18 -->
+  <tr>
+    <td rowspan="2" empty><strong>US18</strong></td>
+    <td empty><strong>1. Módulo para: <br>- Agendar apresentações.<br>- Upload de materiais (PDF).<br>- Partilhar rubrica de avaliação.</strong></td>
+  </tr>
+  <tr>
+    <td empty><strong>2. Checklist de preparação: <br>- Tempo máximo por apresentação.<br>- Itens obrigatórios (ex: resultados, metodologia).</strong></td>
+  </tr>
+
+  <!-- US19 -->
+  <tr>
+    <td rowspan="2" empty><strong>US19</strong></td>
+    <td empty><strong>1. Registro de: <br>- Despesas realizadas (com comprovantes anexáveis).<br>- Saldo disponível vs. planejado.<br>- Desvios >10% do orçamento.</strong></td>
+  </tr>
+  <tr>
+    <td empty><strong>2. Relatório de prestação de contas com: <br>- Categorização de gastos.<br>- Assinatura digital do coordenador.</strong></td>
+  </tr>
+
+  <!-- US22 -->
+  <tr>
+    <td rowspan="2" empty><strong>US22</strong></td>
+    <td empty><strong>1. Card por projeto contendo: <br>- Tema/escopo.<br>- Cronograma resumido.<br>- Status (Planejamento/Andamento/Concluído).</strong></td>
+  </tr>
+  <tr>
+    <td empty><strong>2. Filtros por: <br>- Área do conhecimento.<br>- Professores envolvidos.<br>- Status do projeto.</strong></td>
+  </tr>
+
+  <!-- US23 -->
+  <tr>
+    <td rowspan="2" empty><strong>US23</strong></td>
+    <td empty><strong>1. Botão "Solicitar Participação" em cards de projetos.</strong></td>
+  </tr>
+  <tr>
+    <td empty><strong>2. Formulário com: <br>- Justificativa (mín. 50 caracteres).<br>- Áreas de expertise.<br>- Disponibilidade (horas/semana).</strong></td>
+  </tr>
+
+  <!-- US24 -->
+  <tr>
+    <td rowspan="2" empty><strong>US24</strong></td>
+    <td empty><strong>1. Painel listando: <br>- Nome do grupo.<br>- Membros (fotos/nomes).<br>- Progresso geral (% completo).</strong></td>
+  </tr>
+  <tr>
+    <td empty><strong>2. Filtro por projeto e status (ativo/concluído).</strong></td>
+  </tr>
+
+  <!-- US26 -->
+  <tr>
+    <td rowspan="2" empty><strong>US26</strong></td>
+    <td empty><strong>1. Editor com: <br>- Modelo pré-formatado (objetivos/metodologia/recursos).<br>- Vinculação a marcos do projeto.<br>- Tags por área do conhecimento.</strong></td>
+  </tr>
+  <tr>
+    <td empty><strong>2. Fluxo de aprovação: <br>- Submissão ao coordenador.<br>- Histórico de versões.<br>- Comentários de revisão.</strong></td>
+  </tr>
+
+  <!-- US31 -->
+  <tr>
+    <td rowspan="2" empty><strong>US31</strong></td>
+    <td empty><strong>1. Workflow de validação: <br>- Selo "Validado por [área]".<br>- Comentários obrigatórios para rejeição.<br>- Notificação ao grupo em caso de reprovação.</strong></td>
+  </tr>
+  <tr>
+    <td empty><strong>2. Histórico de validações com: <br>- Responsável.<br>- Data/hora.<br>- Versão do artefato.</strong></td>
+  </tr>
+
+  <!-- US34 -->
+  <tr>
+    <td rowspan="2" empty><strong>US34</strong></td>
+    <td empty><strong>1. Painel "Meus Projetos" com: <br>- Documento consolidado (tema, escopo, cronograma).<br>- Critérios de avaliação.<br>- Papéis definidos.</strong></td>
+  </tr>
+  <tr>
+    <td empty><strong>2. Notificação automática ao ser vinculado ao projeto.</strong></td>
+  </tr>
+
+  <!-- US35 -->
+  <tr>
+    <td rowspan="2" empty><strong>US35</strong></td>
+    <td empty><strong>1. Catálogo de projetos abertos com: <br>- Filtro por área de interesse.<br>- Pré-requisitos claros.</strong></td>
+  </tr>
+  <tr>
+    <td empty><strong>2. Fluxo em 3 etapas: <br>- Seleção do projeto.<br>- Preenchimento de motivação (min. 100 caracteres).<br>- Confirmação por responsável.</strong></td>
+  </tr>
+
+  <!-- US37 -->
+  <tr>
+    <td rowspan="2" empty><strong>US37</strong></td>
+    <td empty><strong>1. Repositório centralizado por projeto contendo: <br>- Bibliografia (PDFs, links).<br>- Ferramentas digitais (plugins, softwares).<br>- Modelos de documentos.</strong></td>
+  </tr>
+  <tr>
+    <td empty><strong>2. Organização por: <br>- Etapas do cronograma.<br>- Área do conhecimento.</strong></td>
+  </tr>
+
+  <!-- US38 -->
+  <tr>
+    <td rowspan="2" empty><strong>US38</strong></td>
+    <td empty><strong>1. Diário de bordo digital com: <br>- Registro de atividades diárias.<br>- Upload de evidências (fotos, arquivos).<br>- Vinculação a marcos.</strong></td>
+  </tr>
+  <tr>
+    <td empty><strong>2. Compartilhamento seletivo: <br>- Professores (acesso total).<br>- Responsáveis (acesso resumido).</strong></td>
+  </tr>
+
+  <!-- US39 -->
+  <tr>
+    <td rowspan="2" empty><strong>US39</strong></td>
+    <td empty><strong>1. Fluxo de submissão: <br>- Seleção do grupo.<br>- Upload de artefatos (múltiplos formatos).<br>- Checklist de requisitos.</strong></td>
+  </tr>
+  <tr>
+    <td empty><strong>2. Validações automáticas: <br>- Formato correto.<br>- Tamanho máximo (500MB).<br>- Prazo limite.</strong></td>
+  </tr>
+
+  <!-- US43 -->
+  <tr>
+    <td rowspan="2" empty><strong>US43</strong></td>
+    <td empty><strong>1. Formulário digital com: <br>- Campos pré-preenchidos (nome aluno, projeto).<br>- Termos de participação claros.<br>- Validação de CPF do responsável.</strong></td>
+  </tr>
+  <tr>
+    <td empty><strong>2. Assinatura eletrônica com certificação ICP-Brasil.</strong></td>
+  </tr>
+
+  <!-- US46 -->
+  <tr>
+    <td rowspan="2" empty><strong>US46</strong></td>
+    <td empty><strong>1. Notificações quinzenais automáticas com: <br>- % conclusão das tarefas do aluno.<br>- Entregas pendentes.<br>- Destaques de participação.</strong></td>
+  </tr>
+  <tr>
+    <td empty><strong>2. Acesso ao diário de bordo resumido.</strong></td>
+  </tr>
+
+  <!-- US49 -->
+  <tr>
+    <td rowspan="2" empty><strong>US49</strong></td>
+    <td empty><strong>1. Portal exclusivo com: <br>- Visão geral do projeto (objetivos, cronograma).<br>- Materiais de contexto (briefing técnico).<br>- Contatos-chave.</strong></td>
+  </tr>
+  <tr>
+    <td empty><strong>2. Acesso via link temporário com autenticação em 2 fatores.</strong></td>
+  </tr>
+
+  <!-- US51 -->
+  <tr>
+    <td rowspan="2" empty><strong>US51</strong></td>
+    <td empty><strong>1. Formulário estruturado com: <br>- Classificação por categoria (metodologia/recursos/riscos).<br>- Prioridade (Baixa/Média/Alta).<br>- Anexos (máx. 10MB).</strong></td>
+  </tr>
+  <tr>
+    <td empty><strong>2. Notificação instantânea ao coordenador.</strong></td>
+  </tr>
+
+  <!-- US56 -->
+  <tr>
+    <td rowspan="2" empty><strong>US56</strong></td>
+    <td empty><strong>1. Mapa visual interativo com: <br>- Cores por status: verde (no prazo), amarelo (alerta), vermelho (atrasado).<br>- Filtros por: área curricular, série, responsável.</strong></td>
+  </tr>
+  <tr>
+    <td empty><strong>2. Indicadores rápidos por projeto: <br>- % conclusão vs planejado.<br>- Índice de engajamento (participação alunos/professores).<br>- Alertas de riscos ativos.</strong></td>
+  </tr>
+
+  <!-- US57 -->
+  <tr>
+    <td rowspan="2" empty><strong>US57</strong></td>
+    <td empty><strong>1. Sistema de validação em duas etapas: <br>- Verificação automática de alinhamento curricular (BNCC/PCN).<br>- Aprovação humana com checklist comentado.</strong></td>
+  </tr>
+  <tr>
+    <td empty><strong>2. Banco de diretrizes institucionais integrado: <br>- Sugestões automáticas de ajustes.<br>- Referências cruzadas com projetos anteriores.</strong></td>
+  </tr>
+
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Voltar ao topo
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Rodapé" >
+        
+          
+          <a href="../../evidencias/analise-tarefas-cliente/" class="md-footer__link md-footer__link--prev" aria-label="Anterior: Análise Tarefas Cliente">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Anterior
+              </span>
+              <div class="md-ellipsis">
+                Análise Tarefas Cliente
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../pbb_bdd/" class="md-footer__link md-footer__link--next" aria-label="Próximo: PBB &amp; BDD">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Próximo
+              </span>
+              <div class="md-ellipsis">
+                PBB & BDD
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "navigation.tracking", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.footer", "toc.follow", "search.suggest", "search.highlight", "content.tabs.link", "content.code.annotation", "content.code.copy"], "search": "../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "Mais 1 nesta p\u00e1gina", "search.result.more.other": "Mais # nesta p\u00e1gina", "search.result.none": "Nenhum resultado encontrado", "search.result.one": "1 resultado encontrado", "search.result.other": "# resultados encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.56ea9cef.min.js"></script>
+      
+    
+  </body>
+</html>
