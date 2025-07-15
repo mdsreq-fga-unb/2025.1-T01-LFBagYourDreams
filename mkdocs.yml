@@ -15,6 +15,7 @@ nav:
           - 9. Backlog de Produto: "documento-visao/backlog.md"
       - Histórico de versões do documento: "documento-visao/historico-versoes.md"
       - Referências Bibliograficas: "documento-visao/referencias.md"
+      - Análise Tarefas Cliente: "evidencias/analise-tarefas-cliente.md"
   - Estudo de Caso:
       - User Story Mapping: "estudo-de-caso/USM.md"
       - PBB & BDD: "estudo-de-caso/pbb_bdd.md"
@@ -28,6 +29,7 @@ nav:
       - Análise de tarefas no negócio da cliente: "evidencias/analise-tarefas-cliente.md"
   - Protótipos e Diagrama:
       - Modelagem Banco de Dados: "prototipos_diagramas/diagrama.md"
+      - Protótipos: "prototipos_diagramas/prototipov1.md"
   - Lições aprendidas:
       - Unidade 1: "documento-visao/licoes-aprendidas/licoes-U1.md"
       - Unidade 2: "documento-visao/licoes-aprendidas/licoes-U2.md"
