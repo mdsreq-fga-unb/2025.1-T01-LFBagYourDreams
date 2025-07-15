@@ -1,4 +1,4 @@
-Na terceira fase de desenvolvimento, foi incorporada a modelagem de Casos de Uso como uma prática central para capturar, organizar e comunicar os requisitos funcionais do sistema. A seguir, são destacadas as principais lições extraídas durante esse processo, com foco nos desafios enfrentados, nas ações adotadas para superá-los e nas oportunidades de melhoria para as próximas etapas.
+Na quarta fase de desenvolvimento, foi incorporada a modelagem de Casos de Uso como uma prática central para capturar, organizar e comunicar os requisitos funcionais do sistema. A seguir, são destacadas as principais lições extraídas durante esse processo, com foco nos desafios enfrentados, nas ações adotadas para superá-los e nas oportunidades de melhoria para as próximas etapas.
 
 **Lições Aprendidas e Melhorias para o Processo**
 
