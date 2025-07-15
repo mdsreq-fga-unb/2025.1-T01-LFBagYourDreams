@@ -26,6 +26,7 @@ nav:
       - Ata dia 19/06/2025: "atas/ata_reuniao_19_06_25.md" 
   - Protótipos e Diagrama:
       - Modelagem Banco de Dados: "prototipos_diagramas/diagrama.md"
+      - Protótipos: "prototipos_diagramas/prototipov1.md"
   - Lições aprendidas:
       - Unidade 1: "documento-visao/licoes-aprendidas/licoes-U1.md"
       - Unidade 2: "documento-visao/licoes-aprendidas/licoes-U2.md"
