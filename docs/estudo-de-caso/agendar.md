@@ -27,24 +27,28 @@ Acessar mapa interativo [FA01].
 
 2.1.6 O usuário refugiado seleciona uma das unidades de atendimento disponíveis.
 
-2.1.7 O sistema apresenta os horários de atendimento disponíveis para a unidade selecionada.
+2.1.7 O sistema apresenta os serviços de atendimento disponíveis para a unidade selecionada.
 
-2.1.8 O usuário refugiado seleciona um dos horários disponíveis.
+2.1.8 O usuário refugiado seleciona um dos serviços de atendimento disponíveis para a unidade selecionada [RN01].
 
-2.1.9 O sistema pergunta ao usuário se o mesmo, realmente, deseja agendar uma consulta médica; e indica que a ação não poderá ser desfeita.
+2.1.9 O sistema apresenta os horários de atendimento disponíveis para a unidade selecionada.
 
-2.1.10 O usuário refugiado confirma o agendamento [FE01].
+2.1.10 O usuário refugiado seleciona um dos horários disponíveis.
 
-2.1.11 O sistema exibe mensagem de ação realizada com sucesso.
+2.1.11 O sistema pergunta ao usuário se o mesmo, realmente, deseja agendar uma consulta médica; e indica que a ação não poderá ser desfeita.
 
-2.1.12 O caso de uso é encerrado.
+2.1.12 O usuário refugiado confirma o agendamento [FE01].
+
+2.1.13 O sistema exibe mensagem de ação realizada com sucesso.
+
+2.1.14 O caso de uso é encerrado.
 
 ### 2.2 Fluxos Alternativos
 
 #### 2.2.1 [FA01] Acessar Mapa Interativo  
 No passo 2.2.1 do fluxo básico o usuário refugiado seleciona a opção para acessar o mapa interativo.
 
-2.2.1.1 O sistema solicita o acesso à localização do usuário [RN01][FA03].
+2.2.1.1 O sistema solicita o acesso à localização do usuário [RNF02][FA03].
 
 2.2.1.2 O usuário refugiado autoriza o acesso à sua localização atual.
 
@@ -105,9 +109,27 @@ Ao final deste caso de uso, as operações realizadas devem ser registradas, com
 ### 5.1 [RNF01] Dispositivo Móvel  
 Este caso de uso deve ser acessível via dispositivo móvel, o qual utiliza o Android a partir da versão 7.0.
 
-### 5.2 [RNF02] Múltiplos Idiomas  
+### 5.2 [RNF02] Acesso à localização em tempo real 
+Este caso de uso deve ser capaz de obter a localização em tempo real do usuário a partir de seu dispositivo móvel.
+
+### 5.3 [RNF03] Múltiplos Idiomas  
 Este caso de uso deve incluir suporte para os idiomas árabe e inglês.
 
 ---
+
+## 6. Regras de Negócio
+
+### 6.1 [RN01] Serviços de atendimento disponíveis
+A seguinte validação de serviços de atendimento disponíveis nas unidades de atendimento deve ser realizada:
+
+| Nome         | Código            | Obrigatoriedade           |
+|------------------|----------------------|--------------------|
+| Clínica médica  | 1      | -    |
+| Pediatria  | 2      | -    |
+| Ginecologia  | 3      | -    |
+| Obstetrícia  | 4      | -    |
+| Ortopedia  | 5      | -    |
+| Oftalmologia  | 6      | -    |
+| Cirurgia geral  | 7      | -    |
 
 [Retornar para Casos de Uso](casos_de_uso.md)
