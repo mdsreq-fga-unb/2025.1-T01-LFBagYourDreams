@@ -30,10 +30,12 @@ nav:
       - Unidade 1: "documento-visao/licoes-aprendidas/licoes-U1.md"
       - Unidade 2: "documento-visao/licoes-aprendidas/licoes-U2.md"
       - Unidade 3: "documento-visao/licoes-aprendidas/licoes-U3.md"
+      - Unidade 4: "documento-visao/licoes-aprendidas/licoes-U4.md"
   - Vídeo Apresentação:
       - Unidade 1: "apresentacoes/apresentacao1.md"
       - Unidade 2: "apresentacoes/apresentacao2.md"
       - Unidade 3: "apresentacoes/apresentacao3.md"
+      - Validação MVP: "apresentacoes/validacaoMVP.md"
   
 theme:
   name: material
