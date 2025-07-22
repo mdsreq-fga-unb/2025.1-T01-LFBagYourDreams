@@ -6,6 +6,8 @@ Link da apresentação final: <a href="https://www.canva.com/design/DAGtLpBSwKc/
   link
 </a>
 
+Pdf apresentação: [pdf](Modulo4requisitosCorreto.pdf)
+
 ## Sobre
 
 Este repositório faz parte da disciplina de **Requisitos** do curso de Engenharia de Software da **Universidade de Brasília (UnB)**.
