@@ -2,6 +2,10 @@
     <img src="https://mdsreq-fga-unb.github.io/2025.1-T01-LFBagYourDreams/assets/logo-lf.png" height="250"alt="Logo">
 </h1>
 
+Link da apresentação final: <a href="https://www.canva.com/design/DAGtLpBSwKc/F16yAjVQcxqiaZbrfkqbXA/edit">
+  link
+</a>
+
 ## Sobre
 
 Este repositório faz parte da disciplina de **Requisitos** do curso de Engenharia de Software da **Universidade de Brasília (UnB)**.
